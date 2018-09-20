@@ -13,7 +13,7 @@ class Usuario extends Model
 
 	protected $primaryKey = 'id_usu';
 	
-    protected $fillable = ['nombre','email'];
+    protected $fillable = ['nombre','email','edad','sexo','escolaridad','photo'];
 
     // protected $dates = ['deleted_at'];
 

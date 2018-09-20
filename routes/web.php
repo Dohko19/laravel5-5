@@ -1,9 +1,12 @@
  <?php
-Route::get('phpinfo', function(){
-	phpinfo();
-});
+// App\User::create([
+// 'name' => 'Solexvintel',
+// 'email' => 'solexvintel@encuesta.com',
+// 'password' => bcrypt('Solex2018'),
+// ]);
  
 //Solex2018
+Route::get('registro', 'UsuariosController@b')->name('registro');
 Route::get('/', 'UsuariosController@index')->name('inicio');
 Route::get('resultados','UsuariosController@resultado');
 Route::post('/','UsuariosController@store');

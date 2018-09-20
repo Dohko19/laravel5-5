@@ -29,7 +29,7 @@
 					{!! Form::text('nombre',null,['class'=>'form-control','placeholder'=>'Ingresa tu Nombre Completo']) !!}
 				</div>
 				{!! Form::close() !!}-->
-				<form method="POST" action="{{URL::action('UsuariosController@store') }}">
+				<form method="POST" action="{{URL::action('UsuariosController@store') }}" enctype="multipart/form-data">
 					<input type="hidden" name="_token" value="{!! csrf_token() !!}">
 					<div class="form-group">
 						<label form="nombre">Nombre: </label>
@@ -47,6 +47,35 @@
 								{!! $errors->first('email', '<span class="help-block">:message</span>') !!}
 					</div>
 					<small>*Asegurate de que tu email este escrito correctamente</small>
+					<div class="form-inline {{ $errors->has('email') ? 'has-error' : '' }} ">
+						<label form="edad">Edad: </label>
+						<input class="form-control" 
+								type="text"
+								name="edad"
+								placeholder="Edad"
+								maxlength="2">
+								{!! $errors->first('edad', '<span class="help-block">:message</span>') !!}
+	
+								<label form="edad">Sexo: </label>
+						<input class="form-control" 
+								type="text"
+								name="sexo"
+								placeholder="Sexo (H o M)">
+								{!! $errors->first('sexo', '<span class="help-block">:message</span>') !!}
+
+								<label form="edad">Escolaridad: </label>
+						<input class="form-control" 
+								type="text"
+								name="escolaridad"
+								placeholder="Escolaridad"
+								>
+								{!! $errors->first('escolaridad', '<span class="help-block">:message</span>') !!}
+					</div><br>
+						<div class="form-group">
+						<label form="">Foto: </label>
+						<input class="form-control-file" type="file" name="photo">
+					</div>
+					<br>
 				<center><button class="btn btn-primary">Acceder</button></center>
 				</form><br>
 				<nav class="navbar fixed-bottom navbar-light bg-light">	

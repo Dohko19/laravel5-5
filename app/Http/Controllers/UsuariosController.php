@@ -9,15 +9,21 @@ use App\Respuestas;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Collection as Collection;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Storage;
 
 class UsuariosController extends Controller
 {
     function __construct()
     {
-        $this->middleware('auth', ['except' => ['index','store']]);
+        $this->middleware('auth', ['except' => ['index','store','b']]);
     }
 
     public function index()
+    {
+        return view('introduccion');
+    }
+
+    public function b()
     {
         return view('bienvenido');
     }
@@ -538,15 +544,28 @@ class UsuariosController extends Controller
      */
     public function store(Request $request)
     {
-      //   if(!$request->ajax()) return redirect('/');
+
+         if($request->hasFile('photo')){
+            request()->validate([
+            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg,tiff,tif,raw,bmp,psd|max:2048',
+        ]);
+
+           $file = $request->file('photo');
+           $name = time().$file->getClientOriginalName();
+           $file->move(public_path().'/imagesuser/', $name);
+        }
          request()->validate([
             'nombre' => 'required|min:2',
             'email' => 'required|email'
         ]);
+
         $usuario = new Usuario;
-        
         $usuario->nombre = $request->get('nombre');
         $usuario->email = $request->get('email');
+        $usuario->sexo = $request->get('sexo');
+        $usuario->escolaridad = $request->get('escolaridad');
+        $usuario->edad = $request->get('edad');
+        $usuario->photo = $name;
         $email=$usuario->email;
         $existe = Usuario::where('email',$email)->exists();
         if($existe==$usuario->email)
@@ -559,5 +578,7 @@ class UsuariosController extends Controller
            $id = DB::getPdo()->lastInsertId();
             return view('encuestas.encuesta1',['id'=>$id]);
         }
+       
+     
     }
 }

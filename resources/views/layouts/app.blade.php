@@ -105,5 +105,11 @@
     <script src="js/footer-reveal.min.js"></script>
     <!-- Active JS -->
     <script src="js/active.js"></script>
+
+    <div class="container">
+        <hr>
+    <footer>Copyright {{ date('Y') }} Trejo Rojas Daniel Arturo</footer>
+  </div>
+</div>
 </body>
 </html>

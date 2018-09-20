@@ -40,7 +40,7 @@
  </div>
 @endif
 	@yield('content')
-	
+	<hr>
 
 <!-- Jquery-2.2.4 JS -->
     <script src="js/jquery-2.2.4.min.js"></script>
@@ -56,5 +56,10 @@
     <script src="js/footer-reveal.min.js"></script>
     <!-- Active JS -->
     <script src="js/active.js"></script>
+
+    <div class="container">
+        <hr>
+    <footer>Copyright {{ date('Y') }} Trejo Rojas Daniel Arturo</footer>
+</div>
 </body>
 </html>

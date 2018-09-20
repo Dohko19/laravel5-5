@@ -17,6 +17,10 @@ class CreateUsuarioTable extends Migration
             $table->increments('id_usu');
             $table->string('nombre');
             $table->string('email');
+            $table->integer('edad');
+            $table->string('sexo');
+            $table->string('escolaridad');
+            $table->string('photo')->nullable();
             $table->timestamps();
         });
     }
