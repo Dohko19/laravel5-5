@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <head>
-	
+
 </head>
 <div class="row">
 	@foreach($usuario as $usu)
@@ -16,6 +16,7 @@
 			</div>
 		</div>
 		@endforeach
+		
 		<table class="table table-striped table-bordered">
 			<thead>
 				<tr>
@@ -89,4 +90,5 @@
 		
 	</div>
 </div>
+
 @endsection
