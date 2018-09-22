@@ -35,3 +35,17 @@ Route::resource('encuesta','UsuariosController');
 Route::get('login', 'Auth\LoginController@showloginForm')->name('login');
 Route::post('login', 'Auth\LoginController@login');
 Route::get('logout', 'Auth\LoginController@logout');
+
+// Route::get('Fin','UsuariosController@email')->name('email');
+
+Route::get('introduccion', function(){
+    $data = array(
+    'name'=>"SolvexIntel",
+);
+Mail::send('mail.encmail', $data, function($message){
+    
+        $message->from('dno-reply@solvexencuesta.com','SolvexIntel Encuesta');
+        $message->to('solvexencuesta@gmail.com')->subject('Mensaje de prueba ');
+    });
+return view('introduccion');
+});

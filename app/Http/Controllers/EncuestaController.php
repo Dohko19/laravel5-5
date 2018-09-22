@@ -358,6 +358,6 @@ class EncuestaController extends Controller
         $respuesta->respuesta5 = $request->get('5r');
         $respuesta->id_preguntas = $encuesta->id_preguntas; 
         $respuesta->save();
-        return view ('encuestas.success');
+        return view ('encuestas.success',['id' => $id]);
     }
 }

@@ -15,7 +15,7 @@ class UsuariosController extends Controller
 {
     function __construct()
     {
-        $this->middleware('auth', ['except' => ['index','store','b']]);
+        $this->middleware('auth', ['except' => ['index','store','b','email']]);
     }
 
     public function index()

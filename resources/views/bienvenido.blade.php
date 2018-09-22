@@ -33,17 +33,20 @@
 					<input type="hidden" name="_token" value="{!! csrf_token() !!}">
 					<div class="form-group">
 						<label form="nombre">Nombre: </label>
-						<input class="form-control" 
+						<input class="form-control {{ $errors->has('email') ? 'has-error' : '' }}" 
 								type="text"
 								name="nombre"
-								placeholder="Ingresa tu Nombre completo, emepezando por apellidos">
+								placeholder="Ingresa tu Nombre completo, emepezando por apellidos"
+								value="{{ old('nombre') }}">
+								{!! $errors->first('email', '<span class="help-block">:message</span>') !!}
 					</div>
 					<div class="form-group {{ $errors->has('email') ? 'has-error' : '' }} ">
-						<label form="nombre">Email: </label>
+						<label form="email">Email: </label>
 						<input class="form-control" 
 								type="email"
 								name="email"
-								placeholder="Ingresa tu Email">
+								placeholder="Ingresa tu Email"
+								value="{{ old('email') }}">
 								{!! $errors->first('email', '<span class="help-block">:message</span>') !!}
 					</div>
 					<small>*Asegurate de que tu email este escrito correctamente</small>
@@ -53,22 +56,24 @@
 								type="text"
 								name="edad"
 								placeholder="Edad"
-								maxlength="2">
+								maxlength="2"
+								value="{{ old('edad') }}">
 								{!! $errors->first('edad', '<span class="help-block">:message</span>') !!}
 	
-								<label form="edad">Sexo: </label>
+								<label form="sexo">Sexo: </label>
 						<input class="form-control" 
 								type="text"
 								name="sexo"
-								placeholder="Sexo (H o M)">
+								placeholder="Sexo (H o M)"
+								value="{{ old('sexo') }}">
 								{!! $errors->first('sexo', '<span class="help-block">:message</span>') !!}
 
-								<label form="edad">Escolaridad: </label>
+								<label form="escolaridad">Escolaridad: </label>
 						<input class="form-control" 
 								type="text"
 								name="escolaridad"
 								placeholder="Escolaridad"
-								>
+								value="{{ old('escolaridad') }}">
 								{!! $errors->first('escolaridad', '<span class="help-block">:message</span>') !!}
 					</div><br>
 						<div class="form-group">

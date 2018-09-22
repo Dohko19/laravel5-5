@@ -21,7 +21,7 @@
 			</div>
 			<div class="panel-body">
 				<h2 class="panel-body">Haz Completado el Test</h2>
-				<h2>Muchas Gracias por tu participacion, por favor da click en el siguiente boton para terminar.</h2><center>
+				<h2>Muchas Gracias por tu participacion, por favor da click en el siguiente boton para terminar. <br>Te enviamos un correo con tus resultados.</h2><center>
 				<a href="{{URL::action('UsuariosController@index') }}"><button class="btn btn-success btn-lg">Terminar</button></a>
 			</center>
 			</div>

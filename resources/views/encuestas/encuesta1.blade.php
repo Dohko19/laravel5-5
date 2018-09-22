@@ -18,7 +18,7 @@
 	<div class="col-md-8 col-md-offset-2">
 		<div class="panel panel-info">
 			<div class="panel-heading">
-				<h1 class="panel-title">El arte de pensar</h1><br>
+				<h1 class="panel-title"><center>El arte de pensar</center></h1><br>
 				<small class="text-muted">Leyenda: Debes contestar con numeros del 1 al 5, no debes repetir los numeros en cada campo. <br> 1: Es lo primero que harias(mayor prioridad) y 5: lo ultimo que harias(menor prioridad), responde a acorde tu jucio en cada una de las preguntas.</small>
 			</div>
 			<div class="panel-body">
@@ -97,7 +97,7 @@
 							</tbody>
 							
 						</table>
-					</div>
+					</div><strong><h4><b>Pregunta 1/18</b></h4></strong>
 					<button class="btn btn-success btn-block">Siguiente</button>
 				</form>
 			</div>
