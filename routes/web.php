@@ -36,7 +36,7 @@ Route::get('login', 'Auth\LoginController@showloginForm')->name('login');
 Route::post('login', 'Auth\LoginController@login');
 Route::get('logout', 'Auth\LoginController@logout');
 
-// Route::get('Fin','UsuariosController@email')->name('email');
+Route::post  ('Fin','UsuariosController@email')->name('email');
 
 Route::get('introduccion', function(){
     $data = array(

@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Collection as Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Mail;
+
 
 class UsuariosController extends Controller
 {
@@ -516,7 +518,7 @@ class UsuariosController extends Controller
         //fin respueta6
         //Se guarda todo en una cadena de caracteres
         $arrr = array($r1,$r2,$r3,$r4,$r5,$r6);
-        //Se trnsforma en un archivo json para su mejor manejo
+        //Se trnsforma en un archivo json para su mejor manejo (aunque laravel ya lo hace por defecto)
         $colr = Collection::make($arrr);
         $colr->toJson();
         $r = 0;
@@ -580,5 +582,23 @@ class UsuariosController extends Controller
         }
        
      
+    }
+
+    public function email(Request $request)
+    {
+        // $idemail = $request->get('id');
+        // $semail = Usuario::where('email', '=',  $idemail)->get();
+        $correo=DB::table('usuario')
+        ->select('email')
+        ->where('id_usu', '=', $request->get('id'))
+        ->get();  
+        // dd($correo);
+        $data = array('email'=>$correo);
+        Mail::send('mail.encmail', $data, function($message) use ($correo){
+        $message->from('dno-reply@solvexencuesta.com','SolvexIntel Encuesta');
+        $message->to($correo)->subject('Mensaje de prueba ');
+    });
+
+        return "success";
     }
 }
