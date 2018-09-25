@@ -38,7 +38,6 @@
 								name="nombre"
 								placeholder="Ingresa tu Nombre completo, emepezando por apellidos"
 								value="{{ old('nombre') }}">
-								{!! $errors->first('email', '<span class="help-block">:message</span>') !!}
 					</div>
 					<div class="form-group {{ $errors->has('email') ? 'has-error' : '' }} ">
 						<label form="email">Email: </label>
@@ -47,7 +46,6 @@
 								name="email"
 								placeholder="Ingresa tu Email"
 								value="{{ old('email') }}">
-								{!! $errors->first('email', '<span class="help-block">:message</span>') !!}
 					</div>
 					<small>*Asegurate de que tu email este escrito correctamente</small>
 					<div class="form-inline {{ $errors->has('email') ? 'has-error' : '' }} ">
@@ -58,7 +56,6 @@
 								placeholder="Edad"
 								maxlength="2"
 								value="{{ old('edad') }}">
-								{!! $errors->first('edad', '<span class="help-block">:message</span>') !!}
 	
 								<label form="sexo">Sexo: </label>
 						<input class="form-control" 
@@ -66,7 +63,6 @@
 								name="sexo"
 								placeholder="Sexo (H o M)"
 								value="{{ old('sexo') }}">
-								{!! $errors->first('sexo', '<span class="help-block">:message</span>') !!}
 
 								<label form="escolaridad">Escolaridad: </label>
 						<input class="form-control" 
@@ -74,7 +70,6 @@
 								name="escolaridad"
 								placeholder="Escolaridad"
 								value="{{ old('escolaridad') }}">
-								{!! $errors->first('escolaridad', '<span class="help-block">:message</span>') !!}
 					</div><br>
 						<div class="form-group">
 						<label form="">Foto: </label>

@@ -11,6 +11,7 @@ use Illuminate\Support\Collection as Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\EncuestaSolvex;
 
 
 class UsuariosController extends Controller
@@ -529,7 +530,9 @@ class UsuariosController extends Controller
             }
         }
         //Se calcula el total
-        $total = $s+$i+$p+$a+$r; //Se calcula el total sumando cada total de las respuestas (no se preomedia)
+        $total = $s+$i+$p+$a+$r; //Se calcula el total sumando cada total de las respuestas  
+
+
         return view('usuarios.resultadoxusuario',['usuario' => $usuario,'pregunta'=>$pregunta,'respuesta'=>$respuesta,'s'=>$s,'i'=>$i,'p'=>$p,'a'=>$a,'r'=>$r,'total'=>$total]);
     }
     /**
@@ -558,7 +561,10 @@ class UsuariosController extends Controller
         }
          request()->validate([
             'nombre' => 'required|min:2',
-            'email' => 'required|email'
+            'email' => 'required|email',
+            'edad' => 'required|numeric|integer|min:1',
+            'sexo' => 'required|alpha|max:8',
+            'escolaridad' => 'required|alpha',
         ]);
 
         $usuario = new Usuario;
@@ -588,17 +594,23 @@ class UsuariosController extends Controller
     {
         // $idemail = $request->get('id');
         // $semail = Usuario::where('email', '=',  $idemail)->get();
-        $correo=DB::table('usuario')
-        ->select('email')
+        $email=DB::table('usuario')
         ->where('id_usu', '=', $request->get('id'))
-        ->get();  
-        // dd($correo);
-        $data = array('email'=>$correo);
-        Mail::send('mail.encmail', $data, function($message) use ($correo){
-        $message->from('dno-reply@solvexencuesta.com','SolvexIntel Encuesta');
-        $message->to($correo)->subject('Mensaje de prueba ');
-    });
+        ->get(); 
+        $nombre=DB::table('usuario')
+        ->where('id_usu', '=', $request->get('id'))
+        ->get(); 
+        $usuario = Usuario::findOrFail($email[0]->id_usu);
 
-        return "success";
+
+        $data = (object) array('email' => $usuario->email,'nombre' => $usuario->nombre);
+    //     Mail::send('mail.encmail', $data, function($message) use ($usuario){
+    //         $message->to($usuario->email);
+    //          $message->subject('Mensaje de prueba');
+    //          $message->from('dno-reply@solvexencuesta.com','SolvexIntel Encuesta');
+        
+    // });
+    Mail::to($usuario->email)->send(new EncuestaSolvex($data));
+        return view("introduccion");
     }
 }
