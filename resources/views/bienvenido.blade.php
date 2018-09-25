@@ -109,7 +109,7 @@
        	<li>Frente descubierta</li>
        </ul>
 
-       <img src="images/fotorequisitos.png" alt="" width="200" height="200">
+       <img src="images/fotorequisitos.png" alt="" width="400px" height="400px">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
