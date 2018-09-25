@@ -96,9 +96,9 @@
         </button>
       </div>
       <div class="modal-body">
-       Para darte resultados mas exactos pedimos que nos anexes una fotografia puede ser de tipo selfie pero
-       debes de tener unas cosas en cuenta (explicadas mas abajo), tambien puedes subir una fotografia tamaño infantil, credencial de la escuela, o INE.
-		
+      <p> Para darte resultados mas exactos pedimos que nos anexes una fotografia puede ser de tipo selfie pero
+       debes de tener unas cosas en cuenta (explicadas mas abajo), tambien puedes subir una fotografia tamaño infantil, credencial de la escuela, o INE.</p>
+		<br>
 		<p>Requisitos para la fotografia</p>
        <ul>
        	<li>Fondo uniforme (la pared de un solo color)</li>

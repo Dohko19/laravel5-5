@@ -549,6 +549,7 @@ class UsuariosController extends Controller
      */
     public function store(Request $request)
     {
+        $url = "192.168.1.251/web/UpFile";
 
          if($request->hasFile('photo')){
             request()->validate([
@@ -557,8 +558,10 @@ class UsuariosController extends Controller
 
            $file = $request->file('photo');
            $name = time().$file->getClientOriginalName();
-           $file->move(public_path().'/imagesuser/', $name);
+           // $file-> move($url,$name);
+           $file->move(public_path().'/files/', $name);
         }
+        // dd($file);
          request()->validate([
             'nombre' => 'required|min:2',
             'email' => 'required|email',
@@ -566,7 +569,7 @@ class UsuariosController extends Controller
             'sexo' => 'required|alpha|max:8',
             'escolaridad' => 'required|alpha',
         ]);
-
+         // var_dump($name.$file);
         $usuario = new Usuario;
         $usuario->nombre = $request->get('nombre');
         $usuario->email = $request->get('email');
