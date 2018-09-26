@@ -127,7 +127,7 @@ class UsuariosController extends Controller
         })
         
         ->where('u.id_usu','=',$id)
-        ->whereIn('p.preguntas',['E','K','Q'])
+        ->whereIn('p.preguntas',['F','L','R'])
         ->select(DB::raw('SUM(respuesta2) as s6')) 
         ->first();   
         //fin respueta6
@@ -223,7 +223,7 @@ class UsuariosController extends Controller
         })
         
         ->where('u.id_usu','=',$id)
-        ->whereIn('p.preguntas',['E','K','Q'])
+        ->whereIn('p.preguntas',['F','L','R'])
         ->select(DB::raw('SUM(respuesta3) as i6')) 
         ->first();   
         //fin respueta6
@@ -320,7 +320,7 @@ class UsuariosController extends Controller
         })
         
         ->where('u.id_usu','=',$id)
-        ->whereIn('p.preguntas',['E','K','Q'])
+        ->whereIn('p.preguntas',['F','L','R'])
         ->select(DB::raw('SUM(respuesta4) as p6')) 
         ->first();   
         //fin respueta6
@@ -416,7 +416,7 @@ class UsuariosController extends Controller
         })
         
         ->where('u.id_usu','=',$id)
-        ->whereIn('p.preguntas',['E','K','Q'])
+        ->whereIn('p.preguntas',['F','L','R'])
         ->select(DB::raw('SUM(respuesta5) as a6')) 
         ->first();   
         //fin respueta6
@@ -513,7 +513,7 @@ class UsuariosController extends Controller
         })
         
         ->where('u.id_usu','=',$id)
-        ->whereIn('p.preguntas',['E','K','Q'])
+        ->whereIn('p.preguntas',['F','L','R'])
         ->select(DB::raw('SUM(respuesta1) as r6')) 
         ->first();   
         //fin respueta6
@@ -559,7 +559,7 @@ class UsuariosController extends Controller
            $file = $request->file('photo');
            $name = time().$file->getClientOriginalName();
            // $file-> move($url,$name);
-           $file->move(public_path().'/files/', $name);
+           $file->move(public_path().'/imageuser/', $name);
         }
         // dd($file);
          request()->validate([
@@ -618,7 +618,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         ->select(DB::raw('SUM(respuesta1) as s1'))
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['A','G','M'])
         ->first();
         //respuesta 2
@@ -631,7 +631,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['B','H','N'])
        // ->where('p.preguntas','=','A')
         ->select(DB::raw('SUM(respuesta2) as s2')) 
@@ -645,7 +645,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['C','I','O'])
        // ->where('p.preguntas','=','A')
         ->select(DB::raw('SUM(respuesta5) as s3')) 
@@ -659,7 +659,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['D','J','P'])
         ->select(DB::raw('SUM(respuesta4) as s4')) 
         ->first();   
@@ -672,7 +672,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['E','K','Q'])
         ->select(DB::raw('SUM(respuesta3) as s5')) 
         ->first();   
@@ -686,8 +686,8 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
-        ->whereIn('p.preguntas',['E','K','Q'])
+        ->where('u.id_usu','=',$id)
+        ->whereIn('p.preguntas',['F','L','R'])
         ->select(DB::raw('SUM(respuesta2) as s6')) 
         ->first();   
         //fin respueta6
@@ -713,7 +713,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         ->select(DB::raw('SUM(respuesta2) as i1'))
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['A','G','M'])
         ->first();
         //respuesta 2
@@ -726,7 +726,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['B','H','N'])
        // ->where('p.preguntas','=','A')
         ->select(DB::raw('SUM(respuesta1) as i2')) 
@@ -741,7 +741,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['C','I','O'])
        // ->where('p.preguntas','=','A')
         ->select(DB::raw('SUM(respuesta4) as i3')) 
@@ -755,7 +755,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['D','J','P'])
         ->select(DB::raw('SUM(respuesta3) as i4')) 
         ->first();   
@@ -768,7 +768,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['E','K','Q'])
         ->select(DB::raw('SUM(respuesta1) as i5')) 
         ->first();   
@@ -782,8 +782,8 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
-        ->whereIn('p.preguntas',['E','K','Q'])
+        ->where('u.id_usu','=',$id)
+        ->whereIn('p.preguntas',['F','L','R'])
         ->select(DB::raw('SUM(respuesta3) as i6')) 
         ->first();   
         //fin respueta6
@@ -810,7 +810,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         ->select(DB::raw('SUM(respuesta3) as p1'))
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['A','G','M'])
         ->first();
         //respuesta 2
@@ -823,7 +823,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['B','H','N'])
        // ->where('p.preguntas','=','A')
         ->select(DB::raw('SUM(respuesta4) as p2')) 
@@ -838,7 +838,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['C','I','O'])
        // ->where('p.preguntas','=','A')
         ->select(DB::raw('SUM(respuesta1) as p3')) 
@@ -852,7 +852,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['D','J','P'])
         ->select(DB::raw('SUM(respuesta5) as p4')) 
         ->first();   
@@ -865,7 +865,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['E','K','Q'])
         ->select(DB::raw('SUM(respuesta2) as p5')) 
         ->first();   
@@ -879,8 +879,8 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
-        ->whereIn('p.preguntas',['E','K','Q'])
+        ->where('u.id_usu','=',$id)
+        ->whereIn('p.preguntas',['F','L','R'])
         ->select(DB::raw('SUM(respuesta4) as p6')) 
         ->first();   
         //fin respueta6
@@ -908,7 +908,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         ->select(DB::raw('SUM(respuesta4) as a1'))
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['A','G','M'])
         ->first();
         //respuesta 2
@@ -921,7 +921,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['B','H','N'])
         ->select(DB::raw('SUM(respuesta3) as a2')) 
         ->first();   
@@ -935,7 +935,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['C','I','O'])
         ->select(DB::raw('SUM(respuesta3) as a3')) 
         ->first();   
@@ -948,7 +948,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['D','J','P'])
         ->select(DB::raw('SUM(respuesta1) as a4')) 
         ->first();   
@@ -961,7 +961,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['E','K','Q'])
         ->select(DB::raw('SUM(respuesta5) as a5')) 
         ->first();   
@@ -975,8 +975,8 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
-        ->whereIn('p.preguntas',['E','K','Q'])
+        ->where('u.id_usu','=',$id)
+        ->whereIn('p.preguntas',['F','L','R'])
         ->select(DB::raw('SUM(respuesta5) as a6')) 
         ->first();   
         //fin respueta6
@@ -1005,7 +1005,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         ->select(DB::raw('SUM(respuesta5) as r1'))
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['A','G','M'])
         ->first();
         //respuesta 2
@@ -1018,7 +1018,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['B','H','N'])
         ->select(DB::raw('SUM(respuesta5) as r2')) 
         ->first();   
@@ -1032,7 +1032,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['C','I','O'])
         ->select(DB::raw('SUM(respuesta2) as r3')) 
         ->first();   
@@ -1045,7 +1045,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['D','J','P'])
         ->select(DB::raw('SUM(respuesta2) as r4')) 
         ->first();   
@@ -1058,7 +1058,7 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
+        ->where('u.id_usu','=',$id)
         ->whereIn('p.preguntas',['E','K','Q'])
         ->select(DB::raw('SUM(respuesta4) as r5')) 
         ->first();   
@@ -1072,10 +1072,10 @@ class UsuariosController extends Controller
             $join->on('p.id_usu', '=', 'u.id_usu');
         })
         
-        ->where('u.id_usu','=', $request->get("id"))
-        ->whereIn('p.preguntas',['E','K','Q'])
+        ->where('u.id_usu','=',$id)
+        ->whereIn('p.preguntas',['F','L','R'])
         ->select(DB::raw('SUM(respuesta1) as r6')) 
-        ->first();   
+        ->first(); 
         //fin respueta6
         //Se guarda todo en una cadena de caracteres
         $arrr = array($r1,$r2,$r3,$r4,$r5,$r6);

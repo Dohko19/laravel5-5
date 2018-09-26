@@ -34,7 +34,7 @@
 <script src="js/app.js"></script>
 <script src="js/datatable.js"></script>
     <div class="container">
-        <hr>
+       
     <footer>Copyright© {{ date('Y') }} Trejo Rojas Daniel Arturo</footer>
 </div>
 </body>

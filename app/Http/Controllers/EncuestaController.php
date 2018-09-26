@@ -19,10 +19,6 @@ class EncuestaController extends Controller
         $encuesta->preguntas = $request->get('pA');
         $encuesta->id_usu = $request->get('id');
         $encuesta->save();
-        $encuesta = new Encuesta;
-        $encuesta->preguntas = $request->get('pA');
-        $encuesta->id_usu = $request->get('id');
-        $encuesta->save();
         $id = $encuesta->id_usu;
         $respuesta = new Respuestas;
         $respuesta->respuesta1 = $request->get('1a');
