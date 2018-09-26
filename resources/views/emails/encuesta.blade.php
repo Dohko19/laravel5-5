@@ -34,9 +34,28 @@
 
 	@if($data->s>=60)
   	 Sintetico:<br><br>
-  	 <b>CARACTERISTICAS:</b> <br>
-  	 <br><b>Fortalezas:</b> <br> 
-  	 <br><b>DEBILIDADES:</b> <br><br>
+  	 <b>CARACTERISTICAS:</b>
+  	 <ul>
+  	 	<li>Tiendes a disfrutar del conflicto, posees una visión integradora. </li>
+  	 	<li>Ves la similitud en aparentes desacuerdos. </li>
+  	 	<li>Ofreces datos especulativos sin significado sin interpretación y utilizas ese conflicto para motivar tu propia creatividad y, usualmente, pueden ser mejores en ver todo el panorama.</li>
+  	 </ul> <br>
+  	 <br><b>FORTALEZAS:</b>
+  	 <ul>
+  	 	<li>Enfóquese en las suposiciones subyacentes</li>
+  	 	<li>Señale los aspectos conceptuales abstractos. </li>
+  	 	<li>Bueno en prever el exceso de acuerdo. </li>
+  	 	<li>Mejor en situaciones controvertidas y cargadas de conflictos</li>
+  	 	<li>Proporciona debate y creatividad.</li>
+  	 </ul> <br> 
+  	 <br><b>DEBILIDADES:</b>
+  	 <ul>
+  	 	<li>Puede descartar el acuerdo.</li>
+  	 	<li>Puede buscar el conflicto innecesariamente.</li>
+  	 	<li>Puede intentar demasiado por el cambio y la novedad.</li>
+  	 	<li>Puede teorizar excesivamente </li>
+  	 	<li>Puede parecer no conforme.</li>
+  	 </ul> <br><br>
 	@elseif($data->i>=60)
 	Idealista:<br><br>
 	<b>CARACTERISTICAS:</b> <br>
