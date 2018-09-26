@@ -17,8 +17,8 @@
 	<div class="col-md-8 col-md-offset-2">
 		<div class="panel panel-info">
 			<div class="panel-heading">
-				<h1 class="panel-title">El arte de pensar</h1><strong style="text-align: right;"><b>Pregunta 14/18</b></strong><br>
-				<small class="text-muted">Leyenda: Debes contestar con numeros del 1 al 5, no debes repetir los numeros en cada campo. <br> 1: Es lo primero que harias(mayor prioridad) y 5: lo ultimo que harias(menor prioridad), responde a acorde tu jucio en cada una de las preguntas.</small>
+				<h1 class="panel-title"><center>Tipos de pensamiento</center></h1><strong style="text-align: right;"><b>Pregunta 14/18</b></strong><br>
+				<small class="text-muted">Recuerda: Debes contestar con números del 5 al 1 donde 5 es lo que más te agrada y 1 lo que menos te desagrada.<br> Además, no debes repetir ninguna opción y todos los campos son obligatorios.</small>
 			</div>
 			<div class="panel-body">
 				<form class="form-inline" method="POST" action="{{URL::action('EncuestaController@storeP14')}}">

@@ -39,50 +39,50 @@
 				<td>{{ $usu->email }}</td>
 				<td>{{ $usu->created_at}}</td>
 				<td>@if($s>=60)
-					<h4><span class="label label-success">{{ $s }}</span></h4>
+					<h3><span class="label label-success">{{ $s }}</span></h3>
 					@elseif($s<60)
-					<h4><span class="label label-warning">{{ $s }}</span></h4>
+					<h3><span class="label label-warning">{{ $s }}</span></h3>
 					@else
-					<h4><span class="label label-default">{{ $s }}</span></h4>
+					<h3><span class="label label-default">{{ $s }}</span></h3>
 					@endif
 				</td>
 				<td>
 					@if($i>=60)
-					<h4><span class="label label-success">{{ $i }}</span></h4>
+					<h3><span class="label label-success">{{ $i }}</span></h3>
 					@elseif($i<60)
-					<h4><span class="label label-warning">{{ $i }}</span></h4>
+					<h3><span class="label label-warning">{{ $i }}</span></h3>
 					@else
-					<h4><span class="label label-default">{{ $i }}</span></h4>
+					<h3><span class="label label-default">{{ $i }}</span></h3>
 					@endif
 				</td>
 				<td>
 					@if($p>=60)
-					<h4><span class="label label-success">{{ $p }}</span></h4>
+					<h3><span class="label label-success">{{ $p }}</span></h3>
 					@elseif($p<60)
-					<h4><span class="label label-warning">{{ $p }}</span></h4>
+					<h3><span class="label label-warning">{{ $p }}</span></h3>
 					@else
-					<h4><span class="label label-default">{{ $p }}</span></h4>
+					<h3><span class="label label-default">{{ $p }}</span></h3>
 					@endif
 				</td>
 				<td>
 					@if($a>=60)
-					<h4><span class="label label-success">{{ $a }}</span></h4>
+					<h3><span class="label label-success">{{ $a }}</span></h3>
 					@elseif($a<60)
-					<h4><span class="label label-warning">{{ $a }}</span></h4>
+					<h3><span class="label label-warning">{{ $a }}</span></h3>
 					@else
-					<h4><span class="label label-default">{{ $a }}</span></h4>
+					<h3><span class="label label-default">{{ $a }}</span></h3>
 					@endif
 				</td>
 				<td>
 					@if($r>=60)
-					<h4><span class="label label-success">{{ $r }}</span></h4>
+					<h3><span class="label label-success">{{ $r }}</span></h3>
 					@elseif($r<60)
-					<h4><span class="label label-warning">{{ $r }}</span></h4>
+					<h3><span class="label label-warning">{{ $r }}</span></h3>
 					@else
-					<h4><span class="label label-default">{{ $r }}</span></h4>
+					<h3><span class="label label-default">{{ $r }}</span></h3>
 					@endif
 				</td>
-				<td>{{  $total }}</td>
+				<td><h3>{{  $total }}</h3></td>
 
 			</tbody>
 			@endforeach

@@ -41,10 +41,10 @@
 			<div class="col-9">
 				<div class="container">
 						
-					<nav class=" navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd;">
+					<nav class=" navbar navbar-expand-sm navbar-light" style="background-color: #337cFF; color: #FFFFFF;">
 						<a class="navbar-brand" href="">
 							<img src="/images/ic_svl_iconapp.png" width="30" height="30" alt="">
-						</a>Solvexintel
+						</a><h3>Solvexintel</h3>
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ">
       <li class="nav-item active">

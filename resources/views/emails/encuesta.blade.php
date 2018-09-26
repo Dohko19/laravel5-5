@@ -8,17 +8,22 @@
 
 @component('mail::panel')
    <b>Tu resultado:</b>
-	
+	<?php  ?>
    <strong>@if($data->s>=60)
     Tienes un tipo de pensamiento Sintetico<br>
-	@elseif($data->i>=60)
+    @endif
+	@if($data->i>=60)
 	Tienes un tipo de pensamiento Idealista<br>
-	@elseif($data->p>=60)
+	@endif
+	@if($data->p>=60)
 	Tienes un tipo de pensamiento Pragmatico<br>
-	@elseif($data->a>=60)
+	@endif
+	@if($data->a>=60)
 	Tienes un tipo de pensamiento Analitico<br>
-	@elseif($data->r>=60)
+	@endif
+	@if($data->r>=60)
 	Tienes un tipo de pensamiento Realista<br>
+	@endif
 	@else
 	<i></i>
 	@endif</strong>
