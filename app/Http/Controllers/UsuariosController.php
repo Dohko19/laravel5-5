@@ -549,8 +549,6 @@ class UsuariosController extends Controller
      */
     public function store(Request $request)
     {
-        $url = "192.168.1.251/web/UpFile";
-
          if($request->hasFile('photo')){
             request()->validate([
             'photo' => 'image|mimes:jpeg,png,jpg,gif,svg,tiff,tif,raw,bmp,psd|max:2048',
