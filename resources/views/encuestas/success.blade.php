@@ -23,7 +23,8 @@
 				<h2 class="panel-body">Haz Completado el Test</h2>
 				<h2>Muchas Gracias por tu participacion, por favor da click en el siguiente boton para terminar. <br>Te enviamos un correo con tus resultados.</h2><center>
 					<form method="POST" action="{{ route('email') }}">
-					<input type="hidden" name="_token" value="{!! csrf_token() !!}">
+					{!! csrf_field() !!}
+
 				<input type="hidden" name="id" value="{{ $id }}">
 				<button class="btn btn-success btn-lg">Terminar</button>
 					</form>
