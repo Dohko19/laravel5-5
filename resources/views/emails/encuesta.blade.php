@@ -24,9 +24,6 @@
 	@if($data->r>=60)
 	Tienes un tipo de pensamiento Realista<br>
 	@endif
-	@else
-	<i></i>
-	@endif</strong>
 	
 @endcomponent
 
@@ -56,22 +53,26 @@
   	 	<li>Puede teorizar excesivamente </li>
   	 	<li>Puede parecer no conforme.</li>
   	 </ul> <br><br>
-	@elseif($data->i>=60)
+     @endif
+	@if($data->i>=60)
 	Idealista:<br><br>
 	<b>CARACTERISTICAS:</b> <br>
   	 <br><b>Fortalezas:</b>: <br> 
   	 <br><b>DEBILIDADES:</b> <br><br>
-	@elseif($data->p>=60)
+     @endif
+	@if($data->p>=60)
 	Pragmatico:<br><br>
 	<b>CARACTERISTICAS:</b> <br>
   	 <br><b>Fortalezas:</b>: <br> 
   	 <br><b>DEBILIDADES:</b> <br><br>
-	@elseif($data->a>=60)
+     @endif
+	@if($data->a>=60)
 	Analitico:<br><br>
 	<b>CARACTERISTICAS:</b> <br>
   	 <br><b>Fortalezas:</b>: <br> 
   	 <br><b>DEBILIDADES:</b> <br><br>
-	@elseif($data->r>=60)
+     @endif
+	@if($data->r>=60)
 	Realista:<br><br>
 	<b>CARACTERISTICAS:</b> <br>
   	 <br><b>Fortalezas:</b>: <br> 
