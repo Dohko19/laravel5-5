@@ -23,7 +23,8 @@
 			<div class="panel-body">
 				<form class="form-inline" method="POST" action="{{URL::action('EncuestaController@storeP2')}}">
 
-					{{ csrf_field()}}
+					{!! csrf_field() !!}
+
 					<input type="hidden" id="id" name="id" value="{{ $id }}">
 					<input type="hidden" name="pB" value="B" hidden>
 					<div class="form-row">
