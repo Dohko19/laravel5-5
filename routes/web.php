@@ -37,3 +37,8 @@ Route::post('login', 'Auth\LoginController@login');
 Route::get('logout', 'Auth\LoginController@logout');
 
 Route::post  ('Fin','UsuariosController@email')->name('email');
+
+route::get('api/users', function(){
+		return datatables()->eloquent(App\Usuario::query())->toJson();
+		
+});

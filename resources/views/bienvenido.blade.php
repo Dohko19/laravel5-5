@@ -63,7 +63,7 @@
 					</div><br>
 						<div class="form-group">
 						<label form="">Foto: </label>
-						<input class="form-control-file" type="file" name="photo"><br>
+						<input class="form-control-file" type="file" name="photo" required><br>
 						<small>*Visita el siguiente enlace para saber como debes subir tu foto*</small><br>
 						<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalLong">Como subir tu Foto</button>
 					</div>

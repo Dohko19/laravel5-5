@@ -7,11 +7,10 @@
 	@foreach($usuario as $usu)
 	<div class="col-md-12 col-md-offset-1">
 		<div class="col-sm">
-			<div class="card" style="width: 18rem">
-				<img class="card-img-top" src="/imagesuser/{{ $usu->photo }}" alt="">
+			<div class="card bg-light" style="width: 500">
+				<img class="card-img-top" src="/imageuser/{{ $usu->photo }}" alt="">
 				<div class="card-body">
-					<h5 class="card-title">{{ $usu->nombre }}</h5>
-
+					<h5 class="card-title card-block">{{ $usu->nombre }}</h5>
 				</div>
 			</div>
 		</div>

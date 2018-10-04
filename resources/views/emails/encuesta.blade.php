@@ -1,36 +1,36 @@
 @component('mail::message')
 # SolexVintel
 
-<p> Gracias por responder la encuesta {{ $data->nombre }}</p></br>
+<p> Gracias por responder la encuesta: {{ $data->nombre }}</p></br>
 
-<p> Estos Fueron tus resultados</p>
+<p> En el siguiente apartado podras ver tus resultados.</p>
 
 
 @component('mail::panel')
-   <b>Tu resultado:</b>
-	<?php  ?>
+  <b>Tienes un tipo de pensamiento:</b>
+  <ul>
    <strong>@if($data->s>=60)
-    Tienes un tipo de pensamiento Sintetico<br>
+    <li>Sintetico</li><br>
     @endif
 	@if($data->i>=60)
-	Tienes un tipo de pensamiento Idealista<br>
+	<li> Idealista</li><br>
 	@endif
 	@if($data->p>=60)
-	Tienes un tipo de pensamiento Pragmatico<br>
+	<li> Pragmatico</li><br>
 	@endif
 	@if($data->a>=60)
-	Tienes un tipo de pensamiento Analitico<br>
+	<li> Analitico</li><br>
 	@endif
 	@if($data->r>=60)
-	Tienes un tipo de pensamiento Realista<br>
+	<li>Realista</li><br>
 	@endif
-	
+	</ul>
 @endcomponent
 
 <i>Donde:<br><br>Pensamiento  
 
 	@if($data->s>=60)
-  	 Sintetico:<br><br>
+  	 <b>Sintetico:</b><br><br>
   	 <b>CARACTERISTICAS:</b>
   	 <ul>
   	 	<li>Tiendes a disfrutar del conflicto, posees una visión integradora. </li>
@@ -55,32 +55,37 @@
   	 </ul> <br><br>
      @endif
 	@if($data->i>=60)
-	Idealista:<br><br>
+	<b>Idealista:</b><br><br>
 	<b>CARACTERISTICAS:</b> <br>
   	 <br><b>Fortalezas:</b>: <br> 
   	 <br><b>DEBILIDADES:</b> <br><br>
      @endif
 	@if($data->p>=60)
-	Pragmatico:<br><br>
+	<b>Pragmatico:</b><br><br>
 	<b>CARACTERISTICAS:</b> <br>
   	 <br><b>Fortalezas:</b>: <br> 
   	 <br><b>DEBILIDADES:</b> <br><br>
      @endif
 	@if($data->a>=60)
-	Analitico:<br><br>
+	<b>Analitico:</b><br><br>
 	<b>CARACTERISTICAS:</b> <br>
   	 <br><b>Fortalezas:</b>: <br> 
   	 <br><b>DEBILIDADES:</b> <br><br>
      @endif
 	@if($data->r>=60)
-	Realista:<br><br>
+	<b>Realista:</b><br><br>
 	<b>CARACTERISTICAS:</b> <br>
   	 <br><b>Fortalezas:</b>: <br> 
   	 <br><b>DEBILIDADES:</b> <br><br>
 	@endif</i><br><br>
 
 
+<hr>
+@component('mail::footer')
 Copyright© {{ date('Y') }}. Derechos Reservados<br><br>
-Pagina echa por: Trejo Rojas Daniel Arturo @ daniel.rojas.art93@gmail.com<br><br>
-#Copyright© 1977, 1980. Bramson, Parlette, Harrison and Associates All Rights Reserver "The art of Thinking"
+Pagina realizada por: Trejo Rojas Daniel Arturo @ daniel.rojas.art93@gmail.com - Beta v0.1
+<br><br>Copyright© 1977, 1980. Bramson, Parlette, Harrison and Associates All Rights Reserver "The art of Thinking"
+
+@endcomponent
+
 @endcomponent
