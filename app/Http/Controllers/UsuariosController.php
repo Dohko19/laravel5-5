@@ -555,7 +555,7 @@ class UsuariosController extends Controller
         ]);
 
            $file = $request->file('photo');
-           $name = time().$file->getClientOriginalName();
+           $name = $request->get('email')."_".time().$file->getClientOriginalName();
            // $file-> move($url,$name);
            $file->move(public_path().'/imageuser/', $name);
         }

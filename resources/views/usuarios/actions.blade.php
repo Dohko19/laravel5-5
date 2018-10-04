@@ -1,0 +1,1 @@
+<a href="{{ URL::action('UsuariosController@verRes', $usu->id_usu) }}">Ver Detalles</a>
