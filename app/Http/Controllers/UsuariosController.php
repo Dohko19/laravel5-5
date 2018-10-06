@@ -1101,8 +1101,6 @@ class UsuariosController extends Controller
         
     // });
     Mail::to($usuario->email)->send(new EncuestaSolvex($data));
-    dd($data);
-        return $usuario;
         return view("introduccion");
     }
 }

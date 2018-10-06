@@ -33,7 +33,7 @@ Route::get('/ResultadosUsuario/{id}','UsuariosController@verRes')->name('VerResu
 Route::resource('encuesta','UsuariosController');
 
 Route::get('login', 'Auth\LoginController@showloginForm')->name('login');
-Route::post('login', 'Auth\LoginController@login');
+Route::post('login', 'Auth\LoginController@login')->name('login'); 
 Route::get('logout', 'Auth\LoginController@logout');
 
 Route::post  ('Fin','UsuariosController@email')->name('email');
