@@ -37,7 +37,7 @@ class UsuariosController extends Controller
        // $request->get('id') = Usuario::findOrfail($id->id_usu);
         $pregunta = DB::table('preguntas')->get();
         $respuesta = DB::table('respuestas')->get();
-        return view('usuarios.resultado',['usuario' => $usuario,'pregunta'=>$pregunta]);
+        return view('usuarios.resultado', compact('usuario','preguntas','respuesta'));
     }
 
     public function verRes(Request $request, $id)
