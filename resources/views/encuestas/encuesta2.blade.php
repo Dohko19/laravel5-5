@@ -18,7 +18,7 @@
 		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h1 class="panel-title"><center>Tipos de pensamiento</center></h1><strong style="text-align: right;"><b>Pregunta 2/18</b></strong><br>
-				<small class="text-muted">Recuerda: Debes contestar con números del 5 al 1 donde 5 es lo que más te agrada y 1 lo que menos te desagrada.<br> Además, no debes repetir ninguna opción y todos los campos son obligatorios.</small>
+				<small class="text-muted">Recuerda: Debes contestar con números del 5 al 1 donde 5 es lo que más te agrada y 1 lo que menos te agrada.<br> Además, no debes repetir ninguna opción y todos los campos son obligatorios.</small>
 			</div>
 			<div class="panel-body">
 				<form class="form-inline" method="POST" action="{{URL::action('EncuestaController@storeP2')}}">
@@ -29,7 +29,7 @@
 					<input type="hidden" name="pB" value="B" hidden>
 					<div class="form-row">
 						<table class="table table-striped">
-<p><b>B. Cuando inicio un trabajo en un proyecto grupal, que es lo más importante para mí:</b></p>
+						<p><b>B. Cuando inicio un trabajo en un proyecto grupal, que es lo más importante para mí:</b></p>
 							<thead>	
 							<tr>
 								<th></th>

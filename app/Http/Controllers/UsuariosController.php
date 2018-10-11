@@ -37,7 +37,7 @@ class UsuariosController extends Controller
        // $request->get('id') = Usuario::findOrfail($id->id_usu);
         $pregunta = DB::table('preguntas')->get();
         $respuesta = DB::table('respuestas')->get();
-        return view('usuarios.resultado', compact('usuario','preguntas','respuesta'));
+        return view('usuarios.resultado',['usuario' => $usuario,'pregunta'=>$pregunta]);
     }
 
     public function verRes(Request $request, $id)
@@ -551,7 +551,7 @@ class UsuariosController extends Controller
     {
          if($request->hasFile('photo')){
             request()->validate([
-            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg,tiff,tif,raw,bmp,psd|max:2048',
+            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg,tiff,tif,raw,bmp,psd',
         ]);
 
            $file = $request->file('photo');
@@ -603,11 +603,12 @@ class UsuariosController extends Controller
         ->get(); 
         $usuario = DB::table('usuario')
          ->where('id_usu','=',$request->get('id'))->get();
+
         $usuario = Usuario::findOrFail($email[0]->id_usu);
         $usuario = Usuario::find($request->get('id'));
         $pregunta = DB::table('preguntas')->get();
         $respuesta = DB::table('respuestas')->get();
-        //--------------------------------------------------------------------7/
+        //--------------------------------------------------------------------
         $s1 = DB::table('preguntas as p')
         ->join('respuestas as r', function($on){
             $on->on('p.id_preguntas','=','r.id_preguntas');
@@ -936,8 +937,12 @@ class UsuariosController extends Controller
         ->where('u.id_usu','=',$request->get('id'))
         ->whereIn('p.preguntas',['C','I','O'])
         ->select(DB::raw('SUM(respuesta3) as a3')) 
-        ->first();   
+        ->first(); 
+
+        //
+
         //respuesta4
+
         $a4 = DB::table('preguntas as p')
         ->join('respuestas as r', function($on){
             $on->on('p.id_preguntas','=','r.id_preguntas');
@@ -1090,10 +1095,32 @@ class UsuariosController extends Controller
        
         //Se calcula el total
         $total = $s+$i+$p+$a+$r; //Se calcula el total sumando cada total de las respuestas  
-
+      $ninguno = 0;
+        $pasa = false;
+        if($s>=60)
+        {
+            $pasa = true;
+            $ninguno = 1;
+        }
+        if ($i>=60) {
+            $pasa = true;
+             $ninguno = 1;
+        }
+        if ($p>=60) {
+            $pasa = true;
+             $ninguno = 1;
+        }
+        if ($a>=60) {
+            $pasa = true;
+             $ninguno = 1;
+        }
+        if ($r>=60) {
+            $pasa = true;
+             $ninguno = 1;
+        }
         //---------------------------------------------------------------------
 
-        $data = (object) array('s'=>$s,'i'=>$i,'p'=>$p,'a'=>$a,'r'=>$r,'total'=>$total,'email' => $usuario->email,'nombre' => $usuario->nombre);
+        $data = (object) array('s'=>$s,'i'=>$i,'p'=>$p,'a'=>$a,'r'=>$r,'total'=>$total,'email' => $usuario->email,'nombre' => $usuario->nombre,'ninguno' => $ninguno, 'pasa' => $pasa);
     //     Mail::send('mail.encmail', $data, function($message) use ($usuario){
     //         $message->to($usuario->email);
     //          $message->subject('Mensaje de prueba');

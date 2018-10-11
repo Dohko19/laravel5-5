@@ -31,18 +31,14 @@ Route::post('/encuesta18','EncuestaController@storeP18');
 Route::post('/ResultadosUsuario/{id}','UsuariosController@verRes');
 Route::get('/ResultadosUsuario/{id}','UsuariosController@verRes')->name('VerResultado');
 Route::resource('encuesta','UsuariosController');
-
 Route::get('login', 'Auth\LoginController@showloginForm')->name('login');
 Route::post('login', 'Auth\LoginController@login')->name('login'); 
 Route::get('logout', 'Auth\LoginController@logout');
+Route::post('Fin','UsuariosController@email')->name('email');
 
-Route::post  ('Fin','UsuariosController@email')->name('email');
+Route::post('datos', 'DatatablesController@getIndex')->name('datos');
 
 route::get('api/users', function(){
-		return datatables()
-		->eloquent(App\Usuario::query())
-		->addColumn('btn', 'actions')
-		->rawColumns(['btn'])
-		->toJson();
+		return datatables()->eloquent(App\Usuario::query())->toJson();
 		
 });

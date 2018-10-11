@@ -29,6 +29,7 @@
 					<th scope="col">A</th>
 					<th scope="col">R</th>
 					<th scope="col">Total</th>
+					<th></th>
 				</tr>
 			</thead>
 			@foreach($usuario as $usu)
@@ -82,10 +83,16 @@
 					@endif
 				</td>
 				<td><h3>{{  $total }}</h3></td>
+				<td><form method="POST" action="{{ route('email') }}">
+					{!! csrf_field() !!}
 
+				<input type="hidden" name="id" value="{{ $usu->id_usu }}">
+				<button class="btn btn-success btn-sm">Re-enviar Correo</button>
+					</form></td>
 			</tbody>
 			@endforeach
 		</table>
+
 		
 	</div>
 </div>

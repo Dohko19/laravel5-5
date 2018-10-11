@@ -1,5 +1,7 @@
 @extends('layouts.enc')
 @section('content')
+
+
 @if(Session::has('success'))
 			<div class="alert alert-info">
 				{{Session::get('success')}}
@@ -13,13 +15,12 @@
         </ul>
     </div><br />
 @endif
-<hr>
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
 		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h1 class="panel-title"><center>Tipos de pensamiento</center></h1><strong style="text-align: right;"><b>Pregunta 1/18</b></strong><br>
-				<small class="text-muted">Recuerda: Debes contestar con números del 5 al 1 donde 5 es lo que más te agrada y 1 lo que menos te desagrada.<br> Además, no debes repetir ninguna opción y todos los campos son obligatorios.</small>
+				<small class="text-muted">Recuerda: Debes contestar con números del 5 al 1 donde 5 es lo que más te agrada y 1 lo que menos te agrada.<br> Además, no debes repetir ninguna opción y todos los campos son obligatorios.</small>
 			</div>
 			<div class="panel-body">
 				<form class="form-inline" method="POST" action="{{URL::action('EncuestaController@storeP1')}}">
@@ -44,11 +45,12 @@
 								<td><input class="form-control" 
 									type="number" 
 									name="1a"
-									id="a"
+									id="1a"
 									required
 									pattern="[0-9]"
 									min="1"
-									max="5"></td>
+									max="5"
+									unique></td>
 								</tr>
 								<tr>
 									<th scope="row">2</th>
@@ -56,6 +58,7 @@
 									<td><input type="number"
 											class="form-control" 
 											name="2a"
+											id="2a"
 											required
 											pattern="[0-9]"
 											min="1"
@@ -67,6 +70,7 @@
 									<td><input type="number"
 											class="form-control" 
 											name="3a"
+											id="3a"
 											required
 											pattern="[0-9]"
 											min="1"
@@ -101,4 +105,8 @@
 					<button class="btn btn-success btn-block">Siguiente</button>
 				</form>
 			</div>
+			</div>
+	</div>
+</div>
+@endsection
 						
