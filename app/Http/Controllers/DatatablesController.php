@@ -2,30 +2,34 @@
 
 namespace App\Http\Controllers;
 
-use Yajra\Datatables\Datatables;
 use Illuminate\Http\Request;
 use Datatables;
 use App\Usuario;
+use DB;
 
-class DatatablesController extends Controller
+class DataTablesController extends Controller
 {
     /**
  * Displays datatables front end view
  *
  * @return \Illuminate\View\View
  */
-public function getIndex()
-{
-    return view('usuarios.resultado');
-}
+public function datatable()
+    {
+        return view('usuarios.resultado');
+    }
 
-/**
- * Process datatables ajax request.
- *
- * @return \Illuminate\Http\JsonResponse
- */
-public function anyData()
-{
-    return datatables()->eloquent(Usuario::query())->toJson();
-}
+    public function getPosts()
+    {
+    	$model = Usuario::query();
+    	// return datatables()->eloquent(Usuario::query())->toJson();
+        return Datatables::eloquent($model)
+        ->addColumn('action', function($user) {
+        	return '
+                    <a href="' . route('VerResultado', $user->id_usu) . '" class="btn btn-xs btn-success" title="Detalless">Ver Detalles</a>
+                ';
+        })
+        ->toJson();
+
+    }
 }

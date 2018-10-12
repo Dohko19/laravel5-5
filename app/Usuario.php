@@ -12,6 +12,8 @@ class Usuario extends Model
 	protected $table = 'usuario';
 
 	protected $primaryKey = 'id_usu';
+
+    protected $dates = ['created_at'];
 	
     protected $fillable = ['nombre','email','edad','sexo','escolaridad','photo'];
 

@@ -4,7 +4,8 @@
 	
 </head>
 <div class="container">
-	<div class="col-1-md-5-xs col-xl-offset-1">
+
+	<div class="col-10-md-7-xs col-xl-offset-1">
 	<div class="table-responsive">
 		<h1>Usuarios</h1>
 		<table class="table table-striped"  width="100%" id="users">
@@ -46,7 +47,7 @@
 	</div>
 </div>
 
-{!! $usuario->render() !!}
+{{  $usuario->render() }}
 
 
 @endsection

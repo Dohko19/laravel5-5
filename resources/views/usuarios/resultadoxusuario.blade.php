@@ -37,7 +37,7 @@
 				<th scope="row">{{ $usu->id_usu }}</th>
 				<td>{{ $usu->nombre }}</td>
 				<td>{{ $usu->email }}</td>
-				<td>{{ $usu->created_at}}</td>
+				<td>{{ $usu->created_at }}</td>
 				<td>@if($s>=60)
 					<h3><span class="label label-success">{{ $s }}</span></h3>
 					@elseif($s<60)
@@ -93,7 +93,7 @@
 			@endforeach
 		</table>
 
-		
+		<a class="btn btn-danger btn-xs" href="{{ route('resultado') }}">Regresar</a>
 	</div>
 </div>
 

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-  <meta name="csrf-token" content="{{ csrf_token() }}">
-	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-	<title> Tipos de Pensamiento - SolexVintel</title>
-	<link rel="stylesheet" href="/css/app.css">
-	<link rel="stylesheet" href="/css/jquery.dataTables.css">
-  <link rel="stylesheet" href="/css/zoom.css">
-  <link href="/css/jquery.dataTables.min.css">
-	<meta charset="UTF-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="/images/ic_svl_iconapp.png" />
+    {{ Html::style('/css/bootstrap.min.css') }}
+    {{ Html::style('/css/app.css') }}
+    {{ Html::style('/css/jquery.dataTables.css') }}
+    {{ Html::style('/css/zoom.css') }}
+    {{ Html::style('/css/jquery.dataTables.min.css') }}
+    {{ Html::style('/css/all.css') }}
+	  <title> Tipos de Pensamiento - SolexVintel</title>
 </head>
 <header>
   <?php function activeMenu($url){
@@ -75,20 +75,19 @@
 </div>
 	@yield('content')
 	
- 
 <!-- scripts para la seccion App  -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/js/app.js"></script>
-    <script src="/js/datatable.js"></script>
-    <script src="/js/jquery3.3.1.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-
-    <script src="/js/jquery-3.3.1.slim.min.js"></script>
-   <script src="/js/popper.min.js"></script>
-   <script src="/js/jquery-3.3.1.js"></script>
-   <script  src="/js/jquery.dataTables.js"></script>
-    <script src="/js/popper.min.js"></script>
-
+    {{ Html::script('//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js') }}
+    {{ Html::script('/js/app.js') }}
+    {{ Html::script('/js/datatable.js') }}
+    {{ Html::script('/js/jquery3.3.1.min.js') }}
+    {{ Html::script('/js/bootstrap.min.js') }}
+    {{ Html::script('/js/jquery-3.3.1.slim.min.js') }}
+    {{ Html::script('/js/popper.min.js') }}
+    {{ Html::script('/js/jquery-3.3.1.js') }}
+    {{ Html::script('/js/jquery.dataTables.js') }}
+    {{ Html::script('/js/popper.min.js') }}
+    {{ Html::script('/js/all.js') }}
+<!-- End Scripts -->
   <div id="popUp" class="modal">
   <span class="close">&times;</span>
   <img class="modal-content" id="userimg">
@@ -108,10 +107,8 @@ $(document).ready(function(){
     $('#users').DataTable({
       "procesing": true,
       "serverside": true,
-      "ajax": {
-        url: "{{ route('datos') }}",
-        type: "POST",
-      },
+       responsive: true,
+      "ajax": '{{ route('datatable/getdata') }}',
       "columns":[ 
         {data: 'id_usu', name: 'id_usu'}, 
         {data: 'nombre', name: 'nombre'},
@@ -119,8 +116,13 @@ $(document).ready(function(){
         {data: 'edad', name: 'edad'},
         {data: 'sexo', name: 'sexo'},
         {data: 'escolaridad', name: 'escolaridad'},
-        {data: 'photo', name: 'photo'},
-        {data: 'created_at', name: 'created_at'}
+        {data: 'photo', name: 'photo',
+            render: function(data, type, full, meta){
+              return "<img src=\"/imageuser/"+data+"\" height=\"60\"/>";
+            }
+          },
+        {data: 'created_at', name: 'created_at'},
+        {data: 'action', name: 'action', orderable: false, searchable: false},
       ],
       order: [[1, 'asc']]
     });

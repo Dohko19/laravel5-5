@@ -8,7 +8,7 @@
 //Solex2018
 Route::get('registro', 'UsuariosController@b')->name('registro');
 Route::get('/', 'UsuariosController@index')->name('inicio');
-Route::get('resultados','UsuariosController@resultado');
+Route::get('resultados','UsuariosController@resultado')->name('resultado');
 Route::post('/','UsuariosController@store');
 Route::post('/encuesta1','EncuestaController@storeP1');
 Route::post('/encuesta2','EncuestaController@storeP2');
@@ -36,7 +36,11 @@ Route::post('login', 'Auth\LoginController@login')->name('login');
 Route::get('logout', 'Auth\LoginController@logout');
 Route::post('Fin','UsuariosController@email')->name('email');
 
-Route::post('datos', 'DatatablesController@getIndex')->name('datos');
+// Display view
+Route::get('datatable', 'DataTablesController@datatable');
+// Get Data
+Route::get('datatable/getdata', 'DataTablesController@getPosts')->name('datatable/getdata');
+
 
 route::get('api/users', function(){
 		return datatables()->eloquent(App\Usuario::query())->toJson();
