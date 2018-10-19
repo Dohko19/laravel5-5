@@ -21,62 +21,56 @@
   } ?>
 </header>
 <body>
-<div class="container">
-	<hr>
-  <nav class="navbar fixed-top navbar-light bg-light"> 
-          <img src="/images/logo_solexvintel.png">
-        </nav>
-	<div class="container">
-		<div class="row">
-			<div class="col-5-md-6">
-				<br><br>
-			</div>
-			<div class="col-9">
-				<div class="container">
-						
-					<nav class=" navbar navbar-expand-sm navbar-light" style="background-color: #e3f2fd;">
-						<a class="navbar-brand" href="#">
-							<img src="/images/ic_svl_iconapp.png" width="30" height="30" alt="">
-						</a><h3>Solvexintel</h3>
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ">
+            <div class="center-block">
+<nav class="navbar navbar-expand-sm navbar navbar-light" style="background-color: #e3f2fd;">
+            <a class="navbar-brand" href="{{ route('registro') }}">
+              <img src="/images/ic_svl_iconapp.png" width="30" height="30" alt="">
+            </a><h3>Solvexintel</h3>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto-xs mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="{{URL::action('UsuariosController@index') }}">Inicio<span class="sr-only">(current)</span></a>
+        <a class="nav-link navbar-brand" href="{{URL::action('UsuariosController@index') }}">Inicio<span class="sr-only">(current)</span></a>
       </li>
-
-      <li class="nav-item active dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Acciones
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          @if(auth()->check())
-          <a class="dropdown-item" href="{{URL::action('UsuariosController@resultado') }}">Resultados</a>     
-          @endif   
-          @if(auth()->guest())
-          <a class=" {{ activeMenu('login') }} dropdown-item" href="{{ URL::action('Auth\LoginController@showloginForm') }}">Ver Resultados</a>
-         @endif
-        </div>
-
+        @if(auth()->check())
+      <li class="nav-item active ">
+          <a class="nav-link" href="{{URL::action('UsuariosController@resultado') }}">Ver resultados</a>  
       </li>
-     
-    </ul>
+         @endif  
+        </ul>
   </div>
 
   <ul class="navbar-nav">
+    @if(auth()->guest())
+      <li>   
+          <a class="nav-link navbar-brand {{ activeMenu('login') }}" href="{{ URL::action('Auth\LoginController@showloginForm') }}">Login</a>
+      </li>
+    @endif
+    
     @if(auth()->check())
-    <li><button type="button" class="btn btn-outline-warning">
-      <a  href="/logout" >Cerrar sesión de {{ auth()->user()->name }}</a>
-      </button>
+    <li>
+      <a href="/logout" >Cerrar sesión de {{ auth()->user()->name }}</a>
     </li>
     @endif
   </ul>
 </nav>
+        <nav class="navbar fixed-top navbar-light bg-light"> 
+          <img src="/images/logo_solexvintel.png">
+        </nav>
+{{-- <div class="container">
+   <div class="row">
+        <div class="col-5-md-6">
+          <br><br>
+        </div>
+  <div class="col-lg-10 col-lg-offset-1">
 
 </div>
+</div>
+</div> --}}
 	@yield('content')
 	
 <!-- scripts para la seccion App  -->
-    {{ Html::script('//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js') }}
+    {{ Html::script('/js/jquery.min.js') }}
     {{ Html::script('/js/app.js') }}
     {{ Html::script('/js/datatable.js') }}
     {{ Html::script('/js/jquery3.3.1.min.js') }}

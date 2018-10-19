@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Ecnuesta;
 
 class Respuestas extends Model
 {
@@ -23,7 +24,7 @@ class Respuestas extends Model
     public function encuesta()
 	{
 
-    return $this->belongsTo('App\Encuesta');
+    return $this->belongsTo(Ecnuesta::class);
     
 	}
 }

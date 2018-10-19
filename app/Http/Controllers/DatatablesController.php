@@ -26,7 +26,7 @@ public function datatable()
         return Datatables::eloquent($model)
         ->addColumn('action', function($user) {
         	return '
-                    <a href="' . route('VerResultado', $user->id_usu) . '" class="btn btn-xs btn-success" title="Detalless">Ver Detalles</a>
+                    <br><a href="' . route('VerResultado', $user->id_usu) . '" class="btn btn-xs btn-success" title="Detalles">Ver Detalles</a>
                 ';
         })
         ->toJson();

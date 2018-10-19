@@ -17,17 +17,16 @@
 }
 	</script>
 <div class="row">
-	<div class="col-md-9-xs col-md-offset-1">
+	<div class="col-lg-9-xs col-lg-offset-2">
 		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h1 class="panel-title">Acceso al Test</h1>
 			</div>
 			<div class="panel-body">
-				
 				<form method="POST" action="{{URL::action('UsuariosController@store') }}" enctype="multipart/form-data">
 					<input type="hidden" name="_token" value="{!! csrf_token() !!}">
 					<div class="form-group">
-						<label form="nombre">Nombre: </label>
+						<label class="mr-sm-2" form="nombre">Nombre: </label>
 						<input class="form-control mb-2 mr-sm-2" {{ $errors->has('email') ? 'has-error' : '' }}" 
 								type="text"
 								name="nombre"
@@ -86,7 +85,7 @@
 	</div>
 </div>
 				
-			</div>
+	</div>
 			<div class="col">
 				
 			</div>

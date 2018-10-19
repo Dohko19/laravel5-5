@@ -22,22 +22,6 @@
 					<th scope="col">Resultados</th>
 				</tr>
 			</thead>
-			{{-- @foreach($usuario as $usu)
-		
-			<tbody>
-				<th>{{ $usu->id_usu }}</th>
-				<th>{{ $usu->nombre }}</th>
-				<th>{{ $usu->email }}</th>
-				<th>{{ $usu->edad }}</th>
-				<th>{{ $usu->sexo }}</th>
-				<th>{{ $usu->escolaridad }}</th>
-				<th><img class="zoom" src="/imageuser/{{ $usu->photo }}" width="100px" alt="{{ $usu->id_usu }}"></th>
-				<th>{{ $usu->created_at }}</th>
-				<td><a href="{{ URL::action('UsuariosController@verRes', $usu->id_usu) }}"><button class="btn btn-success">Ver Detalles</button></a></td>
-				
-			</tbody>
-			
-			@endforeach  --}}
 		</table>
 		</div>
 		<br><br><br>

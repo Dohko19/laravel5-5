@@ -16,7 +16,8 @@
     </div><br />
 @endif
 <div class="row">
-	<div class="col-md-8 col-md-offset-2">
+
+	<div class="col-md-8-sm-6-xs col-md-offset-2-xs-sm-6">
 		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h1 class="panel-title"><center>Tipos de pensamiento</center></h1><strong style="text-align: right;"><b>Pregunta 1/18</b></strong><br>
@@ -28,7 +29,7 @@
 					{!! csrf_field() !!}
 					<input type="hidden" id="id" name="id" value="{{ $id }}">
 					<input type="hidden" name="pA" value="A" hidden>
-					<div class="form-row">
+					{{-- <div class=	"form"> --}}
 						<table class="table table-striped">
 							<p><b>A. Cuando se presenta un conflicto entre personas acerca de ideas. Tiendo a estar a favor de la parte que</b></p>
 							
@@ -42,7 +43,8 @@
 								<tr>
 								<th scope="row">1</th>
 								<td>Identifica e intenta sacar a la luz el conflicto</td>
-								<td><input class="form-control" 
+								<td>
+									<input class="form-control" 
 									type="number" 
 									name="1a"
 									id="1a"
@@ -50,7 +52,9 @@
 									pattern="[0-9]"
 									min="1"
 									max="5"
-									unique></td>
+									unique>
+									
+									</td>
 								</tr>
 								<tr>
 									<th scope="row">2</th>
@@ -99,9 +103,8 @@
 											max="5"></td>
 								</tr>
 							</tbody>
-							
 						</table>
-					</div>
+					{{-- </div> --}}
 					<button class="btn btn-success btn-block">Siguiente</button>
 				</form>
 			</div>

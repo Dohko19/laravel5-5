@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Usuario;
 use App\Encuesta;
 use App\Respuestas;
+use App\Resultado;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Collection as Collection;
 use Illuminate\Database\Eloquent\Model;
@@ -555,7 +556,7 @@ class UsuariosController extends Controller
         ]);
 
            $file = $request->file('photo');
-           $name = $request->get('email')."_".time().$file->getClientOriginalName();
+           $name = $request->get('email')."-".$file->getClientOriginalName();
            // $file-> move($url,$name);
            $file->move(public_path().'/imageuser/', $name);
         }
@@ -575,6 +576,7 @@ class UsuariosController extends Controller
         $usuario->escolaridad = $request->get('escolaridad');
         $usuario->edad = $request->get('edad');
         $usuario->photo = $name;
+
         $email=$usuario->email;
         $existe = Usuario::where('email',$email)->exists();
         if($existe==$usuario->email)
@@ -585,6 +587,7 @@ class UsuariosController extends Controller
         {
              $usuario->save();
            $id = DB::getPdo()->lastInsertId();
+
             return view('encuestas.encuesta1',['id'=>$id]);
         }
        
@@ -1095,7 +1098,25 @@ class UsuariosController extends Controller
        
         //Se calcula el total
         $total = $s+$i+$p+$a+$r; //Se calcula el total sumando cada total de las respuestas  
-      $ninguno = 0;
+        // Se guarda el resultado en la base de datos
+        $resultado = new Resultado;
+        $id = $request->get('id');
+        $existe = Resultado::where('id',$id)->exists();
+       
+        if ($existe==$resultado->id_usu) {
+
+            $resultado->sintetico = $s;
+            $resultado->idealista = $i;
+            $resultado->pragmatico = $p;
+            $resultado->analitico = $a;
+            $resultado->realista = $r;
+            $resultado->total = $total;
+            $resultado->id_usu = $request->get('id');
+            $resultado->save();
+        
+        }
+        // Fin
+        $ninguno = 0;
         $pasa = false;
         if($s>=60)
         {

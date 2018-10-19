@@ -14,7 +14,7 @@
     </div><br />
 @endif
 <div class="row">
-	<div class="col-md-8 col-md-offset-2">
+	<div class="col-md-9-auto-xs-sm-6 col-lg-10">
 		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h1 class="panel-title"><center>Tipos de pensamiento</center></h1><strong style="text-align: right;"><b>Pregunta 18/18</b></strong><br>
@@ -27,19 +27,19 @@
 					<input type="hidden" id="id" name="id" value="{{ $id }}">
 					<input type="hidden" name="pR" value="R" hidden>
 					<div class="form-row">
-						<table class="table table-striped">
+						<table class="table table-striped" style="width:auto;">
 							<p><b>R. Hablando en general, estoy más inclinado a:</b></p>
 							<thead>	
 							<tr>
-								<th></th>
-								<th></th>
-								<th></th>
+								<th width="10"></th>
+								<th width="30"></th>
+								<th width="20"></th>
 							</tr>
 							</thead>
 							<tbody>
 								<tr>
 								<th scope="row">1</th>
-								<td>Encontrar métodos existentes que funcionan, y usarlos lo mejor posible.</td>
+								<td >Encontrar métodos existentes que funcionan, y usarlos lo mejor posible.</td>
 								<td><input class="form-control" 
 									type="number" 
 									name="1r"

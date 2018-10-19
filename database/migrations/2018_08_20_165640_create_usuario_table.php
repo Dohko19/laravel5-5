@@ -20,7 +20,7 @@ class CreateUsuarioTable extends Migration
             $table->integer('edad');
             $table->string('sexo');
             $table->string('escolaridad');
-            $table->string('photo')->nullable();
+            $table->string('photo');
             $table->timestamps();
         });
     }
