@@ -13,6 +13,7 @@
     {{ Html::style('/css/zoom.css') }}
     {{ Html::style('/css/jquery.dataTables.min.css') }}
     {{ Html::style('/css/all.css') }}
+    {{ Html::style('/css/buttons.dataTables.min.css') }}
 	  <title> Tipos de Pensamiento - SolexVintel</title>
 </head>
 <header>
@@ -70,17 +71,37 @@
 	@yield('content')
 	
 <!-- scripts para la seccion App  -->
-    {{ Html::script('/js/jquery.min.js') }}
-    {{ Html::script('/js/app.js') }}
-    {{ Html::script('/js/datatable.js') }}
-    {{ Html::script('/js/jquery3.3.1.min.js') }}
-    {{ Html::script('/js/bootstrap.min.js') }}
-    {{ Html::script('/js/jquery-3.3.1.slim.min.js') }}
-    {{ Html::script('/js/popper.min.js') }}
-    {{ Html::script('/js/jquery-3.3.1.js') }}
-    {{ Html::script('/js/jquery.dataTables.js') }}
-    {{ Html::script('/js/popper.min.js') }}
-    {{ Html::script('/js/all.js') }}
+    
+    
+    {{ Html::script('js/jquery.min.js') }}
+    {{ Html::script('js/app.js') }}
+    {{ Html::script('js/jquery-3.3.1.js') }}
+    {{ Html::script('js/datatable.js') }}
+    {{ Html::script('js/dataTables.buttons.min.js') }}
+    {{ Html::script('js/buttons.flash.min.js') }}
+    {{ Html::script('js/jszip.min.js') }}
+    {{ Html::script('js/buttons.print.min.js') }}
+    {{ Html::script('js/buttons.Html5.min.js') }}
+    {{ Html::script('js/vfs_fonts.js') }}
+    {{ Html::script('js/pdfmake.min.js') }}
+    {{ Html::script('js/bootstrap.min.js') }}
+    {{ Html::script('js/jquery-3.3.1.slim.min.js') }}
+    {{ Html::script('js/popper.min.js') }}
+    {{ Html::script('js/jquery-3.3.1.js') }}
+    {{ Html::script('js/jquery.dataTables.js') }}
+    {{ Html::script('js/popper.min.js') }}
+    {{ Html::script('js/all.js') }}
+    {{ Html::script('js/Chart.min.js') }}
+    {{ Html::script('js/Chart.bundle.min.js') }}
+    {{ Html::script('https://unpkg.com/jspdf@latest/dist/jspdf.min.js') }}
+    <script src="{{ asset('js/dataTables.buttons.min.js') }}"></script> 
+    <script src="{{ asset('js/buttons.html5.min.js') }}"></script>
+    <script src="{{ asset('js/buttons.print.min.js') }}"></script>
+    <script src="{{ asset('js/buttons.flash.min.js') }}"></script>
+    <script src="{{ asset('js/jszip.min.js') }}"></script>
+    <script src="{{ asset('js/pdfmake.min.js') }}"></script>
+    <script src="{{ asset('js/vfs_fonts.js') }}"></script>
+    @yield('javascript')
 <!-- End Scripts -->
   <div id="popUp" class="modal">
   <span class="close">&times;</span>
@@ -98,11 +119,24 @@ $(document).ready(function(){
 </script>
 <script>
   $(document).ready( function () {
+     $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+
     $('#users').DataTable({
-      "procesing": true,
-      "serverside": true,
+      dom: 'Bfrtip',
+      buttons: [
+      'copy', 'csv', 'excel', 'pdf', 'print' 
+      ],
+      procesing: true,
+      serverside: true,
        responsive: true,
-      "ajax": '{{ route('datatable/getdata') }}',
+      "ajax":{
+       url: '{{ route('datatable/getdata') }}',
+       method: 'GET'
+      },
       "columns":[ 
         {data: 'id_usu', name: 'id_usu'}, 
         {data: 'nombre', name: 'nombre'},
@@ -110,20 +144,55 @@ $(document).ready(function(){
         {data: 'edad', name: 'edad'},
         {data: 'sexo', name: 'sexo'},
         {data: 'escolaridad', name: 'escolaridad'},
-        {data: 'photo', name: 'photo',
+        {data: 'photo', name: 'photo', orderable: false, searchable: false,
             render: function(data, type, full, meta){
               return "<img src=\"/imageuser/"+data+"\" height=\"60\"/>";
             }
-          },
+          },  
         {data: 'created_at', name: 'created_at'},
         {data: 'action', name: 'action', orderable: false, searchable: false},
       ],
-      order: [[1, 'asc']]
+      order: [[0, 'asc']],
+      initComplete: function () {
+            this.api().columns().every(function () {
+                var column = this;
+                var input = document.createElement("input");
+                $(input).appendTo($(column.footer()).empty())
+                .on('change', function () {
+                    column.search($(this).val()).draw();
+                });
+            });
+        }
+      
+    });
     });
 
-} );
+     $('#resultado').DataTable({
+      dom: 'Bfrtip',
+      "procesing": true,
+      "serverside": true,
+       responsive: true,
+       order: [[0, 'asc']],
+       buttons: [
+      'copy', 'csv', 'excel', 'pdf', 'print' 
+      ],
+      "ajax": '{{ route('datatable/getres') }}',
+      "columns":[ 
+        {data: 'id', name: 'id'}, 
+        {data: 'sintetico', name: 'sintetico'},
+        {data: 'idealista', name: 'idealista'},
+        {data: 'pragmatico', name: 'pragmatico'},
+        {data: 'analitico', name: 'analitico'},
+        {data: 'realista', name: 'realista'},
+        {data: 'total', name: 'total'},
+        {data: 'id_usu', name: 'id_usu'},
+      ],
+      
+});
 </script> 
+
 <!-- Fin scripts -->
+
     <div class="container">
         <hr>
     <footer>Copyright© {{ date('Y') }} Trejo Rojas Daniel Arturo - <a onclick="alert('Autor: Trejo Rojas Daniel Arturo para solexvintel, Esto es una BETA')" href="#">Beta v0.1</a>

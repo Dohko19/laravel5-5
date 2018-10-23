@@ -3,10 +3,10 @@
 @section('content')
 <div class="container">
 @if ($errors->any())
-    <div class="alert alert-warning	">
+    <div class="alert alert-danger	">
         <ul>
             @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
+                <li><b>{{ $error }}</b></li>
             @endforeach
         </ul>
     </div><br />
@@ -25,14 +25,15 @@
 			<div class="panel-body">
 				<form method="POST" action="{{URL::action('UsuariosController@store') }}" enctype="multipart/form-data">
 					<input type="hidden" name="_token" value="{!! csrf_token() !!}">
-					<div class="form-group">
+					<div class="form-group {{ $errors->has('nombre') ? 'has-error' : '' }}">
 						<label class="mr-sm-2" form="nombre">Nombre: </label>
-						<input class="form-control mb-2 mr-sm-2" {{ $errors->has('email') ? 'has-error' : '' }}" 
+						<input class="form-control mb-2 mr-sm-2 " 
 								type="text"
 								name="nombre"
 								onkeyup="mayus(this);"
 								placeholder="Ingresa tu Nombre completo, emepezando por apellidos"
 								value="{{ old('nombre') }}">
+
 					</div>
 					<div class="form-group {{ $errors->has('email') ? 'has-error' : '' }} ">
 						<label class="mr-sm-2" form="email">Email: </label>
@@ -44,7 +45,7 @@
 								<small>*Asegurate de que tu email este escrito correctamente</small>
 					</div>
 					
-					<div class="form-inline {{ $errors->has('email') ? 'has-error' : '' }} ">
+					<div class="form-inline {{ $errors->has('edad') ? 'has-error' : '' }} ">
 						<label class="mr-sm-2" form="edad">Edad: </label>
 						<input class="form-control mb-2 mr-sm-2" " 
 								type="text"
@@ -70,11 +71,11 @@
 								value="{{ old('escolaridad') }}">
 					</div><br>
 
-						<div class="form-group">
-						<label form="">Foto: </label>
-						<input class="form-control-file" type="file" name="photo" required><br>
+						<div class="form-group {{ $errors->has('photo') ? 'has-error' : '' }}">
+						<label form="photo">Foto: </label>
+						<input class="form-control-file" type="file" name="photo" value="{{ old('photo') }}"><br>
 						<small>*Visita el siguiente enlace para saber como debes subir tu foto*</small><br>
-						<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalLong">Como subir tu Foto</button>
+						<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalLong">Hay Una manera especifica para subir tu foto</button>
 					</div>
 					<br>
 				<center><button class="btn btn-primary">Acceder</button></center>

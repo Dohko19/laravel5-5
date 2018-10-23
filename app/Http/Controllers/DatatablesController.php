@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Datatables;
 use App\Usuario;
 use DB;
+use App\Resultado;
 
 class DataTablesController extends Controller
 {
@@ -29,7 +30,18 @@ public function datatable()
                     <br><a href="' . route('VerResultado', $user->id_usu) . '" class="btn btn-xs btn-success" title="Detalles">Ver Detalles</a>
                 ';
         })
+        ->filterColumn('id_usu', function($query, $keyword) {
+                $query->whereRaw("CONCAT(Usuario.id_usu,'-',Usuario.id_usu) like ?", ["%{$keyword}%"]);
+            })
         ->toJson();
 
+    }
+
+    public function getRes()
+    {
+        $resultado = Resultado::query();
+
+        return Datatables::eloquent($resultado)
+        ->toJson();
     }
 }

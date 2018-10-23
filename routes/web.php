@@ -40,9 +40,5 @@ Route::post('Fin','UsuariosController@email')->name('email');
 Route::get('datatable', 'DataTablesController@datatable');
 // Get Data
 Route::get('datatable/getdata', 'DataTablesController@getPosts')->name('datatable/getdata');
+Route::get('datatable/getres', 'DataTablesController@getRes')->name('datatable/getres');
 
-
-route::get('api/users', function(){
-		return datatables()->eloquent(App\Usuario::query())->toJson();
-		
-});

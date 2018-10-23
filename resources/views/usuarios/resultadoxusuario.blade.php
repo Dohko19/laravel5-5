@@ -17,7 +17,26 @@
 		@endforeach
 		</div>
 		<div class="col-lg-10 col-lg-offset-1">
-			<div class="table-responsive-sm-md-lg-xl">
+			
+	</div>
+		
+	<hr>
+	</div>
+	<div class="col-lg-10 col-lg-offset-1">
+				<ul class="nav nav-tabs">
+		  
+		  <li class="nav-item">
+		    <a class="nav-link " data-toggle="tab" href="#i">Datos Generales</a>
+		  </li>
+		  <li class="nav-item active">
+		    <a class="nav-link" data-toggle="tab" href="#s">Grafica</a>
+		  </li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+		  <div class="tab-pane container fade col-lg-12" id="i">
+		  		<div class="table-responsive-sm-md-lg-xl">
 		<table class="table table-sm table-hover" cellspacing="0" width="100%" >
 			<thead class="thead-light">
 				<tr>
@@ -25,11 +44,11 @@
 					<th scope="col">Nombre:</th>	
 					<th scope="col">Email:</th>	
 					<th scope="col">Creado el:</th>	
-					<th scope="col">S</th>	
-					<th scope="col">I</th>
-					<th scope="col">P</th>
-					<th scope="col">A</th>
-					<th scope="col">R</th>
+					<th scope="col">S <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></th>	
+					<th scope="col">I <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></th>
+					<th scope="col">P <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></th>
+					<th scope="col">A <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></th>
+					<th scope="col">R <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></th>
 					<th scope="col">Total</th>
 					<th></th>
 				</tr>
@@ -95,39 +114,74 @@
 			</tbody>
 			@endforeach
 		</table>
-	</div>
-		<a class="btn btn-danger btn-xs" href="{{ route('resultado') }}">Regresar</a>
-	<hr>
-	</div>
-	<div class="col-lg-10 col-lg-offset-1">
-				<ul class="nav nav-tabs">
-		  <li class="nav-item">
-		    <a class="nav-link active" data-toggle="tab" href="#s">Sintetico</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" data-toggle="tab" href="#i">Idealista</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" data-toggle="tab" href="#p">Pragmatico</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" data-toggle="tab" href="#a">Analitico</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" data-toggle="tab" href="#r">Realista</a>
-		  </li>
-		</ul>
+		  </div>
+		  </div>
 
-		<!-- Tab panes -->
-		<div class="tab-content">
-		  <div class="tab-pane container active" id="s">Pensamiento Sintetico</div>
-		  <div class="tab-pane container fade" id="i">Pensamiento Idealista</div>
-		  <div class="tab-pane container fade" id="p">Pensamiento Pragmatico</div>
-		  <div class="tab-pane container fade" id="a">Pensamiento Analitico</div>
-		  <div class="tab-pane container fade" id="r">Pensamiento Realista</div>
+		  <div class="tab-pane container active" id="s">
+		  	@foreach ($usuario as $u)
+			<canvas id="resgraf{{ $u->id_usu }}" width="100" height="40"></canvas><br>
+			<center><button id="downloadBtn" class="btn btn-outline-danger">Descargar PDF</button></center>
+		@endforeach
 		</div>
+		<!--Siguiente navs pesta{as-->
+	</div>
+	<br>
+	<div class="col-lg-10 col-lg-offset-1">
+		<!--Graficas --> 
+		<a class="btn btn-warning" href="{{ route('resultado') }}">Regresar</a>
+		<br>
+		
 	</div>
 	</div>
 </div>
 </div>
+@section('javascript')
+	<script>
+		$(document).ready(function(){
+	var downloadBtn = document.getElementById('downloadBtn');	
+	var canvas = document.getElementById("resgraf{{ $u->id_usu }}");
+	var ctx = document.getElementById("resgraf{{ $u->id_usu }}").getContext('2d');
+	var grafica = new Chart(
+		ctx, {
+    type: 'polarArea',
+    data: {
+        labels: ["Sintentico {{ $s }}", "Idealista {{ $i }}", "Pragmatico {{ $p }}", "Analitico {{ $a }}", "Realista {{ $r }}"],
+        datasets: [{
+            label: 'Tipo de Pensamiento{{ $u->id_usu }}',
+            data: [{{ $s }}, {{ $i }}, {{ $p }}, {{ $a }}, {{ $r }}],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+});
+
+downloadBtn.addEventListener("click", function() {
+      var d = new Date();
+      var n = d.toISOString();
+      // only jpeg is supported by jsPDF
+      var imgData = canvas.toDataURL("image/png", 1.0);
+      var pdf = new jsPDF();
+	  pdf.text(10,10,'El arte de pensar');
+      pdf.addImage(imgData, "JPEG", 10, 20,200,90);
+      pdf.save("{{ $u->id_usu }}-"+n+"-{{ $u->nombre }}.pdf");
+    }, false);
+  });
+
+</script>
+@endsection
 @endsection

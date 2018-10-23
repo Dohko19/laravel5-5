@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 //use Illuminate\Database\Eloquent\SoftDeletes;
+use App\Respuestas;
 
 class Usuario extends Model
 {
@@ -22,5 +23,10 @@ class Usuario extends Model
      public function encuestas()
      {
      	return $this->hasMany('App\Encuesta');
+     }
+
+     public function resultados()
+     {
+         return $this->hasMany(Respuestas::class);
      }
 }
