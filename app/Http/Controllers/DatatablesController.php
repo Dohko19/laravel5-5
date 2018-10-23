@@ -40,7 +40,6 @@ public function datatable()
     public function getRes()
     {
         $resultado = Resultado::query();
-
         return Datatables::eloquent($resultado)
         ->toJson();
     }

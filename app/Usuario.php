@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 //use Illuminate\Database\Eloquent\SoftDeletes;
 use App\Respuestas;
+use App\Encuesta;   
 
 class Usuario extends Model
 {
@@ -16,13 +17,13 @@ class Usuario extends Model
 
     protected $dates = ['created_at'];
 	
-    protected $fillable = ['nombre','email','edad','sexo','escolaridad','photo'];
+    protected $fillable = ['nombre','email','edad','sexo','escolaridad','photo','created_at','updated_at'];
 
     // protected $dates = ['deleted_at'];
 
      public function encuestas()
      {
-     	return $this->hasMany('App\Encuesta');
+     	return $this->hasMany(Encuesta::class);
      }
 
      public function resultados()

@@ -13,6 +13,9 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\EncuestaSolvex;
+use App\Exports\UsersExport;
+use App\Exports\PragExport;
+use Maatwebsite\Excel\Facades\Excel;
 
 
 class UsuariosController extends Controller
@@ -21,7 +24,7 @@ class UsuariosController extends Controller
     {
         $this->middleware('auth', ['except' => ['index','store','b','email']]);
     }
-
+      
     public function index()
     {
         return view('introduccion');

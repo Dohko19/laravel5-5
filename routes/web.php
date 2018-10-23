@@ -41,4 +41,6 @@ Route::get('datatable', 'DataTablesController@datatable');
 // Get Data
 Route::get('datatable/getdata', 'DataTablesController@getPosts')->name('datatable/getdata');
 Route::get('datatable/getres', 'DataTablesController@getRes')->name('datatable/getres');
-
+//Excel data
+Route::get('excel', 'ExcelExportData@export')->name('csv');
+Route::get('pragexcel', 'ExcelExportData@pragexport')->name('exprag');

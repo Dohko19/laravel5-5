@@ -17,7 +17,9 @@ class Resultado extends Model
     	'pragmatico',
     	'analitico',
     	'realista',
-    	'id_usu'
+    	'id_usu',
+        'created_at',
+        'updated_at'
     ];
 
     public function usuario()

@@ -58,13 +58,14 @@
 
 		</div>
 		<br><br><br>
-		<a href="{{ route('registro') }}" 
-		<button class="btn btn-danger">Regresar</button>
-	</a>
+		<div class="col-18-md-15-xs-sm-8 col-xl-offset-1">
+		<a href="{{ route('registro') }}"><button class="btn btn-danger">Regresar</button></a>
+		<a class="btn btn-success" href="{{ route('csv') }}"><i class="fas fa-file-excel"></i> Exportar Sinteticos</a>
+		<a class="btn btn-success" href="{{ route('exprag') }}"><i class="fas fa-file-excel"></i> Exportar Pragmatico</a>
+		</div>
 	</div>
-</div>
 
-{{  $usuario->render() }}
+</div>
 @section('javascript')
 	
 

@@ -101,6 +101,7 @@
     <script src="{{ asset('js/jszip.min.js') }}"></script>
     <script src="{{ asset('js/pdfmake.min.js') }}"></script>
     <script src="{{ asset('js/vfs_fonts.js') }}"></script>
+    {{-- <script src="/vendor/datatables/buttons.server-side.js"></script> --}}
     @yield('javascript')
 <!-- End Scripts -->
   <div id="popUp" class="modal">
@@ -126,14 +127,15 @@ $(document).ready(function(){
     });
 
     $('#users').DataTable({
-      dom: 'Bfrtip',
+      dom: 'Bfrtip', 
+      order: [[0, 'asc']],
       buttons: [
-      'copy', 'csv', 'excel', 'pdf', 'print' 
+      'csv', 'excel', 'pdf', 'print',
       ],
       procesing: true,
       serverside: true,
        responsive: true,
-      "ajax":{
+      ajax:{
        url: '{{ route('datatable/getdata') }}',
        method: 'GET'
       },
@@ -152,7 +154,6 @@ $(document).ready(function(){
         {data: 'created_at', name: 'created_at'},
         {data: 'action', name: 'action', orderable: false, searchable: false},
       ],
-      order: [[0, 'asc']],
       initComplete: function () {
             this.api().columns().every(function () {
                 var column = this;
