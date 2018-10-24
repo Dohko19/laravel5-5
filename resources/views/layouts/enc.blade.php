@@ -19,7 +19,6 @@
    <nav class="navbar fixed-top navbar-light bg-light"> 
           <img src="/images/logo_solexvintel.png">
   </nav> 
-<hr>
 <div class="container">
 @if ($errors->any())
     <div class="alert alert-danger">

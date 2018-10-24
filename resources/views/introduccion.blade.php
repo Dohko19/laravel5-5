@@ -1,15 +1,16 @@
 @extends('layouts.enc')
 @section('content')
-<div class="container">
-	<div class="col-5-xs-md-offset-6">
+<div class="container-fluid">	
+<div class="row">
+	
+	
+	<div class="col-lg-10-xs-4-md-8-sm-10 col-lg-offset-2">
 		<div class="col-9">
 				
 					<hr>
 					<strong><b>
-					
 					<h3 class="">
-						<div class="container">
-							<div class="row">
+						
 								<div class="panel panel-default">
 									<div class="panel-heading panel-default"><h1>Bienvenido al test de los Tipos de Pensamiento</h1></div>
 								<div class="panel-body"><p align="justify">
@@ -33,5 +34,6 @@
 				</div>
 		</div>
 	</div>
-
+</div>
+</div>
 @endsection

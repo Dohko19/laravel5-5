@@ -18,7 +18,8 @@ class Respuestas extends Model
     	'respuesta3',
     	'respuesta4',
     	'respuesta5',
-    	'id_preguntas'
+    	'id_preguntas',
+        'id_usu'
     ];
 
     public function encuesta()

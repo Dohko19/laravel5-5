@@ -23,7 +23,7 @@
 				<h1 class="panel-title">Acceso al Test</h1>
 			</div>
 			<div class="panel-body">
-				<form method="POST" action="{{URL::action('UsuariosController@store') }}" enctype="multipart/form-data">
+				<form method="POST" action="{{URL::action('UsuariosController@store') }}" enctype="multipart/form-data" >
 					<input type="hidden" name="_token" value="{!! csrf_token() !!}">
 					<div class="form-group {{ $errors->has('nombre') ? 'has-error' : '' }}">
 						<label class="mr-sm-2" form="nombre">Nombre: </label>
