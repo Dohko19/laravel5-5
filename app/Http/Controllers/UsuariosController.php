@@ -577,6 +577,7 @@ class UsuariosController extends Controller
         $usuario->escolaridad = $request->get('escolaridad');
         $usuario->edad = $request->get('edad');
         $usuario->photo = $name;
+        // $usuario->ocupacion_puesto = $request->get()
 
         $email=$usuario->email;
         $existe = Usuario::where('email',$email)->exists();

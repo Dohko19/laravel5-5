@@ -123,7 +123,7 @@
 			<center><button id="downloadBtn" class="btn btn-outline-danger">Descargar PDF</button></center>
 		@endforeach
 		</div>
-		<!--Siguiente navs pesta{as-->
+		<!--Siguiente navs pestañas-->
 	</div>
 	<br>
 	<div class="col-lg-10 col-lg-offset-1">
