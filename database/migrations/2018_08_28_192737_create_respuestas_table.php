@@ -22,6 +22,7 @@ class CreateRespuestasTable extends Migration
             $table->string('respuesta5');
             $table->integer('id_preguntas')->unsigned();
             $table->foreign('id_preguntas')->references('id_preguntas')->on('preguntas');
+            $table->integer('id_usu');
             $table->timestamps();
         });
     }

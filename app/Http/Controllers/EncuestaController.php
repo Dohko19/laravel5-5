@@ -28,6 +28,7 @@ class EncuestaController extends Controller
         $respuesta->respuesta4 = $request->get('4a');
         $respuesta->respuesta5 = $request->get('5a');
         $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id;
         //validacion
 
         $p1 = (int)$request->get('1a');
@@ -80,7 +81,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3b');
         $respuesta->respuesta4 = $request->get('4b');
         $respuesta->respuesta5 = $request->get('5b');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
        
 
         $p1 = (int)$request->get('1b');
@@ -136,7 +138,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3c');
         $respuesta->respuesta4 = $request->get('4c');
         $respuesta->respuesta5 = $request->get('5c');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         
         $p1 = (int)$request->get('1c');
         $p2 = (int)$request->get('2c');
@@ -190,7 +193,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3d');
         $respuesta->respuesta4 = $request->get('4d');
         $respuesta->respuesta5 = $request->get('5d');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
 
         $p1 = (int)$request->get('1d');
         $p2 = (int)$request->get('2d');
@@ -244,7 +248,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3e');
         $respuesta->respuesta4 = $request->get('4e');
         $respuesta->respuesta5 = $request->get('5e');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
 
         $p1 = (int)$request->get('1e');
         $p2 = (int)$request->get('2e');
@@ -297,7 +302,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3f');
         $respuesta->respuesta4 = $request->get('4f');
         $respuesta->respuesta5 = $request->get('5f');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
 
         $p1 = (int)$request->get('1f');
         $p2 = (int)$request->get('2f');
@@ -350,7 +356,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3g');
         $respuesta->respuesta4 = $request->get('4g');
         $respuesta->respuesta5 = $request->get('5g');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1g');
         $p2 = (int)$request->get('2g');
         $p3 = (int)$request->get('3g');
@@ -404,7 +411,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3h');
         $respuesta->respuesta4 = $request->get('4h');
         $respuesta->respuesta5 = $request->get('5h');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1h');
         $p2 = (int)$request->get('2h');
         $p3 = (int)$request->get('3h');
@@ -457,7 +465,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3i');
         $respuesta->respuesta4 = $request->get('4i');
         $respuesta->respuesta5 = $request->get('5i');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1i');
         $p2 = (int)$request->get('2i');
         $p3 = (int)$request->get('3i');
@@ -510,7 +519,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3j');
         $respuesta->respuesta4 = $request->get('4j');
         $respuesta->respuesta5 = $request->get('5j');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1j');
         $p2 = (int)$request->get('2j');
         $p3 = (int)$request->get('3j');
@@ -563,7 +573,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3k');
         $respuesta->respuesta4 = $request->get('4k');
         $respuesta->respuesta5 = $request->get('5k');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1k');
         $p2 = (int)$request->get('2k');
         $p3 = (int)$request->get('3k');
@@ -616,7 +627,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3l');
         $respuesta->respuesta4 = $request->get('4l');
         $respuesta->respuesta5 = $request->get('5l');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1l');
         $p2 = (int)$request->get('2l');
         $p3 = (int)$request->get('3l');
@@ -669,7 +681,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3m');
         $respuesta->respuesta4 = $request->get('4m');
         $respuesta->respuesta5 = $request->get('5m');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1m');
         $p2 = (int)$request->get('2m');
         $p3 = (int)$request->get('3m');
@@ -722,7 +735,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3n');
         $respuesta->respuesta4 = $request->get('4n');
         $respuesta->respuesta5 = $request->get('5n');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1n');
         $p2 = (int)$request->get('2n');
         $p3 = (int)$request->get('3n');
@@ -775,7 +789,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3o');
         $respuesta->respuesta4 = $request->get('4o');
         $respuesta->respuesta5 = $request->get('5o');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1o');
         $p2 = (int)$request->get('2o');
         $p3 = (int)$request->get('3o');
@@ -828,7 +843,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3p');
         $respuesta->respuesta4 = $request->get('4p');
         $respuesta->respuesta5 = $request->get('5p');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1p');
         $p2 = (int)$request->get('2p');
         $p3 = (int)$request->get('3p');
@@ -881,7 +897,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3q');
         $respuesta->respuesta4 = $request->get('4q');
         $respuesta->respuesta5 = $request->get('5q');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1q');
         $p2 = (int)$request->get('2q');
         $p3 = (int)$request->get('3q');
@@ -934,7 +951,8 @@ class EncuestaController extends Controller
         $respuesta->respuesta3 = $request->get('3r');
         $respuesta->respuesta4 = $request->get('4r');
         $respuesta->respuesta5 = $request->get('5r');
-        $respuesta->id_preguntas = $encuesta->id_preguntas; 
+        $respuesta->id_preguntas = $encuesta->id_preguntas;
+        $respuesta->id_usu = $id; 
         $p1 = (int)$request->get('1r');
         $p2 = (int)$request->get('2r');
         $p3 = (int)$request->get('3r');

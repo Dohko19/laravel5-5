@@ -14,6 +14,7 @@
     {{ Html::style('/css/jquery.dataTables.min.css') }}
     {{ Html::style('/css/all.css') }}
     {{ Html::style('/css/buttons.dataTables.min.css') }}
+    {{ Html::style('/css/dropzone.min.css') }}
 	  <title> Tipos de Pensamiento - SolexVintel</title>
 </head>
 <header>
@@ -94,6 +95,7 @@
     {{ Html::script('js/Chart.min.js') }}
     {{ Html::script('js/Chart.bundle.min.js') }}
     {{ Html::script('https://unpkg.com/jspdf@latest/dist/jspdf.min.js') }}
+    {{ Html::script('js/dropzone.js') }}
     <script src="{{ asset('js/dataTables.buttons.min.js') }}"></script> 
     <script src="{{ asset('js/buttons.html5.min.js') }}"></script>
     <script src="{{ asset('js/buttons.print.min.js') }}"></script>

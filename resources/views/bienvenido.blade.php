@@ -23,10 +23,10 @@
 				<h1 class="panel-title">Acceso al Test</h1>
 			</div>
 			<div class="panel-body">
-				<form method="POST" action="{{URL::action('UsuariosController@store') }}" enctype="multipart/form-data">
+				<form method="POST" action="{{URL::action('UsuariosController@store') }}" enctype="multipart/form-data" >
 					<input type="hidden" name="_token" value="{!! csrf_token() !!}">
 					<div class="form-group {{ $errors->has('nombre') ? 'has-error' : '' }}">
-						<label class="mr-sm-2" form="nombre">Nombre: </label>
+						<label class="mr-sm-2" form="nombre">Nombre/Iniciales/Seudonimo: </label>
 						<input class="form-control mb-2 mr-sm-2 " 
 								type="text"
 								name="nombre"
@@ -69,8 +69,18 @@
 								onkeyup="mayus(this);"
 								placeholder="Escolaridad"
 								value="{{ old('escolaridad') }}">
-					</div><br>
-
+					</div>
+					<div class="form-group {{ $errors->has('edad') ? 'has-error' : '' }}">
+						<label form="ocupacion">Ocupacion:</label>
+						<input type="text" name="ocupacion"
+								name="ocupacion"
+								class="form-control mb-2 mr-sm-2" 
+								placeholder="Estudiate/Empleado...etc..."
+								onkeyup="mayus(this)"
+								value="{{ old('ocupacion')}}">
+					</div>
+					<br>
+{{-- Empresa/Escuela --}}
 						<div class="form-group {{ $errors->has('photo') ? 'has-error' : '' }}">
 						<label form="photo">Foto: </label>
 						<input class="form-control-file" type="file" name="photo" value="{{ old('photo') }}"><br>

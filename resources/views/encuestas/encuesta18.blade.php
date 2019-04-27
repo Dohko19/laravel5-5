@@ -14,7 +14,10 @@
     </div><br />
 @endif
 <div class="row">
+
 	<div class="col-md-8-sm-6-xs col-md-offset-2-xs-sm-6">
+	<div class="col-md-8-sm-6-xs-responsive col-md-offset-2-xs-sm-6">
+
 		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h1 class="panel-title"><center>Tipos de pensamiento</center></h1><strong style="text-align: right;"><b>Pregunta 18/18</b></strong><br>

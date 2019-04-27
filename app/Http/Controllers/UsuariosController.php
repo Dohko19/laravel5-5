@@ -46,12 +46,10 @@ class UsuariosController extends Controller
 
     public function verRes(Request $request, $id)
     {
-       // if(!$request->ajax()) return redirect('/');
-         $usuario = Usuario::paginate(10);
-         $usuario = Usuario::find($id);
-         $usuario = DB::table('usuario')
-         ->where('id_usu','=',$id)->get();
-         $pregunta = DB::table('preguntas')->get();
+        $usuario = Usuario::find($id);
+        $usuario = DB::table('usuario')
+        ->where('id_usu','=',$id)->get();
+        $pregunta = DB::table('preguntas')->get();
         $respuesta = DB::table('respuestas')->get();
         //Se consulta cada respuesta con funcion al ID del usuario
         $s1 = DB::table('preguntas as p')
@@ -579,6 +577,7 @@ class UsuariosController extends Controller
         $usuario->escolaridad = $request->get('escolaridad');
         $usuario->edad = $request->get('edad');
         $usuario->photo = $name;
+        // $usuario->ocupacion_puesto = $request->get()
 
         $email=$usuario->email;
         $existe = Usuario::where('email',$email)->exists();
@@ -611,7 +610,7 @@ class UsuariosController extends Controller
          ->where('id_usu','=',$request->get('id'))->get();
 
         $usuario = Usuario::findOrFail($email[0]->id_usu);
-        $usuario = Usuario::find($request->get('id'));
+        $usuario = Usuario::findOrFail($request->get('id'));
         $pregunta = DB::table('preguntas')->get();
         $respuesta = DB::table('respuestas')->get();
         //--------------------------------------------------------------------
