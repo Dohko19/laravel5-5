@@ -141,7 +141,7 @@ $(document).ready(function(){
        url: '{{ route('datatable/getdata') }}',
        method: 'GET'
       },
-      "columns":[ 
+      columns:[ 
         {data: 'id_usu', name: 'id_usu'}, 
         {data: 'nombre', name: 'nombre'},
         {data: 'email', name: 'email'},
