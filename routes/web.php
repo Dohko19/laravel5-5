@@ -44,3 +44,7 @@ Route::get('datatable/getres', 'DataTablesController@getRes')->name('datatable/g
 //Excel data
 Route::get('excel', 'ExcelExportData@export')->name('csv');
 Route::get('pragexcel', 'ExcelExportData@pragexport')->name('exprag');
+
+//--------PDP ENCUESTAS CATEL------//
+
+Route::resource('catel', 'CatelController');

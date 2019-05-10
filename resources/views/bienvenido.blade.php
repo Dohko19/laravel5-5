@@ -37,7 +37,7 @@
 					</div>
 					<div class="form-group {{ $errors->has('email') ? 'has-error' : '' }} ">
 						<label class="mr-sm-2" form="email">Email: </label>
-						<input class="form-control mb-2 mr-sm-2"" 
+						<input class="form-control mb-2 mr-sm-2"
 								type="email"
 								name="email"
 								placeholder="Ingresa tu Email"
@@ -47,7 +47,7 @@
 					
 					<div class="form-inline {{ $errors->has('edad') ? 'has-error' : '' }} ">
 						<label class="mr-sm-2" form="edad">Edad: </label>
-						<input class="form-control mb-2 mr-sm-2" " 
+						<input class="form-control mb-2 mr-sm-2" 
 								type="text"
 								name="edad"
 								placeholder="Edad"
@@ -55,7 +55,7 @@
 								value="{{ old('edad') }}">
 								<br>
 								<label class="mr-sm-2"s form="sexo">Sexo: </label>
-						<input class="form-control mb-2 mr-sm-2"" 
+						<input class="form-control mb-2 mr-sm-2"
 								type="text"
 								name="sexo"
 								onkeyup="mayus(this);"
@@ -63,7 +63,7 @@
 								value="{{ old('sexo') }}">
 
 								<label class="mr-sm-2" form="escolaridad">Escolaridad: </label>
-						<input class="form-control mb-2 mr-sm-2"" 
+						<input class="form-control mb-2 mr-sm-2"
 								type="text"
 								name="escolaridad"
 								onkeyup="mayus(this);"

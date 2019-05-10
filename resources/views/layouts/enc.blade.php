@@ -14,6 +14,34 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style type="text/css">
+        html {
+         height: 100%;
+    }
+    body {
+       
+        height: 100%;
+        margin-top: 0px;
+    }
+    #contenedor {
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+      
+  .modal-header, h4, .close {
+    background-color: #38E3F1;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+  
+    </style>
 </head>
 <body>
    <nav class="navbar fixed-top navbar-light bg-light"> 
