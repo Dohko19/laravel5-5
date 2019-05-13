@@ -15,9 +15,16 @@ class CatelController extends Controller
     	return view('catel.index');
     }
 
-    public function store(Rquest $request)
+    // public function store(Rquest $request)
+    // {
+    // }
+    public function index2()
     {
-    	$correo = Emailuser::create($request->all());
-    	return redirect()->route('catel.test');
+    	return view('catel.index2');
+    }
+
+    public function avisoprivacidad()
+    {
+    	return view('catel.avisoprivacidad');
     }
 }

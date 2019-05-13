@@ -21,7 +21,7 @@
   min-height: 10;
   max-height: 10;
   overflow-y: scroll;
-}
+					}
   .input-solex {
     background-color: #FFFFCC;
     border: 2px dashed #808000;
@@ -29,7 +29,7 @@
     width: 230px;
 
 
-}
+				}
     </style>
 </head>
 	<title>Encuesta de Catel</title>

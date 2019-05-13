@@ -9,7 +9,7 @@
 	<div class="panel-heading">
 		<center><h3>Introducción PDP</h3></center>
 		</div>
-			<div class="panel-body fixed-panel" style="min-height: 20; max-height: 25;">
+			<div class="panel-body" >
 		<p>PDP es una plataforma digital encargada de medir rasgos de personalidad específicos bajo un enfoque NOVEDOSO y con una propuesta amigable e interactiva , ya que desde la comodidad de un ordenador, computadora, Tablet o celular podrás hacer el llenado de un cuestionario digital de opción múltiple que consta de 185 reactivos o preguntas clave con un lenguaje fácilmente comprensible, es en suma un cuestionario bien organizado, escrito con claridad y de fácil llenado (opción múltiple ), las preguntas reflejan problemas comunes y tendencias prácticas. Cabe señalar que no existen respuestas Negativas, todas son válidas.</p>
 
 		<p>Cada uno de nosotros tiene su propia forma de ser. Observamos el mundo de determinada manera, nos relacionamos con los demás de formas concretas y, en general, expresamos una tendencia a hacer determinadas cosas y a responder de maneras más o menos estables. Dicho de otra manera, y aunque suene redundante, cada persona tiene su propia personalidad.</p>
@@ -20,8 +20,10 @@
 
 		<p>EL informe interpretativo no ofrece necesariamente un retrato completo de la personalidad del sujeto; El informe se refiere a un tema específico dentro de un contexto también específico.</p>
 		
-		<p><h3><b>Direccion de Correo Electronico</b><span style="color:red; ">*</span></p></h3>
-		<form method="POST" action="{{ route('catel.store') }}">
+		<a href="{{ route('index2') }}" class="btn btn-primary">Siguiente</a>
+
+		{{-- <p><h3><b>Direccion de Correo Electronico</b><span style="color:red; ">*</span></p></h3> --}}
+		{{-- <form method="POST" action="{{ route('catel.store') }}">
 		<div class="form-group {{ $errors->has('correo') ? 'has-error' : '' }}">
 						
 						<input class="form-control mb-2 mr-sm-2 " 
@@ -34,7 +36,8 @@
 
 					</div>
 					<button class="btn btn-primary">Siguiente</button>
-		</form>
+		</form> --}}
+
 				</div>
 		</div>
 	</div>
