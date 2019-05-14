@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Emailuser;
-use App\Usuario;
+use App\UsersCatel;
 
 class CatelController extends Controller
 {
@@ -26,5 +26,15 @@ class CatelController extends Controller
     public function avisoprivacidad()
     {
     	return view('catel.avisoprivacidad');
+    }
+
+    public function registro()
+    {
+    	return view('catel.registro');
+    }
+    public function store(Request $request)
+    {
+    	$user = UsersCatel::create($request->all());
+    	dd($user);
     }
 }

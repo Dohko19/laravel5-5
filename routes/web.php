@@ -50,3 +50,4 @@ Route::get('pragexcel', 'ExcelExportData@pragexport')->name('exprag');
 Route::resource('catel', 'CatelController');
 Route::get('introduccionPDP', 'CatelController@index2')->name("index2");
 Route::get('introduccionPDP/Aviso_de_Privacidad', 'CatelController@avisoprivacidad')->name("avisoprivacidad");
+Route::get('introduccionPDP/Registro', 'CatelController@registro')->name("registro");

@@ -6,8 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 //use Illuminate\Database\Eloquent\SoftDeletes;
 use App\Respuestas;
 use App\Encuesta; 
-use App\EmailUser;  
-
+ 
 class Usuario extends Model
 {
 	//use SoftDeletes;
@@ -30,9 +29,5 @@ class Usuario extends Model
      public function resultados()
      {
          return $this->hasMany(Respuestas::class);
-     }
-     public function emailuser()
-     {
-         return $this->hasOne(EmailUser::class);
      }
 }
