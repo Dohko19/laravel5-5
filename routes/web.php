@@ -4,7 +4,7 @@
 // 'email' => 'solexvintel@encuesta.com',
 // 'password' => bcrypt('Solex2018'),
 // ]);
- 
+
 //Solex2018
 Route::get('registro', 'UsuariosController@b')->name('registro');
 Route::get('/', 'UsuariosController@index')->name('inicio');
@@ -32,7 +32,7 @@ Route::post('/ResultadosUsuario/{id}','UsuariosController@verRes');
 Route::get('/ResultadosUsuario/{id}','UsuariosController@verRes')->name('VerResultado');
 Route::resource('encuesta','UsuariosController');
 Route::get('login', 'Auth\LoginController@showloginForm')->name('login');
-Route::post('login', 'Auth\LoginController@login')->name('login'); 
+Route::post('login', 'Auth\LoginController@login')->name('login');
 Route::get('logout', 'Auth\LoginController@logout');
 Route::post('Fin','UsuariosController@email')->name('email');
 
@@ -48,6 +48,7 @@ Route::get('pragexcel', 'ExcelExportData@pragexport')->name('exprag');
 //--------PDP ENCUESTAS CATEL------//
 
 Route::resource('catel', 'CatelController');
-Route::get('introduccionPDP', 'CatelController@index2')->name("index2");
-Route::get('introduccionPDP/Aviso_de_Privacidad', 'CatelController@avisoprivacidad')->name("avisoprivacidad");
-Route::get('introduccionPDP/Registro', 'CatelController@registro')->name("registro");
+Route::get('introduccion_PDP', 'CatelController@index2')->name("index2");
+Route::get('Aviso_de_Privacidad', 'CatelController@avisoprivacidad')->name("avisoprivacidad");
+Route::get('Registro', 'CatelController@registro')->name("registro");
+Route::resource('CatelFoto', 'ImagenCatelController');

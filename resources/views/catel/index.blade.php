@@ -2,9 +2,9 @@
 @section('content')
 <div class="container-fluid">
 <div class="row">
-	<div class="col-xs-6 col-sm-3">
+	<div class="col-xs-6 col-sm-2">
 	</div>
-		<div class="col-xs-6 col-sm-6">
+		<div class="col-xs-8 col-sm-8">
 <div class="panel panel-primary">
 	<div class="panel-heading">
 		<center><h3>Introducción PDP</h3></center>
@@ -19,14 +19,14 @@
 		<p>La participación tuya en el llenado de este cuestionario te permitirá conocer un INFORME INTERPRETATIVO de manera científica y más profunda tu perfil de personalidad, con ello conocerás tus áreas de fortaleza y potencializaras tus áreas de oportunidad en diferentes campos de aplicación tanto personal como profesional.</p>
 
 		<p>EL informe interpretativo no ofrece necesariamente un retrato completo de la personalidad del sujeto; El informe se refiere a un tema específico dentro de un contexto también específico.</p>
-		
+
 		<a href="{{ route('index2') }}" class="btn btn-primary">Siguiente</a>
 
 		{{-- <p><h3><b>Direccion de Correo Electronico</b><span style="color:red; ">*</span></p></h3> --}}
 		{{-- <form method="POST" action="{{ route('catel.store') }}">
 		<div class="form-group {{ $errors->has('correo') ? 'has-error' : '' }}">
-						
-						<input class="form-control mb-2 mr-sm-2 " 
+
+						<input class="form-control mb-2 mr-sm-2 "
 								type="text"
 								name="correo"
 								onkeyup="mayus(this);"

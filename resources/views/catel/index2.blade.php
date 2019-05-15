@@ -2,14 +2,14 @@
 @section('content')
 <div class="container-fluid">
 <div class="row">
-	<div class="col-xs-6 col-sm-3">
+	<div class="col-xs-6 col-sm-2">
 	</div>
-		<div class="col-xs-6 col-sm-6">
+		<div class="col-xs-8 col-sm-8">
 <div class="panel panel-primary">
 	<div class="panel-heading">
 		<center><h3>Introducción PDP</h3></center>
 		</div>
-			<div class="panel-body fixed-panel" style="min-height: 20; max-height: 25;">
+			<div class="panel-body">
 
 			<div class="alert alert-primary" role="alert">
 			  <center><b><h3>Consentimiento Informado</h3></b></center>
@@ -22,6 +22,7 @@
 			<p>En este estudio, no se contempla ningún tipo de efecto negativo como resultado de su participación. </p>
 			<p>Si tiene alguna duda y/o pregunta acerca del estudio, puede contactar al Lic. Rubén de la Rosa Serrano, <b><a href="#">rubeneconomia@hotmail.com</a></b></p>
 			<p>En caso de dar su consentimiento, favor de aceptar dando "click" en SIGUIENTE y continuar con el cuestionario.</p>
+
 			<p><a class="btn btn-danger" href="{{ route('catel.index') }}">Atras</a>
 				<a class="btn btn-primary" href="{{ route('avisoprivacidad') }}">Siguiente</a></p>
 				</div>

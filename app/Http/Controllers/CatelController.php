@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Emailuser;
 use App\UsersCatel;
+use Illuminate\Support\Facades\DB;
 
 class CatelController extends Controller
 {
@@ -35,6 +36,15 @@ class CatelController extends Controller
     public function store(Request $request)
     {
     	$user = UsersCatel::create($request->all());
-    	dd($user);
+    	$id = DB::getPdo()->lastInsertId();
+
+
+
+    	return view('catel.foto', ['id'=>$id]);
+    }
+
+    public function update(Request $request, $id)
+    {
+        //
     }
 }

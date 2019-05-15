@@ -18,26 +18,20 @@
 
     <style>
     	.fixed-panel {
-  min-height: 10;
-  max-height: 10;
+height: 100px;
   overflow-y: scroll;
 					}
-  .input-solex {
-    background-color: #FFFFCC;
-    border: 2px dashed #808000;
-    border-left: 4px solid #808000;
-    width: 230px;
-
-
-				}
     </style>
 </head>
 	<title>Encuesta de Catel</title>
+
 <body>
-	<header></header>
 	<div class="container">
 	@yield('content')
 	<hr>
 	</div>
+     <footer>Copyright© {{ date('Y') }} Trejo Rojas Daniel Arturo - <a onclick="alert('Autor: Trejo Rojas Daniel Arturo para solexvintel, Esto es una BETA')" href="#">Beta v0.1</a>
+     </footer>
 </body>
+
 </html>

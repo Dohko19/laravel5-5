@@ -1,19 +1,9 @@
 @extends('layouts.catellay')
 @section('content')
-<div class="container-fluid">
-	@if ($errors->any())
-    <div class="alert alert-danger	">
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li><b>{{ $error }}</b></li>
-            @endforeach
-        </ul>
-    </div><br />
-@endif
 <div class="row">
-	<div class="col-xs-6 col-sm-3">
+	<div class="col-xs-6 col-sm-2">
 	</div>
-		<div class="col-xs-6 col-sm-6">
+		<div class="col-xs-8 col-sm-8">
 <div class="panel panel-primary">
 	<div class="panel-heading">
 		<center><h3>Introducción PDP</h3></center>
@@ -36,68 +26,93 @@
 			</div>
 			<form action="{{ route('catel.store') }}" method="POST">
 				{!! csrf_field() !!}
+				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('nombre') ? 'has-error' : '' }}">
 				<p><label for="name">
-					Nombre:
-					<input placeholder="Tu respuesta" type="text" name="name" class="form-control" value="{{ $user->nombre ?? old('name') }}">
+					Nombre:</label>
+					<input placeholder="Tu respuesta"
+							 type="text"
+							 name="name"
+							 class="form-control"
+							 value="{{ $user->nombre ?? old('name') }}">
 					{!! $errors->first('name', '<span class=error>:message</span>') !!}
 				</label></p>
+				</div>
 
+				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('email') ? 'has-error' : '' }}">
 				<p><label for="email">
-					Email:
-					<input placeholder="Tu respuesta" type="text" name="email" class="form-control" value="{{ $user->email ?? old('email') }}" required>
+					Email:</label>
+					<input placeholder="Tu respuesta" type="email" name="email" class="form-control" value="{{ $user->email ?? old('email') }}" required>
 					{!! $errors->first('email', '<span class=error>:message</span>') !!}
-				</label></p>
+				</p>
+				</div>
 
+				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('telefono') ? 'has-error' : '' }}">
 				<p><label for="telefono">
-					Numero telefonico de Contacto <span style="color: red;">*</span>:
+					Numero telefonico de Contacto <span style="color: red;">*</span>:</label>
 					<input placeholder="Tu respuesta" type="text" name="telefono" class="form-control" value="{{ $user->telefono ?? old('telefono') }}" required>
 					{!! $errors->first('telefono', '<span class=error>:message</span>') !!}
-				</label></p>
+				</p>
+				</div>
 
+				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('edad') ? 'has-error' : '' }}">
 				<p><label for="edad">
-					Edad:
+					Edad:</label>
 					<input placeholder="Tu respuesta" type="text" name="edad" class="form-control" value="{{ $user->edad ?? old('edad') }}">
 					{!! $errors->first('edad', '<span class=error>:message</span>') !!}
-				</label></p>
-				
+				</p>
+				</div>
+
+				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('gradoe') ? 'has-error' : '' }}">
 				<p><label for="gradoe">
-					Grado Educativo:
+					Grado Educativo:</label>
 					<input placeholder="Tu respuesta" type="text" name="gradoe" class="form-control" value="{{ $user->gradoe ?? old('gradoe') }}">
 					{!! $errors->first('gradoe', '<span class=error>:message</span>') !!}
-				</label></p>
+				</p>
+				</div>
 
+				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('puestotrabajo') ? 'has-error' : '' }}">
 				<p><label for="puestotrabajo">
-					Ocupación o puesto de trabajo<span style="color: red;">*</span>:
+					Ocupación o puesto de trabajo<span style="color: red;">*</span>:</label>
 					<input placeholder="Tu respuesta" type="text" name="puestotrabajo" class="form-control" value="{{ $user->puestotrabajo ?? old('puestotrabajo') }}" required>
 					{!! $errors->first('puestotrabajo', '<span class=error>:message</span>') !!}
-				</label></p>
+				</p>
+				</div>
 
+				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('sexo') ? 'has-error' : '' }}">
 				<p><label for="sexo">
-					Sexo:
+					Sexo:</label>
 					<input placeholder="Tu respuesta" type="text" name="sexo" class="form-control" value="{{ $user->sexo ?? old('sexo') }}">
 					{!! $errors->first('sexo', '<span class=error>:message</span>') !!}
-				</label></p>
-	
+				</p>
+
+				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('empesc') ? 'has-error' : '' }}">
 				<p><label for="empesc">
-					Nombre de la Empresa o Escuela <span style="color: red;">*</span>:
+					Nombre de la Empresa o Escuela <span style="color: red;">*</span>:</label>
 					<input placeholder="Tu respuesta" type="text" name="empesc" class="form-control" value="{{ $user->empesc ?? old('empesc') }}" required>
 					{!! $errors->first('empesc', '<span class=error>:message</span>') !!}
-				</label></p>
+				</p>
+				</div>
 
-				<p><label for="estadocivil">
+				<div class="form-group {{ $errors->has('estadocivil') ? 'has-error' : '' }}">
+				<label for="estadocivil">
 					Estado Civil:
+					</label>
 					<input placeholder="Tu respuesta" type="text" name="estadocivil" class="form-control" value="{{ $user->estadocivil ?? old('estadocivil') }}">
 					{!! $errors->first('estadocivil', '<span class=error>:message</span>') !!}
-				</label></p>
+
+			</div>
 				<br>
 				<button class="btn btn-primary">Enviar</button>
+
+
+				 <div class="form-group">
 			</form>
 		</div>
 			</div></div></div></div>
 		</div>
 	</div>
 	<div class="col-xs-6 col-sm-3">
-	
+
 </div>
 </div>
 </div>

@@ -2,14 +2,14 @@
 @section('content')
 <div class="container-fluid">
 <div class="row">
-	<div class="col-xs-6 col-sm-3">
+	<div class="col-xs-6 col-sm-2">
 	</div>
-		<div class="col-xs-6 col-sm-6">
+		<div class="col-xs-8 col-sm-8">
 <div class="panel panel-primary">
 	<div class="panel-heading">
 		<center><h3>Introducción PDP</h3></center>
 		</div>
-			<div class="panel-body fixed-panel" style="min-height: 20; max-height: 25;">
+			<div class="panel-body" style="min-height: 20; max-height: 25;">
 
 			<div class="alert alert-primary" role="alert">
 			  <center><b><h3>Aviso de Privacidad</h3></b></center>
@@ -28,9 +28,9 @@
 
 				<p>DATOS PERSONALES RECABADOS </p>
 
-				<p>Para las finalidades antes señaladas, se solicitarán los siguientes datos personales: 
+				<p>Para las finalidades antes señaladas, se solicitarán los siguientes datos personales:
 				Mail, edad, sexo, puesto/grado escolar, empresa/escuela.
-				El mail se utilizara únicamente para el envió del resultado. 
+				El mail se utilizara únicamente para el envió del resultado.
 				El nombre no es necesario, esta prueba es completamente anónima, en el sentido de que no se busca conocer la identidad del participante. En caso de optar por brindar su nombre, puede poner sus iniciales o bien, un seudónimo que usted identifique como propio.</p>
 
 				<p>Adicionalmente, se recabara su fotografía con ciertas especificaciones técnicas, la cual es indispensable para esta validación.  Su uso sera única y exclusivamente para la obtención de datos morfométricos, necesarios en la plataforma. La fotografía no quedará asociada con los datos proporcionados, ésta sera borrada del sistema al quedar validadas las características generales del grupo.</p>
@@ -47,7 +47,7 @@
 			<a href="{{route('index2')}}" class="btn btn-danger">Atras</a>
 				<a class="btn btn-primary" href="{{ route('registro') }}">Siguiente</a>
 			</div>
-			{{-- <div>	
+			{{-- <div>
 			<div class="progress" style="height: 10px;">
 			  <div class="progress-bar progress-bar-striped progress-bar-animated col-xs-6" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
 			</div>
@@ -60,6 +60,6 @@
 </div>
 <footer>
 <div style="align-content: right;">
-		
+
 </div></footer>
 @endsection
