@@ -22,7 +22,7 @@
 			<div class="panel-body">
 				<h2 class="panel-body">Haz Completado el Test</h2>
 				<h2>Muchas Gracias por tu participacion, por favor da click en el siguiente boton para terminar. <center>
-					<a href="{{ route('CatelEncuesta.index') }}" class="btn btn-info">Terminar</a>
+					<a type="submit" href="{{ route('CatelEncuesta.index') }}" class="btn btn-info">Terminar</a>
 
 
 			</center>
@@ -30,10 +30,10 @@
 		</div>
 	</div>
 </div>
-				
+
 			</div>
 			<div class="col">
-				
+
 			</div>
 		</div>
 @endsection

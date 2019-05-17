@@ -49,7 +49,7 @@
 						<label form="photo">Foto: </label>
 						<input class="form-control-file" type="file" name="photo" id="photo" value="{{ old('photo') }}" required><br>
 					</div>
-					<button class="btn btn-primary">Siguiente</button>
+					<button type="submit" class="btn btn-primary">Siguiente</button>
 				</form>
 			</div>
 			</div></div></div></div>

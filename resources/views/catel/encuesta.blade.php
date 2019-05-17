@@ -2,6 +2,7 @@
 @section('content')
 <div class="row">
 	<div class="col-xs-6 col-sm-2">
+		<a id="myBtn" class='flotante' href='#' ><img src="/images/help.png" border="0" alt="Ayuda!" /></a>
 	</div>
 		<div class="col-xs-8 col-sm-8">
 <div class="panel panel-primary">
@@ -9,13 +10,13 @@
 		<center><h3>Cuestionario</h3></center>
 		</div>
 		<div class="panel-body">
-			<p>Total de preguntas a contestar 185, el tiempo promedio de llenado es de 30 a 45 minutos, son un total de 185 preguntas , para obtener un perfil real es necesario contestar todas las preguntas de manera sincera. Nota en cada pregunta en la Opciòn 2 esta un signo de "?" , señale esa opciòn cuando ninguna de las respuestas le parezca congruente con lo que usted piensa. </p>
+			<p>Total de preguntas a contestar 185, el tiempo promedio de llenado es de 30 a 45 minutos, son un total de 185 preguntas , para obtener un perfil real es necesario contestar todas las preguntas de manera sincera.</p><p> Nota en cada pregunta en la <b>Opciòn 2</b> esta un signo de <b>"?"</b> , señale esa opciòn cuando ninguna de las respuestas le parezca congruente con lo que usted piensa. </p>
 		<br>	<div>
 			<form method="POST" action="{{ route('CatelEncuesta.store') }}">
 			{!! csrf_field() !!}
 				<div>
 					<input type="hidden" name="id" value="{{ $id }}" readonly="readonly">
-					
+
 	<b><h3>1 En un negocio sería  más interesante encargase de</h3></b>
 		<input type="hidden" name="pregunta1" value="pregunta1">
 		<div class="input-group">
@@ -2793,8 +2794,8 @@
 		</div>
  </div>
 
-			</div> 
-			
+			</div>
+
 				<button class="btn btn-success btn-block">Terminar</button>
 			</div>
 			</div></div></div></div>
@@ -2809,4 +2810,64 @@
     </div>
   </div>
 </div>
+
+<!-- Modal -->
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+  	<div class="moda-header">
+
+   	  	<div class="alert alert-primary" role="alert">
+  			Instrucciones de Como contestar la Encuesta
+  			 <span class="close">&times;</span>
+	   	</div>
+</div>
+    <h3>
+    <p>A continuación encontrará unas frases que permitirán conocer sus actitudes e intereses
+	En general no existen respuestas "Buenas" ni "Malas"...</p>
+	Conteste con sinceridad; de esta forma se podrá conocer mejor su forma de ser
+	Cada frase contiene tres posibles respuestas (a, b, c); normalmente la alternativa " b " viene con una interrogante (?),
+	para ser señalada cuando no es posible decidirse entre la a y la b.
+	<p>Para responder emple la siguiente clave:
+	Si su respuesta es a, seleccione 1 en el recuadro superior
+	Si su respuesta es b, seleccione 2 en el recuadro del medio
+	Si su respuesta es c, seleccione 3 en el recuadro inferior
+	</p>
+	 <p>
+	NOTA: No medite su respuesta. Marque la primera que le venga a la mente.
+	Si tiene dudas, pregunte al examinador : Gabriela Mejido
+	El tiempo promedio de llenado es de 30 a 45 minutos, son un total de 185 preguntas , para obtener un perfil real es necesario contestar todas las preguntas de manera sincera. 	</p></h3>
+  </div>
+
+</div>
+
+<script>
+	// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 @endsection

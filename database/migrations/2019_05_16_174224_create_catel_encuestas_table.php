@@ -18,7 +18,6 @@ class CreateCatelEncuestasTable extends Migration
             $table->string('pregunta');
             $table->string('respuesta');
             $table->integer('id_foto')->unsigned();
-            $table->foreign('id_foto')->references('id_foto')->on('imagen_catels');
             $table->timestamps();
         });
     }

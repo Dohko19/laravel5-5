@@ -40,7 +40,7 @@
 
 				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('email') ? 'has-error' : '' }}">
 				<p><label for="email">
-					Email:</label>
+					Email:<span style="color: red;">*</span>:</label>
 					<input placeholder="Tu respuesta" type="email" name="email" class="form-control" value="{{ $user->email ?? old('email') }}" required>
 					{!! $errors->first('email', '<span class=error>:message</span>') !!}
 				</p>
@@ -49,7 +49,7 @@
 				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('telefono') ? 'has-error' : '' }}">
 				<p><label for="telefono">
 					Numero telefonico de Contacto <span style="color: red;">*</span>:</label>
-					<input placeholder="Tu respuesta" type="text" name="telefono" class="form-control" value="{{ $user->telefono ?? old('telefono') }}" required>
+					<input placeholder="Tu respuesta" type="text" name="telefono" class="form-control" value="{{ $user->telefono ?? old('telefono') }}" required  pattern="[0-9]+">
 					{!! $errors->first('telefono', '<span class=error>:message</span>') !!}
 				</p>
 				</div>
@@ -57,7 +57,7 @@
 				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('edad') ? 'has-error' : '' }}">
 				<p><label for="edad">
 					Edad:</label>
-					<input placeholder="Tu respuesta" type="text" name="edad" class="form-control" value="{{ $user->edad ?? old('edad') }}">
+					<input placeholder="Tu respuesta" type="text" name="edad" class="form-control" value="{{ $user->edad ?? old('edad') }}" pattern="[0-9]+">
 					{!! $errors->first('edad', '<span class=error>:message</span>') !!}
 				</p>
 				</div>
@@ -81,7 +81,7 @@
 				<div class="form-group mb-2 mr-sm-2 {{ $errors->has('sexo') ? 'has-error' : '' }}">
 				<p><label for="sexo">
 					Sexo:</label>
-					<input placeholder="Tu respuesta" type="text" name="sexo" class="form-control" value="{{ $user->sexo ?? old('sexo') }}">
+					<input placeholder="Tu respuesta" type="text" name="sexo" class="form-control" value="{{ $user->sexo ?? old('sexo') }}" pattern="[A-Za-z]+">
 					{!! $errors->first('sexo', '<span class=error>:message</span>') !!}
 				</p>
 
@@ -97,12 +97,12 @@
 				<label for="estadocivil">
 					Estado Civil:
 					</label>
-					<input placeholder="Tu respuesta" type="text" name="estadocivil" class="form-control" value="{{ $user->estadocivil ?? old('estadocivil') }}">
+					<input placeholder="Tu respuesta" type="text" name="estadocivil" class="form-control" value="{{ $user->estadocivil ?? old('estadocivil') }}" pattern="[A-Za-z]+">
 					{!! $errors->first('estadocivil', '<span class=error>:message</span>') !!}
 
 			</div>
 				<br>
-				<button class="btn btn-primary">Enviar</button>
+				<button type="submit" class="btn btn-primary">Enviar</button>
 
 
 				 <div class="form-group">
