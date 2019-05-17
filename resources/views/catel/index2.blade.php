@@ -31,5 +31,5 @@
 </div>
 
 </div>
-<footer>Paguina 2/8</footer>
+
 @endsection

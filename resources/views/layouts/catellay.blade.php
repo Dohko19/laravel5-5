@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="csrf-token" content="{{ csrf_token() }}">
+  <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,32 +17,32 @@
     {{ Html::style('/css/dropzone.min.css') }}
 
     <style>
-    	.fixed-panel {
+      .fixed-panel {
 height: 100px;
   overflow-y: scroll;
-					}
-    input:valid, textarea:valid {
-      /*background:green;*/
+          }
+    /*input:valid, textarea:valid {
+    background:green;
       font-size: 1.1em;
         background-color: white;
-        border: 3px solid #1ced22;
-        border-radius: 5px;
-    /*    padding: 8px;
-        width: 400px;*/
-        box-shadow: 0 0 1px #4f9;
+        border: 1px solid #1ced22;
+        border-radius: 1px;*/
+        /*padding: 8px;*/
+       /* width: 400px;*/
+        /*box-shadow: 0 0 1px #4f9;*/
 
-    }
-    input:invalid, textarea:invalid {
+    /*}*/
+    /*input:invalid, textarea:invalid {*/
       /*background:red;*/
-      font-size: 1.1em;
+      /*font-size: 1.1em;
         background-color: white;
-        border: 3px solid red;
-        border-radius: 5px;
-    /*    padding: 8px;
-        width: 400px;*/
-        box-shadow: 0 0 1px #4f9;
+        border: 1px solid red;
+        border-radius: 1px;*/
+      /*padding: 8px;*/
+       /* width: 400px;*/
+        /*box-shadow: 0 0 1px #4f9;*/
 
-    }
+    /*}*/
     .flotante {
         display:scroll;
             position:fixed;
@@ -88,13 +88,13 @@ height: 100px;
 }
     </style>
 </head>
-	<title>Encuesta de Catel</title>
+  <title>Encuesta de Catel</title>
 
 <body>
-	<div class="container">
-	@yield('content')
-	<hr>
-	</div>
+  <div class="container">
+  @yield('content')
+  <hr>
+  </div>
      <footer>Copyright© {{ date('Y') }} Trejo Rojas Daniel Arturo - <a onclick="alert('Autor: Trejo Rojas Daniel Arturo para solexvintel, Esto es una BETA')" href="#">Beta v0.1</a>
      </footer>
       <script src="//code.jquery.com/jquery.js"></script>

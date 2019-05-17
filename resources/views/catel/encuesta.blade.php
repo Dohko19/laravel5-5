@@ -21,13 +21,13 @@
 		<input type="hidden" name="pregunta1" value="pregunta1">
 		<div class="input-group">
 			 <div  class="form-check">
- 			 <input name="respuesta1" type="radio" aria-label="" value="A" required> 1.- Las máquinas o llevar registros
+ 			 <input name="respuesta1" type="radio" aria-label="" value="0" required> 1.- Las máquinas o llevar registros
 			 </div>
 			 <div  class="form-check">
- 			 <input name="respuesta1" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta1" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div  class="form-check">
- 			 <input name="respuesta1" type="radio" aria-label="" value="C"> 3.- Entrevistar y hablar con personas
+ 			 <input name="respuesta1" type="radio" aria-label="" value="2"> 3.- Entrevistar y hablar con personas
 			 </div>
 		</div>
  </div>
@@ -37,13 +37,13 @@
 	<input type="hidden" name="pregunta2" value="pregunta2">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta2" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta2" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta2" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta2" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta2" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta2" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -52,13 +52,13 @@
 	 <input type="hidden" name="pregunta3" value="pregunta3">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta3" type="radio" aria-label="" value="A" required> 1.- Se lo señalo
+ 			 <input name="respuesta3" type="radio" aria-label="" value="0" required> 1.- Se lo señalo
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta3" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta3" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta3" type="radio" aria-label="" value="C"> 3.- Lo paso por alto
+ 			 <input name="respuesta3" type="radio" aria-label="" value="2"> 3.- Lo paso por alto
 			 </div>
 		</div>
  </div><br>
@@ -67,13 +67,13 @@
 	 <input type="hidden" name="pregunta4" value="pregunta4">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta4" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta4" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta4" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta4" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta4" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta4" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -82,13 +82,13 @@
 	 <input type="hidden" name="pregunta5" value="pregunta5">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta5" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta5" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta5" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta5" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta5" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta5" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -97,13 +97,13 @@
 	 <input type="hidden" name="pregunta6"value="pregunta6">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta6" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta6" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta6" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta6" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta6" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta6" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -112,13 +112,13 @@
 	 <input type="hidden" name="pregunta7" value="pregunta7">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta7" type="radio" aria-label="" value="A" required> 1.- Una persona con capacidad de tipo medio, pero con  una moral estricta
+ 			 <input name="respuesta7" type="radio" aria-label="" value="0" required> 1.- Una persona con capacidad de tipo medio, pero con  una moral estricta
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta7" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta7" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta7" type="radio" aria-label="" value="C"> 3.- Una persona con talento, aunque a veces no sea responsable
+ 			 <input name="respuesta7" type="radio" aria-label="" value="2"> 3.- Una persona con talento, aunque a veces no sea responsable
 			 </div>
 		</div>
 </div><br>
@@ -127,13 +127,13 @@
 	 <input type="hidden" name="pregunta8" value="pregunta8">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta8" type="radio" aria-label="" value="A" required> 1.- ingeniero de la construcción
+ 			 <input name="respuesta8" type="radio" aria-label="" value="0" required> 1.- ingeniero de la construcción
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta8" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta8" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta8" type="radio" aria-label="" value="C"> 3.- Escritor  de teatro
+ 			 <input name="respuesta8" type="radio" aria-label="" value="2"> 3.- Escritor  de teatro
 			 </div>
 		</div>
  </div><br>
@@ -142,13 +142,13 @@
 	 <input type="hidden" name="pregunta9" value="pregunta9">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta9" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta9" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta9" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta9" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta9" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta9" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -157,13 +157,13 @@
 	 <input type="hidden" name="pregunta10" value="pregunta10">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta10" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta10" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta10" type="radio" aria-label="" value="B"> 2.-  ?
+ 			 <input name="respuesta10" type="radio" aria-label="" value="1"> 2.-  ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta10" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta10" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -172,13 +172,13 @@
 	 <input type="hidden" name="pregunta11" value="pregunta11">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta11" type="radio" aria-label="" value="A" required> 1.- Si
+ 			 <input name="respuesta11" type="radio" aria-label="" value="0" required> 1.- Si
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta11" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta11" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta11" type="radio" aria-label="" value="C"> 3.- No
+ 			 <input name="respuesta11" type="radio" aria-label="" value="2"> 3.- No
 			 </div>
 		</div>
  </div><br>
@@ -187,13 +187,13 @@
 	 <input type="hidden" name="pregunta12" value="pregunta12">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta12" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta12" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta12" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta12" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta12" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta12" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -202,13 +202,13 @@
 	 <input type="hidden" name="pregunta13" value="pregunta13">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta13" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta13" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta13" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta13" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta13" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta13" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div>
@@ -217,13 +217,13 @@
 	<input type="hidden" name="pregunta14" value="pregunta14">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta14" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta14" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta14" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta14" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta14" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta14" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -232,13 +232,13 @@
 	 <input type="hidden" name="pregunta15" value="pregunta15">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta15" type="radio" aria-label="" value="A" required> 1.- Con facilidad, cuando las personas parecen estar interesadas
+ 			 <input name="respuesta15" type="radio" aria-label="" value="0" required> 1.- Con facilidad, cuando las personas parecen estar interesadas
 			 </div>
 			 <div  class="form-check">
- 			 <input name="respuesta15" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta15" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div  class="form-check">
- 			 <input name="respuesta15" type="radio" aria-label="" value="C"> 3.- Sólo si no tengo más remedio
+ 			 <input name="respuesta15" type="radio" aria-label="" value="2"> 3.- Sólo si no tengo más remedio
 			 </div>
 		</div>
  </div><br>
@@ -247,13 +247,13 @@
 	 <input type="hidden" name="pregunta16" value="pregunta16">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta16" type="radio" aria-label="" value="A" required> 1.- Algunas veces
+ 			 <input name="respuesta16" type="radio" aria-label="" value="0" required> 1.- Algunas veces
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta16" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta16" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta16" type="radio" aria-label="" value="C"> 3.- Nunca
+ 			 <input name="respuesta16" type="radio" aria-label="" value="2"> 3.- Nunca
 			 </div>
 		</div>
  </div><br>
@@ -262,13 +262,13 @@
 	 <input type="hidden" name="pregunta17" value="pregunta17">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta17" type="radio" aria-label="" value="A" required> 1.- Casi nunca
+ 			 <input name="respuesta17" type="radio" aria-label="" value="0" required> 1.- Casi nunca
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta17" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta17" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta17" type="radio" aria-label="" value="C"> 3.- A menudo
+ 			 <input name="respuesta17" type="radio" aria-label="" value="2"> 3.- A menudo
 			 </div>
 		</div>
  </div><br>
@@ -277,13 +277,13 @@
 	 </b><input type="hidden" name="pregunta18" value="pregunta18">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta18" type="radio" aria-label="" value="A" required> 1.- Comentar mis problemas con los amigos
+ 			 <input name="respuesta18" type="radio" aria-label="" value="0" required> 1.- Comentar mis problemas con los amigos
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta18" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta18" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta18" type="radio" aria-label="" value="C"> 3.- Guardarlos para mis adentros
+ 			 <input name="respuesta18" type="radio" aria-label="" value="2"> 3.- Guardarlos para mis adentros
 			 </div>
 		</div>
  </div><br>
@@ -292,13 +292,13 @@
 	 <input type="hidden" name="pregunta19" value="pregunta19">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta19" type="radio" aria-label="" value="A" required> 1.- Casi nunca
+ 			 <input name="respuesta19" type="radio" aria-label="" value="0" required> 1.- Casi nunca
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta19" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta19" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta19" type="radio" aria-label="" value="C"> 3.- A menudo
+ 			 <input name="respuesta19" type="radio" aria-label="" value="2"> 3.- A menudo
 			 </div>
 		</div>
  </div><br>
@@ -307,13 +307,13 @@
 	 <input type="hidden" name="pregunta20" value="pregunta20">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta20" type="radio" aria-label="" value="A" required> 1.- Si
+ 			 <input name="respuesta20" type="radio" aria-label="" value="0" required> 1.- Si
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta20" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta20" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta20" type="radio" aria-label="" value="C"> 3.- No
+ 			 <input name="respuesta20" type="radio" aria-label="" value="2"> 3.- No
 			 </div>
 		</div>
  </div><br>
@@ -322,13 +322,13 @@
 	 <input type="hidden" name="pregunta21" value="pregunta21">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta21" type="radio" aria-label="" value="A" required> 1.- No me perturba
+ 			 <input name="respuesta21" type="radio" aria-label="" value="0" required> 1.- No me perturba
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta21" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta21" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta21" type="radio" aria-label="" value="C"> 3.- Normalmente me hace daño
+ 			 <input name="respuesta21" type="radio" aria-label="" value="2"> 3.- Normalmente me hace daño
 			 </div>
 		</div>
  </div><br>
@@ -337,13 +337,13 @@
 	 <input type="hidden" name="pregunta22" value="pregunta22">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta22" type="radio" aria-label="" value="A" required> 1.- Discutir el significado de nuestras diferencias básicas
+ 			 <input name="respuesta22" type="radio" aria-label="" value="0" required> 1.- Discutir el significado de nuestras diferencias básicas
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta22" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta22" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta22" type="radio" aria-label="" value="C"> 3.- Cambiar de tema
+ 			 <input name="respuesta22" type="radio" aria-label="" value="2"> 3.- Cambiar de tema
 			 </div>
 		</div>
  </div><br>
@@ -352,13 +352,13 @@
 	 <input type="hidden" name="pregunta23" value="pregunta23">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta23" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta23" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta23" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta23" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta23" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta23" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -367,13 +367,13 @@
 	 <input type="hidden" name="pregunta24" value="pregunta24">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta24" type="radio" aria-label="" value="A" required> 1.- V erdadero, para evitar sorpresas
+ 			 <input name="respuesta24" type="radio" aria-label="" value="0" required> 1.- V erdadero, para evitar sorpresas
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta24" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta24" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta24" type="radio" aria-label="" value="C"> 3.- Falso, porque podría hacer algo mas interesante
+ 			 <input name="respuesta24" type="radio" aria-label="" value="2"> 3.- Falso, porque podría hacer algo mas interesante
 			 </div>
 		</div>
  </div><br>
@@ -382,13 +382,13 @@
 	 <input type="hidden" name="pregunta25" value="pregunta25">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta25" type="radio" aria-label="" value="A" required> 1.- Con otros
+ 			 <input name="respuesta25" type="radio" aria-label="" value="0" required> 1.- Con otros
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta25" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta25" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta25" type="radio" aria-label="" value="C"> 3.- Yo solo
+ 			 <input name="respuesta25" type="radio" aria-label="" value="2"> 3.- Yo solo
 			 </div>
 		</div>
  </div><br>
@@ -397,13 +397,13 @@
 	 <input type="hidden" name="pregunta26" value="pregunta26">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta26" type="radio" aria-label="" value="A" required> 1.- Raras veces
+ 			 <input name="respuesta26" type="radio" aria-label="" value="0" required> 1.- Raras veces
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta26" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta26" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta26" type="radio" aria-label="" value="C"> 3.- A menudo
+ 			 <input name="respuesta26" type="radio" aria-label="" value="2"> 3.- A menudo
 			 </div>
 		</div>
  </div><br>
@@ -412,13 +412,13 @@
 	 <input type="hidden" name="pregunta27" value="pregunta27">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta27" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta27" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta27" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta27" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta27" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta27" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -427,13 +427,13 @@
 	 <input type="hidden" name="pregunta28" value="pregunta28">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta28" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta28" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta28" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta28" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta28" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta28" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -442,13 +442,13 @@
 	 <input type="hidden" name="pregunta29" value="pregunta29">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta29" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta29" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta29" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta29" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta29" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta29" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -457,13 +457,13 @@
 	 <input type="hidden" name="pregunta30" value="pregunta30">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta30" type="radio" aria-label="" value="A" required> 1.- Eso me molestaría e irritaría
+ 			 <input name="respuesta30" type="radio" aria-label="" value="0" required> 1.- Eso me molestaría e irritaría
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta30" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta30" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta30" type="radio" aria-label="" value="C"> 3.- Me parecería bien y estaría   contento de cambiarlos
+ 			 <input name="respuesta30" type="radio" aria-label="" value="2"> 3.- Me parecería bien y estaría   contento de cambiarlos
 			 </div>
 		</div>
  </div><br>
@@ -472,13 +472,13 @@
 	 <input type="hidden" name="pregunta31" value="pregunta31">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta31" type="radio" aria-label="" value="A" required> 1.- Estar en una oficina organizando y atendiendo personas.
+ 			 <input name="respuesta31" type="radio" aria-label="" value="0" required> 1.- Estar en una oficina organizando y atendiendo personas.
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta31" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta31" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta31" type="radio" aria-label="" value="C"> 3.- Ser arquitecto y dibujar planos en un despacho tranquilo.
+ 			 <input name="respuesta31" type="radio" aria-label="" value="2"> 3.- Ser arquitecto y dibujar planos en un despacho tranquilo.
 			 </div>
 		</div>
  </div><br>
@@ -487,13 +487,13 @@
 	 <input type="hidden" name="pregunta32" value="pregunta32">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta32" type="radio" aria-label="" value="A" required> 1.- Me siento como si no pudiera dominarlas
+ 			 <input name="respuesta32" type="radio" aria-label="" value="0" required> 1.- Me siento como si no pudiera dominarlas
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta32" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta32" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta32" type="radio" aria-label="" value="C"> 3.- Continúo de un modo normal
+ 			 <input name="respuesta32" type="radio" aria-label="" value="2"> 3.- Continúo de un modo normal
 			 </div>
 		</div>
  </div><br>
@@ -502,13 +502,13 @@
 	 <input type="hidden" name="pregunta33" value="pregunta33">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta33" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta33" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta33" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta33" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta33" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta33" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -517,13 +517,13 @@
 	 <input type="hidden" name="pregunta34" value="pregunta34">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta34" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta34" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta34" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta34" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta34" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta34" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -532,13 +532,13 @@
 	 <input type="hidden" name="pregunta35" value="pregunta35">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta35" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta35" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta35" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta35" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta35" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta35" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -547,13 +547,13 @@
 	 <input type="hidden" name="pregunta36" value="pregunta36">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta36" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta36" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta36" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta36" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta36" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta36" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -562,13 +562,13 @@
 	 <input type="hidden" name="pregunta37" value="pregunta37">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta37" type="radio" aria-label="" value="A" required> 1.- Haciendo con tranquilidad y sosiego algo por lo que tenga afición.
+ 			 <input name="respuesta37" type="radio" aria-label="" value="0" required> 1.- Haciendo con tranquilidad y sosiego algo por lo que tenga afición.
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta37" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta37" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta37" type="radio" aria-label="" value="C"> 3.- En una fiesta animada
+ 			 <input name="respuesta37" type="radio" aria-label="" value="2"> 3.- En una fiesta animada
 			 </div>
 		</div>
  </div><br>
@@ -577,13 +577,13 @@
 	 <input type="hidden" name="pregunta38" value="pregunta38">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta38" type="radio" aria-label="" value="A" required> 1.- Si
+ 			 <input name="respuesta38" type="radio" aria-label="" value="0" required> 1.- Si
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta38" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta38" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta38" type="radio" aria-label="" value="C"> 3.- No
+ 			 <input name="respuesta38" type="radio" aria-label="" value="2"> 3.- No
 			 </div>
 		</div>
  </div><br>
@@ -592,13 +592,13 @@
 	 <input type="hidden" name="pregunta39" value="pregunta39">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta39" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta39" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta39" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta39" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta39" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta39" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -607,13 +607,13 @@
 	 <input type="hidden" name="pregunta40" value="pregunta40">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta40" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta40" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta40" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta40" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta40" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta40" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -622,13 +622,13 @@
 	 <input type="hidden" name="pregunta41" value="pregunta41">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta41" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta41" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta41" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta41" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta41" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta41" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -637,13 +637,13 @@
 	 <input type="hidden" name="pregunta42" value="pregunta42">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta42" type="radio" aria-label="" value="A" required> 1.- La esgrima o la danza
+ 			 <input name="respuesta42" type="radio" aria-label="" value="0" required> 1.- La esgrima o la danza
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta42" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta42" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta42" type="radio" aria-label="" value="C"> 3.- El tenis o la lucha libre
+ 			 <input name="respuesta42" type="radio" aria-label="" value="2"> 3.- El tenis o la lucha libre
 			 </div>
 		</div>
  </div><br>
@@ -652,13 +652,13 @@
 	 <input type="hidden" name="pregunta43" value="pregunta43">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta43" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta43" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta43" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta43" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta43" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta43" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -667,13 +667,13 @@
 	 <input type="hidden" name="pregunta44" value="pregunta44">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta44" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta44" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta44" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta44" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta44" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta44" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -682,13 +682,13 @@
 	 <input type="hidden" name="pregunta45" value="pregunta45">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta45" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta45" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta45" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta45" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta45" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta45" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -697,13 +697,13 @@
 	 <input type="hidden" name="pregunta46" value="pregunta46">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta46" type="radio" aria-label="" value="A" required> 1.- Siempre están haciendo cosas prácticas que necesitan ser hechas
+ 			 <input name="respuesta46" type="radio" aria-label="" value="0" required> 1.- Siempre están haciendo cosas prácticas que necesitan ser hechas
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta46" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta46" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta46" type="radio" aria-label="" value="C"> 3.- Imaginan o piensan acerca de cosas sobre sí mismas.
+ 			 <input name="respuesta46" type="radio" aria-label="" value="2"> 3.- Imaginan o piensan acerca de cosas sobre sí mismas.
 			 </div>
 		</div>
  </div><br>
@@ -712,13 +712,13 @@
 	 <input type="hidden" name="pregunta47" value="pregunta47">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta47" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta47" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta47" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta47" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta47" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta47" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -727,13 +727,13 @@
 	 <input type="hidden" name="pregunta48" value="pregunta48">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta48" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta48" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta48" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta48" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta48" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta48" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -742,13 +742,13 @@
 	 <input type="hidden" name="pregunta49" value="pregunta49">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta49" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta49" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta49" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta49" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta49" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta49" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -757,13 +757,13 @@
 	 <input type="hidden" name="pregunta50" value="pregunta50">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta50" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta50" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta50" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta50" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta50" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta50" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -772,13 +772,13 @@
 	 <input type="hidden" name="pregunta51" value="pregunta51">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta51" type="radio" aria-label="" value="A" required> 1.- Normalmente verdadero
+ 			 <input name="respuesta51" type="radio" aria-label="" value="0" required> 1.- Normalmente verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta51" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta51" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta51" type="radio" aria-label="" value="C"> 3.- Normalmente falso
+ 			 <input name="respuesta51" type="radio" aria-label="" value="2"> 3.- Normalmente falso
 			 </div>
 		</div>
  </div><br>
@@ -787,13 +787,13 @@
 	 <input type="hidden" name="pregunta52" value="pregunta52">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta52" type="radio" aria-label="" value="A" required> 1.- Verdadero, normalmente no me gustan
+ 			 <input name="respuesta52" type="radio" aria-label="" value="0" required> 1.- Verdadero, normalmente no me gustan
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta52" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta52" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta52" type="radio" aria-label="" value="C"> 3.- Falso, normalmente las encuentro interesantes.
+ 			 <input name="respuesta52" type="radio" aria-label="" value="2"> 3.- Falso, normalmente las encuentro interesantes.
 			 </div>
 		</div>
  </div><br>
@@ -802,13 +802,13 @@
 	 <input type="hidden" name="pregunta53" value="pregunta53">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta53" type="radio" aria-label="" value="A" required> 1.- Buscar un significado personal a la vida.
+ 			 <input name="respuesta53" type="radio" aria-label="" value="0" required> 1.- Buscar un significado personal a la vida.
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta53" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta53" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta53" type="radio" aria-label="" value="C"> 3.- Asegurarme un trabajo con un buen sueldo
+ 			 <input name="respuesta53" type="radio" aria-label="" value="2"> 3.- Asegurarme un trabajo con un buen sueldo
 			 </div>
 		</div>
  </div><br>
@@ -817,13 +817,13 @@
 	 <input type="hidden" name="pregunta54" value="pregunta54">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta54" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta54" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta54" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta54" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta54" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta54" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -832,13 +832,13 @@
 	 <input type="hidden" name="pregunta55" value="pregunta55">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta55" type="radio" aria-label="" value="A" required> 1.- Más ciudadanos íntegros y constantes.
+ 			 <input name="respuesta55" type="radio" aria-label="" value="0" required> 1.- Más ciudadanos íntegros y constantes.
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta55" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta55" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta55" type="radio" aria-label="" value="C"> 3.- Más reformadores con opiniones sobre como mejorar el mundo
+ 			 <input name="respuesta55" type="radio" aria-label="" value="2"> 3.- Más reformadores con opiniones sobre como mejorar el mundo
 			 </div>
 		</div>
  </div><br>
@@ -847,13 +847,13 @@
 	 <input type="hidden" name="pregunta56" value="pregunta56">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta56" type="radio" aria-label="" value="A" required> 1.- Se forman equipos o se tiene un compañero
+ 			 <input name="respuesta56" type="radio" aria-label="" value="0" required> 1.- Se forman equipos o se tiene un compañero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta56" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta56" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta56" type="radio" aria-label="" value="C"> 3.- Cada  uno hace su partida
+ 			 <input name="respuesta56" type="radio" aria-label="" value="2"> 3.- Cada  uno hace su partida
 			 </div>
 		</div>
  </div><br>
@@ -862,13 +862,13 @@
 	 <input type="hidden" name="pregunta57" value="pregunta57">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta57" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta57" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta57" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta57" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta57" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta57" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -877,13 +877,13 @@
 	 <input type="hidden" name="pregunta58" value="pregunta58">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta58" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta58" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta58" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta58" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta58" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta58" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -892,13 +892,13 @@
 	 <input type="hidden" name="pregunta59" value="pregunta59">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta59" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta59" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta59" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta59" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta59" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta59" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -907,13 +907,13 @@
 	 <input type="hidden" name="pregunta60" value="pregunta60">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta60" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta60" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta60" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta60" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta60" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta60" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -922,13 +922,13 @@
 	 <input type="hidden" name="pregunta61" value="pregunta61">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta61" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta61" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta61" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta61" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta61" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta61" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -937,13 +937,13 @@
 	 <input type="hidden" name="pregunta62" value="pregunta62">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta62" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta62" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta62" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta62" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta62" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta62" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -952,13 +952,13 @@
 	 <input type="hidden" name="pregunta63" value="pregunta63">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta63" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta63" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta63" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta63" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta63" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta63" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -967,13 +967,13 @@
 	 <input type="hidden" name="pregunta64" value="pregunta64">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta64" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta64" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta64" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta64" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta64" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta64" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -982,13 +982,13 @@
 	 <input type="hidden" name="pregunta65" value="pregunta65">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta65" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta65" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta65" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta65" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta65" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta65" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -997,13 +997,13 @@
 	 <input type="hidden" name="pregunta66" value="pregunta66">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta66" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta66" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta66" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta66" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta66" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta66" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1012,13 +1012,13 @@
 	 <input type="hidden" name="pregunta67" value="pregunta67">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta67" type="radio" aria-label="" value="A" required> 1.- No están demasiado satisfechas.
+ 			 <input name="respuesta67" type="radio" aria-label="" value="0" required> 1.- No están demasiado satisfechas.
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta67" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta67" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta67" type="radio" aria-label="" value="C"> 3.- Están totalmente satisfechas
+ 			 <input name="respuesta67" type="radio" aria-label="" value="2"> 3.- Están totalmente satisfechas
 			 </div>
 		</div>
  </div><br>
@@ -1027,13 +1027,13 @@
 	 <input type="hidden" name="pregunta68" value="pregunta68">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta68" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta68" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta68" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta68" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta68" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta68" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1042,13 +1042,13 @@
 	 <input type="hidden" name="pregunta69" value="pregunta69">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta69" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta69" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta69" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta69" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta69" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta69" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1057,13 +1057,13 @@
 	 <input type="hidden" name="pregunta70" value="pregunta70">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta70" type="radio" aria-label="" value="A" required> 1.- De modo aseado y sencillo
+ 			 <input name="respuesta70" type="radio" aria-label="" value="0" required> 1.- De modo aseado y sencillo
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta70" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta70" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta70" type="radio" aria-label="" value="C"> 3.- A la moda y original
+ 			 <input name="respuesta70" type="radio" aria-label="" value="2"> 3.- A la moda y original
 			 </div>
 		</div>
  </div><br>
@@ -1072,13 +1072,13 @@
 	 <input type="hidden" name="pregunta71" value="pregunta71">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta71" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta71" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta71" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta71" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta71" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta71" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1087,13 +1087,13 @@
 	 <input type="hidden" name="pregunta72" value="pregunta72">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta72" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta72" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta72" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta72" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta72" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta72" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1102,13 +1102,13 @@
 	 <input type="hidden" name="pregunta73" value="pregunta73">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta73" type="radio" aria-label="" value="A" required> 1.- Nunca me ha dado problemas
+ 			 <input name="respuesta73" type="radio" aria-label="" value="0" required> 1.- Nunca me ha dado problemas
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta73" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta73" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta73" type="radio" aria-label="" value="C"> 3.- Me cuesta bastante
+ 			 <input name="respuesta73" type="radio" aria-label="" value="2"> 3.- Me cuesta bastante
 			 </div>
 		</div>
  </div><br>
@@ -1117,13 +1117,13 @@
 	 <input type="hidden" name="pregunta74" value="pregunta74">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta74" type="radio" aria-label="" value="A" required> 1.- Literatura o cine
+ 			 <input name="respuesta74" type="radio" aria-label="" value="0" required> 1.- Literatura o cine
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta74" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta74" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta74" type="radio" aria-label="" value="C"> 3.- Deportes o política
+ 			 <input name="respuesta74" type="radio" aria-label="" value="2"> 3.- Deportes o política
 			 </div>
 		</div>
  </div><br>
@@ -1132,13 +1132,13 @@
 	 <input type="hidden" name="pregunta75" value="pregunta75">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta75" type="radio" aria-label="" value="A" required> 1.- A veces
+ 			 <input name="respuesta75" type="radio" aria-label="" value="0" required> 1.- A veces
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta75" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta75" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta75" type="radio" aria-label="" value="C"> 3.- raras  veces
+ 			 <input name="respuesta75" type="radio" aria-label="" value="2"> 3.- raras  veces
 			 </div>
 		</div>
  </div><br>
@@ -1147,13 +1147,13 @@
 	 <input type="hidden" name="pregunta76" value="pregunta76">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta76" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta76" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta76" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta76" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta76" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta76" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1162,13 +1162,13 @@
 	 <input type="hidden" name="pregunta77" value="pregunta77">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta77" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta77" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta77" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta77" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta77" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta77" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1177,13 +1177,13 @@
 	 <input type="hidden" name="pregunta78" value="pregunta78">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta78" type="radio" aria-label="" value="A" required> 1.- Casi Nunca
+ 			 <input name="respuesta78" type="radio" aria-label="" value="0" required> 1.- Casi Nunca
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta78" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta78" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta78" type="radio" aria-label="" value="C"> 3.- A menudo
+ 			 <input name="respuesta78" type="radio" aria-label="" value="2"> 3.- A menudo
 			 </div>
 		</div>
  </div><br>
@@ -1192,13 +1192,13 @@
 	 <input type="hidden" name="pregunta79" value="pregunta79">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta79" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta79" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta79" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta79" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta79" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta79" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1207,13 +1207,13 @@
 	 <input type="hidden" name="pregunta80" value="pregunta80">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta80" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta80" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta80" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta80" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta80" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta80" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1222,13 +1222,13 @@
 	 <input type="hidden" name="pregunta81" value="pregunta81">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta81" type="radio" aria-label="" value="A" required> 1.- Las cosas prácticas que me rodean
+ 			 <input name="respuesta81" type="radio" aria-label="" value="0" required> 1.- Las cosas prácticas que me rodean
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta81" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta81" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta81" type="radio" aria-label="" value="C"> 3.- Los pensamientos y la imaginación
+ 			 <input name="respuesta81" type="radio" aria-label="" value="2"> 3.- Los pensamientos y la imaginación
 			 </div>
 		</div>
  </div><br>
@@ -1237,13 +1237,13 @@
 	 <input type="hidden" name="pregunta82" value="pregunta82">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta82" type="radio" aria-label="" value="A" required> 1.- Casi nunca
+ 			 <input name="respuesta82" type="radio" aria-label="" value="0" required> 1.- Casi nunca
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta82" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta82" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta82" type="radio" aria-label="" value="C"> 3.- A menudo
+ 			 <input name="respuesta82" type="radio" aria-label="" value="2"> 3.- A menudo
 			 </div>
 		</div>
  </div><br>
@@ -1252,13 +1252,13 @@
 	 <input type="hidden" name="pregunta83" value="pregunta83">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta83" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta83" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta83" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta83" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta83" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta83" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1267,13 +1267,13 @@
 	 <input type="hidden" name="pregunta84" value="pregunta84">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta84" type="radio" aria-label="" value="A" required> 1.- "Poner todas las cartas sobre la mesa"
+ 			 <input name="respuesta84" type="radio" aria-label="" value="0" required> 1.- "Poner todas las cartas sobre la mesa"
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta84" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta84" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta84" type="radio" aria-label="" value="C"> 3.- "No descubrir tu propio juego"
+ 			 <input name="respuesta84" type="radio" aria-label="" value="2"> 3.- "No descubrir tu propio juego"
 			 </div>
 		</div>
  </div><br>
@@ -1282,13 +1282,13 @@
 	 <input type="hidden" name="pregunta85" value="pregunta85">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta85" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta85" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta85" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta85" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta85" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta85" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1297,13 +1297,13 @@
 	 <input type="hidden" name="pregunta86" value="pregunta86">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta86" type="radio" aria-label="" value="A" required> 1.- Es estable y tradicional en sus intereses
+ 			 <input name="respuesta86" type="radio" aria-label="" value="0" required> 1.- Es estable y tradicional en sus intereses
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta86" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta86" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta86" type="radio" aria-label="" value="C"> 3.- Reconsidera seriamente sus puntos de vista sobre la vida
+ 			 <input name="respuesta86" type="radio" aria-label="" value="2"> 3.- Reconsidera seriamente sus puntos de vista sobre la vida
 			 </div>
 		</div>
  </div><br>
@@ -1312,13 +1312,13 @@
 	 <input type="hidden" name="pregunta87" value="pregunta87">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta87" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta87" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta87" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta87" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta87" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta87" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1327,13 +1327,13 @@
 	 <input type="hidden" name="pregunta88" value="pregunta88">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta88" type="radio" aria-label="" value="A" required> 1.- Me aburre y me da sueño
+ 			 <input name="respuesta88" type="radio" aria-label="" value="0" required> 1.- Me aburre y me da sueño
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta88" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta88" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta88" type="radio" aria-label="" value="C"> 3.- Me da seguridad y confianza
+ 			 <input name="respuesta88" type="radio" aria-label="" value="2"> 3.- Me da seguridad y confianza
 			 </div>
 		</div>
  </div><br>
@@ -1342,13 +1342,13 @@
 	 <input type="hidden" name="pregunta89" value="pregunta89">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta89" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta89" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta89" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta89" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta89" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta89" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1357,13 +1357,13 @@
 	 <input type="hidden" name="pregunta90" value="pregunta90">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta90" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta90" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta90" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta90" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta90" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta90" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1372,13 +1372,13 @@
 	 <input type="hidden" name="pregunta91" value="pregunta91">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta91" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta91" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta91" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta91" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta91" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta91" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1387,13 +1387,13 @@
 	 <input type="hidden" name="pregunta92" value="pregunta92">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta92" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta92" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta92" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta92" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta92" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta92" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1402,13 +1402,13 @@
 	 <input type="hidden" name="pregunta93" value="pregunta93">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta93" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta93" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta93" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta93" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta93" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta93" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1417,13 +1417,13 @@
 	 <input type="hidden" name="pregunta94" value="pregunta94">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta94" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta94" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta94" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta94" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta94" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta94" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1432,13 +1432,13 @@
 	 <input type="hidden" name="pregunta95" value="pregunta95">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta95" type="radio" aria-label="" value="A" required> 1.- A veces
+ 			 <input name="respuesta95" type="radio" aria-label="" value="0" required> 1.- A veces
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta95" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta95" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta95" type="radio" aria-label="" value="C"> 3.- Nunca
+ 			 <input name="respuesta95" type="radio" aria-label="" value="2"> 3.- Nunca
 			 </div>
 		</div>
  </div><br>
@@ -1447,13 +1447,13 @@
 	 <input type="hidden" name="pregunta96" value="pregunta96">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta96" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta96" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta96" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta96" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta96" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta96" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1462,13 +1462,13 @@
 	 <input type="hidden" name="pregunta97" value="pregunta97">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta97" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta97" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta97" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta97" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta97" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta97" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1477,13 +1477,13 @@
 	 <input type="hidden" name="pregunta98" value="pregunta98">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta98" type="radio" aria-label="" value="A" required> 1.- Investigarlo en el laboratorio
+ 			 <input name="respuesta98" type="radio" aria-label="" value="0" required> 1.- Investigarlo en el laboratorio
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta98" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta98" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta98" type="radio" aria-label="" value="C"> 3.- Mostrar a las personas su utilización
+ 			 <input name="respuesta98" type="radio" aria-label="" value="2"> 3.- Mostrar a las personas su utilización
 			 </div>
 		</div>
  </div><br>
@@ -1492,13 +1492,13 @@
 	 <input type="hidden" name="pregunta99" value="pregunta99">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta99" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta99" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta99" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta99" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta99" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta99" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1507,13 +1507,13 @@
 	 <input type="hidden" name="pregunta100" value="pregunta100">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta100" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta100" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta100" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta100" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta100" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta100" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1522,13 +1522,13 @@
 	 <input type="hidden" name="pregunta101" value="pregunta101">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta101" type="radio" aria-label="" value="A" required> 1.- A veces
+ 			 <input name="respuesta101" type="radio" aria-label="" value="0" required> 1.- A veces
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta101" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta101" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta101" type="radio" aria-label="" value="C"> 3.- Raras  veces
+ 			 <input name="respuesta101" type="radio" aria-label="" value="2"> 3.- Raras  veces
 			 </div>
 		</div>
  </div><br>
@@ -1537,13 +1537,13 @@
 	 <input type="hidden" name="pregunta102" value="pregunta102">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta102" type="radio" aria-label="" value="A" required> 1.- No protestaría y les seguiría
+ 			 <input name="respuesta102" type="radio" aria-label="" value="0" required> 1.- No protestaría y les seguiría
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta102" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta102" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta102" type="radio" aria-label="" value="C"> 3.- Les haría saber que yo creía que mi camino era mejor
+ 			 <input name="respuesta102" type="radio" aria-label="" value="2"> 3.- Les haría saber que yo creía que mi camino era mejor
 			 </div>
 		</div>
  </div><br>
@@ -1552,13 +1552,13 @@
 	 <input type="hidden" name="pregunta103" value="pregunta103">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta103" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta103" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta103" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta103" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta103" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta103" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1567,13 +1567,13 @@
 	 <input type="hidden" name="pregunta104" value="pregunta104">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta104" type="radio" aria-label="" value="A" required> 1.- Lo indicaría y lo pagaría
+ 			 <input name="respuesta104" type="radio" aria-label="" value="0" required> 1.- Lo indicaría y lo pagaría
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta104" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta104" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta104" type="radio" aria-label="" value="C"> 3.- Yo no tengo por qué decírselo.
+ 			 <input name="respuesta104" type="radio" aria-label="" value="2"> 3.- Yo no tengo por qué decírselo.
 			 </div>
 		</div>
  </div><br>
@@ -1582,13 +1582,13 @@
 	 <input type="hidden" name="pregunta105" value="pregunta105">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta105" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta105" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta105" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta105" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta105" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta105" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1597,13 +1597,13 @@
 	 <input type="hidden" name="pregunta106" value="pregunta106">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta106" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta106" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta106" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta106" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta106" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta106" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1612,13 +1612,13 @@
 	 <input type="hidden" name="pregunta107" value="pregunta107">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta107" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta107" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta107" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta107" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta107" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta107" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1627,13 +1627,13 @@
 	 <input type="hidden" name="pregunta108" value="pregunta108">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta108" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta108" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta108" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta108" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta108" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta108" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1642,13 +1642,13 @@
 	 <input type="hidden" name="pregunta109" value="pregunta109">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta109" type="radio" aria-label="" value="A" required> 1.- Casi Nunca
+ 			 <input name="respuesta109" type="radio" aria-label="" value="0" required> 1.- Casi Nunca
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta109" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta109" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta109" type="radio" aria-label="" value="C"> 3.- A menudo
+ 			 <input name="respuesta109" type="radio" aria-label="" value="2"> 3.- A menudo
 			 </div>
 		</div>
  </div><br>
@@ -1657,13 +1657,13 @@
 	 <input type="hidden" name="pregunta110" value="pregunta110">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta110" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta110" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta110" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta110" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta110" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta110" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div>
@@ -1672,13 +1672,13 @@
 	 <input type="hidden" name="pregunta111" value="pregunta111">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta111" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta111" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta111" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta111" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta111" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta111" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1687,13 +1687,13 @@
 	 <input type="hidden" name="pregunta112" value="pregunta112">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta112" type="radio" aria-label="" value="A" required> 1.- Verdadero, no se puede confiar en ella
+ 			 <input name="respuesta112" type="radio" aria-label="" value="0" required> 1.- Verdadero, no se puede confiar en ella
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta112" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta112" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta112" type="radio" aria-label="" value="C"> 3.- Falso, se puede confiar en ella
+ 			 <input name="respuesta112" type="radio" aria-label="" value="2"> 3.- Falso, se puede confiar en ella
 			 </div>
 		</div>
  </div><br>
@@ -1702,13 +1702,13 @@
 	 <input type="hidden" name="pregunta113" value="pregunta113">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta113" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta113" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta113" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta113" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta113" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta113" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1717,13 +1717,13 @@
 	 <input type="hidden" name="pregunta114" value="pregunta114">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta114" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta114" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta114" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta114" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta114" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta114" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1732,13 +1732,13 @@
 	 <input type="hidden" name="pregunta115" value="pregunta115">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta115" type="radio" aria-label="" value="A" required> 1.- A veces
+ 			 <input name="respuesta115" type="radio" aria-label="" value="0" required> 1.- A veces
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta115" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta115" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta115" type="radio" aria-label="" value="C"> 3.- Nunca
+ 			 <input name="respuesta115" type="radio" aria-label="" value="2"> 3.- Nunca
 			 </div>
 		</div>
  </div><br>
@@ -1747,13 +1747,13 @@
 	 <input type="hidden" name="pregunta116" value="pregunta116">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta116" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta116" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta116" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta116" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta116" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta116" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1762,13 +1762,13 @@
 	 <input type="hidden" name="pregunta117" value="pregunta117">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta117" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta117" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta117" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta117" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta117" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta117" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1777,13 +1777,13 @@
 	 <input type="hidden" name="pregunta118" value="pregunta118">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta118" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta118" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta118" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta118" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta118" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta118" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1792,13 +1792,13 @@
 	 <input type="hidden" name="pregunta119" value="pregunta119">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta119" type="radio" aria-label="" value="A" required> 1.- Casi nunca
+ 			 <input name="respuesta119" type="radio" aria-label="" value="0" required> 1.- Casi nunca
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta119" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta119" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta119" type="radio" aria-label="" value="C"> 3.- A menudo
+ 			 <input name="respuesta119" type="radio" aria-label="" value="2"> 3.- A menudo
 			 </div>
 		</div>
  </div><br>
@@ -1807,13 +1807,13 @@
 	 <input type="hidden" name="pregunta120" value="pregunta120">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta120" type="radio" aria-label="" value="A" required> 1.- Los artículos sobre problemas sociales
+ 			 <input name="respuesta120" type="radio" aria-label="" value="0" required> 1.- Los artículos sobre problemas sociales
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta120" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta120" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta120" type="radio" aria-label="" value="C"> 3.- Todas las noticias locales
+ 			 <input name="respuesta120" type="radio" aria-label="" value="2"> 3.- Todas las noticias locales
 			 </div>
 		</div>
  </div><br>
@@ -1822,13 +1822,13 @@
 	 <input type="hidden" name="pregunta121" value="pregunta121">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta121" type="radio" aria-label="" value="A" required> 1.- Leer o trabajar en solitario en un proyecto
+ 			 <input name="respuesta121" type="radio" aria-label="" value="0" required> 1.- Leer o trabajar en solitario en un proyecto
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta121" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta121" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta121" type="radio" aria-label="" value="C"> 3.- Hacer alguna tarea con los amigos
+ 			 <input name="respuesta121" type="radio" aria-label="" value="2"> 3.- Hacer alguna tarea con los amigos
 			 </div>
 		</div>
  </div><br>
@@ -1837,13 +1837,13 @@
 	 <input type="hidden" name="pregunta122" value="pregunta122">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta122" type="radio" aria-label="" value="A" required> 1.- Dejarlo a un lado hasta que no haya más remedio que hacerlo
+ 			 <input name="respuesta122" type="radio" aria-label="" value="0" required> 1.- Dejarlo a un lado hasta que no haya más remedio que hacerlo
 			 </div>
 			 <div class="form-check">
  			 <input name="respuesta122" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta122" type="radio" aria-label="" value="1"> 3.- Comenzar a hacerlo de inmediato
+ 			 <input name="respuesta122" type="radio" aria-label="" value="2"> 3.- Comenzar a hacerlo de inmediato
 			 </div>
 		</div>
  </div><br>
@@ -1852,13 +1852,13 @@
 	 <input type="hidden" name="pregunta123" value="pregunta123">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta123" type="radio" aria-label="" value="A" required> 1.- Con un grupo de gente
+ 			 <input name="respuesta123" type="radio" aria-label="" value="0" required> 1.- Con un grupo de gente
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta123" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta123" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta123" type="radio" aria-label="" value="C"> 3.- En solitario
+ 			 <input name="respuesta123" type="radio" aria-label="" value="2"> 3.- En solitario
 			 </div>
 		</div>
  </div><br>
@@ -1867,13 +1867,13 @@
 	 <input type="hidden" name="pregunta124" value="pregunta124">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta124" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta124" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta124" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta124" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta124" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta124" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1882,13 +1882,13 @@
 	 <input type="hidden" name="pregunta125" value="pregunta125">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta125" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta125" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta125" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta125" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta125" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta125" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1897,13 +1897,13 @@
 	 <input type="hidden" name="pregunta126" value="pregunta126">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta126" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta126" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta126" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta126" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta126" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta126" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1912,13 +1912,13 @@
 	 <input type="hidden" name="pregunta127" value="pregunta127">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta127" type="radio" aria-label="" value="A" required> 1.- Cálida y amable
+ 			 <input name="respuesta127" type="radio" aria-label="" value="0" required> 1.- Cálida y amable
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta127" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta127" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta127" type="radio" aria-label="" value="C"> 3.- Formal y objetiva
+ 			 <input name="respuesta127" type="radio" aria-label="" value="2"> 3.- Formal y objetiva
 			 </div>
 		</div>
  </div><br>
@@ -1927,13 +1927,13 @@
 	 <input type="hidden" name="pregunta128" value="pregunta128">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta128" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta128" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta128" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta128" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta128" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta128" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1942,13 +1942,13 @@
 	 <input type="hidden" name="pregunta129" value="pregunta129">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta129" type="radio" aria-label="" value="A" required> 1.- Hacer o reparar algo
+ 			 <input name="respuesta129" type="radio" aria-label="" value="0" required> 1.- Hacer o reparar algo
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta129" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta129" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta129" type="radio" aria-label="" value="C"> 3.- Trabajar en grupo en una tarea comunitaria
+ 			 <input name="respuesta129" type="radio" aria-label="" value="2"> 3.- Trabajar en grupo en una tarea comunitaria
 			 </div>
 		</div>
  </div><br>
@@ -1957,13 +1957,13 @@
 	 <input type="hidden" name="pregunta130" value="pregunta130">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta130" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta130" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta130" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta130" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta130" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta130" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1972,13 +1972,13 @@
 	 <input type="hidden" name="pregunta131" value="pregunta131">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta131" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta131" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta131" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta131" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta131" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta131" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -1987,13 +1987,13 @@
 	 <input type="hidden" name="pregunta132" value="pregunta132">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta132" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta132" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta132" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta132" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta132" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta132" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2002,13 +2002,13 @@
 	 <input type="hidden" name="pregunta133" value="pregunta133">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta133" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta133" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta133" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta133" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta133" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta133" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2018,13 +2018,13 @@
 	 <input type="hidden" name="pregunta134" value="pregunta134">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta134" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta134" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta134" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta134" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta134" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta134" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2033,13 +2033,13 @@
 	 <input type="hidden" name="pregunta135" value="pregunta135">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta135" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta135" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta135" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta135" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta135" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta135" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2048,13 +2048,13 @@
 	 <input type="hidden" name="pregunta136" value="pregunta136">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta136" type="radio" aria-label="" value="A" required> 1.- Podría incumplirlas si tiene razones especiales para ello
+ 			 <input name="respuesta136" type="radio" aria-label="" value="0" required> 1.- Podría incumplirlas si tiene razones especiales para ello
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta136" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta136" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta136" type="radio" aria-label="" value="C"> 3.- Debería seguirlas a pesar de todo
+ 			 <input name="respuesta136" type="radio" aria-label="" value="2"> 3.- Debería seguirlas a pesar de todo
 			 </div>
 		</div>
  </div><br>
@@ -2063,13 +2063,13 @@
 	 <input type="hidden" name="pregunta137" value="pregunta137">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta137" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta137" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta137" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta137" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta137" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta137" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2078,13 +2078,13 @@
 	 <input type="hidden" name="pregunta138" value="pregunta138">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta138" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta138" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta138" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta138" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta138" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta138" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2093,13 +2093,13 @@
 	 <input type="hidden" name="pregunta139" value="pregunta139">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta139" type="radio" aria-label="" value="A" required> 1.- Casi nunca
+ 			 <input name="respuesta139" type="radio" aria-label="" value="0" required> 1.- Casi nunca
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta139" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta139" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta139" type="radio" aria-label="" value="C"> 3.- A menudo
+ 			 <input name="respuesta139" type="radio" aria-label="" value="2"> 3.- A menudo
 			 </div>
 		</div>
  </div><br>
@@ -2108,13 +2108,13 @@
 	 <input type="hidden" name="pregunta140" value="pregunta140">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta140" type="radio" aria-label="" value="A" required> 1.- Hacer o construir algo
+ 			 <input name="respuesta140" type="radio" aria-label="" value="0" required> 1.- Hacer o construir algo
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta140" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta140" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta140" type="radio" aria-label="" value="C"> 3.- Leer o imaginar cosas ideales
+ 			 <input name="respuesta140" type="radio" aria-label="" value="2"> 3.- Leer o imaginar cosas ideales
 			 </div>
 		</div>
  </div><br>
@@ -2123,13 +2123,13 @@
 	 <input type="hidden" name="pregunta141" value="pregunta141">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta141" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta141" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta141" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta141" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta141" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta141" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2138,13 +2138,13 @@
 	 <input type="hidden" name="pregunta142" value="pregunta142">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta142" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta142" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta142" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta142" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta142" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta142" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2153,13 +2153,13 @@
 	 <input type="hidden" name="pregunta143" value="pregunta143">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta143" type="radio" aria-label="" value="A" required> 1.- Normalmente verdadero
+ 			 <input name="respuesta143" type="radio" aria-label="" value="0" required> 1.- Normalmente verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta143" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta143" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta143" type="radio" aria-label="" value="C"> 3.- Normalmente falso
+ 			 <input name="respuesta143" type="radio" aria-label="" value="2"> 3.- Normalmente falso
 			 </div>
 		</div>
  </div><br>
@@ -2168,13 +2168,13 @@
 	 <input type="hidden" name="pregunta144" value="pregunta144">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta144" type="radio" aria-label="" value="A" required> 1.- A veces
+ 			 <input name="respuesta144" type="radio" aria-label="" value="0" required> 1.- A veces
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta144" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta144" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta144" type="radio" aria-label="" value="C"> 3.- Raras Veces
+ 			 <input name="respuesta144" type="radio" aria-label="" value="2"> 3.- Raras Veces
 			 </div>
 		</div>
  </div><br>
@@ -2183,13 +2183,13 @@
 	 <input type="hidden" name="pregunta145" value="pregunta145">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta145" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta145" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta145" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta145" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta145" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta145" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2198,13 +2198,13 @@
 	 <input type="hidden" name="pregunta146" value="pregunta146">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta146" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta146" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta146" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta146" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta146" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta146" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2213,13 +2213,13 @@
 	 <input type="hidden" name="pregunta147" value="pregunta147">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta147" type="radio" aria-label="" value="A" required> 1.- Se cuestionan o cambian métodos que son ya satisfactorios
+ 			 <input name="respuesta147" type="radio" aria-label="" value="0" required> 1.- Se cuestionan o cambian métodos que son ya satisfactorios
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta147" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta147" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta147" type="radio" aria-label="" value="C1"> 3.- Descartan enfoques nuevos o prometedores
+ 			 <input name="respuesta147" type="radio" aria-label="" value="2"> 3.- Descartan enfoques nuevos o prometedores
 			 </div>
 		</div>
  </div><br>
@@ -2228,13 +2228,13 @@
 	 <input type="hidden" name="pregunta148" value="pregunta148">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta148" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta148" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta148" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta148" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta148" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta148" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2243,13 +2243,13 @@
 	 <input type="hidden" name="pregunta149" value="pregunta149">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta149" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta149" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta149" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta149" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta149" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta149" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2258,13 +2258,13 @@
 	 <input type="hidden" name="pregunta150" value="pregunta150">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta150" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta150" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta150" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta150" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta150" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta150" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div>
@@ -2274,13 +2274,13 @@
 	 <input type="hidden" name="pregunta151" value="pregunta151">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta151" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta151" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta151" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta151" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta151" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta151" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2289,13 +2289,13 @@
 	 <input type="hidden" name="pregunta152" value="pregunta152">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta152" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta152" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta152" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta152" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta152" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta152" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2304,13 +2304,13 @@
 	 <input type="hidden" name="pregunta153" value="pregunta153">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta153" type="radio" aria-label="" value="A" required> 1.- Siempre
+ 			 <input name="respuesta153" type="radio" aria-label="" value="0" required> 1.- Siempre
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta153" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta153" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta153" type="radio" aria-label="" value="C"> 3.- A veces
+ 			 <input name="respuesta153" type="radio" aria-label="" value="2"> 3.- A veces
 			 </div>
 		</div>
  </div><br>
@@ -2319,13 +2319,13 @@
 	 <input type="hidden" name="pregunta154" value="pregunta154">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta154" type="radio" aria-label="" value="A" required> 1.- Algunos trabajos no deberían ser hechos  tan cuidadosamente como otros
+ 			 <input name="respuesta154" type="radio" aria-label="" value="0" required> 1.- Algunos trabajos no deberían ser hechos  tan cuidadosamente como otros
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta154" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta154" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta154" type="radio" aria-label="" value="C"> 3.- Cualquier trabajo habría que hacerlo bien si es que se ha a hacer
+ 			 <input name="respuesta154" type="radio" aria-label="" value="2"> 3.- Cualquier trabajo habría que hacerlo bien si es que se ha a hacer
 			 </div>
 		</div>
  </div><br>
@@ -2334,13 +2334,13 @@
 	 <input type="hidden" name="pregunta155" value="pregunta155">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta155" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta155" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta155" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta155" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta155" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta155" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2349,13 +2349,13 @@
 	 <input type="hidden" name="pregunta156" value="pregunta156">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta156" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta156" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta156" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta156" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta156" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta156" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div>
@@ -2364,13 +2364,13 @@
 	 <input type="hidden" name="pregunta157" value="pregunta157">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta157" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta157" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta157" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta157" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta157" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta157" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2379,13 +2379,13 @@
 	 <input type="hidden" name="pregunta158" value="pregunta158">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta158" type="radio" aria-label="" value="A" required> 1.- Si
+ 			 <input name="respuesta158" type="radio" aria-label="" value="0" required> 1.- Si
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta158" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta158" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta158" type="radio" aria-label="" value="C"> 3.- No
+ 			 <input name="respuesta158" type="radio" aria-label="" value="2"> 3.- No
 			 </div>
 		</div>
  </div><br>
@@ -2394,13 +2394,13 @@
 	 <input type="hidden" name="pregunta159" value="pregunta159">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta159" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta159" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta159" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta159" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta159" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta159" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2409,13 +2409,13 @@
 	 <input type="hidden" name="pregunta160" value="pregunta160">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta160" type="radio" aria-label="" value="A" required> 1.- Muy raras veces
+ 			 <input name="respuesta160" type="radio" aria-label="" value="0" required> 1.- Muy raras veces
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta160" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta160" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta160" type="radio" aria-label="" value="C"> 3.- Bastante a menudo
+ 			 <input name="respuesta160" type="radio" aria-label="" value="2"> 3.- Bastante a menudo
 			 </div>
 		</div>
  </div><br>
@@ -2424,13 +2424,13 @@
 	 <input type="hidden" name="pregunta161" value="pregunta161">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta161" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta161" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta161" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta161" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta161" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta161" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2439,13 +2439,13 @@
 	 <input type="hidden" name="pregunta162" value="pregunta162">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta162" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta162" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta162" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta162" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta162" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta162" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2454,13 +2454,13 @@
 	 <input type="hidden" name="pregunta163" value="pregunta163">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta163" type="radio" aria-label="" value="A" required> 1.- No le doy importancia
+ 			 <input name="respuesta163" type="radio" aria-label="" value="0" required> 1.- No le doy importancia
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta163" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta163" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta163" type="radio" aria-label="" value="C"> 3.- Se lo digo
+ 			 <input name="respuesta163" type="radio" aria-label="" value="2"> 3.- Se lo digo
 			 </div>
 		</div>
  </div><br>
@@ -2469,13 +2469,13 @@
 	 <input type="hidden" name="pregunta164" value="pregunta164">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta164" type="radio" aria-label="" value="A" required> 1.- Ser claramente serio en la vida cotidiana
+ 			 <input name="respuesta164" type="radio" aria-label="" value="0" required> 1.- Ser claramente serio en la vida cotidiana
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta164" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta164" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta164" type="radio" aria-label="" value="C"> 3.- Seguir casi siempre el dicho "Diviértete y sé feliz"
+ 			 <input name="respuesta164" type="radio" aria-label="" value="2"> 3.- Seguir casi siempre el dicho "Diviértete y sé feliz"
 			 </div>
 		</div>
  </div><br>
@@ -2484,13 +2484,13 @@
 	 <input type="hidden" name="pregunta165" value="pregunta165">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta165" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta165" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta165" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta165" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta165" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta165" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2499,13 +2499,13 @@
 	 <input type="hidden" name="pregunta166" value="pregunta166">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta166" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta166" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta166" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta166" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta166" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta166" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2514,13 +2514,13 @@
 	 <input type="hidden" name="pregunta167" value="pregunta167">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta167" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta167" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta167" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta167" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta167" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta167" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2529,13 +2529,13 @@
 	 <input type="hidden" name="pregunta168" value="pregunta168">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta168" type="radio" aria-label="" value="A" required> 1.- Se sigan normas estrictas de conducta
+ 			 <input name="respuesta168" type="radio" aria-label="" value="0" required> 1.- Se sigan normas estrictas de conducta
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta168" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta168" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta168" type="radio" aria-label="" value="C"> 3.- No haya muchas normas
+ 			 <input name="respuesta168" type="radio" aria-label="" value="2"> 3.- No haya muchas normas
 			 </div>
 		</div>
  </div><br>
@@ -2544,13 +2544,13 @@
 	 <input type="hidden" name="pregunta169" value="pregunta169">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta169" type="radio" aria-label="" value="A" required> 1.- Verdadero
+ 			 <input name="respuesta169" type="radio" aria-label="" value="0" required> 1.- Verdadero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta169" type="radio" aria-label="" value="B"> 2.- ¿?
+ 			 <input name="respuesta169" type="radio" aria-label="" value="1"> 2.- ¿?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta169" type="radio" aria-label="" value="C"> 3.- Falso
+ 			 <input name="respuesta169" type="radio" aria-label="" value="2"> 3.- Falso
 			 </div>
 		</div>
  </div><br>
@@ -2559,13 +2559,13 @@
 	 <input type="hidden" name="pregunta170" value="pregunta170">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta170" type="radio" aria-label="" value="A" required> 1.-  Un programa sobre nuevos inventos prácticos
+ 			 <input name="respuesta170" type="radio" aria-label="" value="0" required> 1.-  Un programa sobre nuevos inventos prácticos
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta170" type="radio" aria-label="" value="B"> 2.- ?
+ 			 <input name="respuesta170" type="radio" aria-label="" value="1"> 2.- ?
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta170" type="radio" aria-label="" value="C"> 3.- Un concierto de un artista famoso
+ 			 <input name="respuesta170" type="radio" aria-label="" value="2"> 3.- Un concierto de un artista famoso
 			 </div>
 		</div>
  </div><br>
@@ -2574,13 +2574,13 @@
 	 <input type="hidden" name="pregunta171" value="pregunta171">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta171" type="radio" aria-label="" value="A" required> 1.- minuto
+ 			 <input name="respuesta171" type="radio" aria-label="" value="0" required> 1.- minuto
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta171" type="radio" aria-label="" value="B"> 2.- milisegundo
+ 			 <input name="respuesta171" type="radio" aria-label="" value="1"> 2.- milisegundo
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta171" type="radio" aria-label="" value="C"> 3.- Hora
+ 			 <input name="respuesta171" type="radio" aria-label="" value="2"> 3.- Hora
 			 </div>
 		</div>
  </div><br>
@@ -2589,13 +2589,13 @@
 	 <input type="hidden" name="pregunta172" value="pregunta172">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta172" type="radio" aria-label="" value="A" required> 1.- Araña
+ 			 <input name="respuesta172" type="radio" aria-label="" value="0" required> 1.- Araña
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta172" type="radio" aria-label="" value="B"> 2.- Gusano
+ 			 <input name="respuesta172" type="radio" aria-label="" value="1"> 2.- Gusano
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta172" type="radio" aria-label="" value="C"> 3.- Insecto
+ 			 <input name="respuesta172" type="radio" aria-label="" value="2"> 3.- Insecto
 			 </div>
 		</div>
  </div><br>
@@ -2604,13 +2604,13 @@
 	 <input type="hidden" name="pregunta173" value="pregunta173">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta173" type="radio" aria-label="" value="A" required> 1.- Cordero
+ 			 <input name="respuesta173" type="radio" aria-label="" value="0" required> 1.- Cordero
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta173" type="radio" aria-label="" value="B"> 2.- Pollo
+ 			 <input name="respuesta173" type="radio" aria-label="" value="1"> 2.- Pollo
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta173" type="radio" aria-label="" value="C"> 3.- Merluza
+ 			 <input name="respuesta173" type="radio" aria-label="" value="2"> 3.- Merluza
 			 </div>
 		</div>
  </div><br>
@@ -2619,13 +2619,13 @@
 	 <input type="hidden" name="pregunta174" value="pregunta174">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta174" type="radio" aria-label="" value="A" required> 1.- Larva
+ 			 <input name="respuesta174" type="radio" aria-label="" value="0" required> 1.- Larva
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta174" type="radio" aria-label="" value="B"> 2.- Arena
+ 			 <input name="respuesta174" type="radio" aria-label="" value="1"> 2.- Arena
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta174" type="radio" aria-label="" value="C"> 3.- Petróleo
+ 			 <input name="respuesta174" type="radio" aria-label="" value="2"> 3.- Petróleo
 			 </div>
 		</div>
  </div><br>
@@ -2634,13 +2634,13 @@
 	 <input type="hidden" name="pregunta175" value="pregunta175">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta175" type="radio" aria-label="" value="A" required> 1.- Malo
+ 			 <input name="respuesta175" type="radio" aria-label="" value="0" required> 1.- Malo
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta175" type="radio" aria-label="" value="B"> 2.- Santo
+ 			 <input name="respuesta175" type="radio" aria-label="" value="1"> 2.- Santo
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta175" type="radio" aria-label="" value="C"> 3.- Óptimo
+ 			 <input name="respuesta175" type="radio" aria-label="" value="2"> 3.- Óptimo
 			 </div>
 		</div>
  </div><br>
@@ -2649,13 +2649,13 @@
 	 <input type="hidden" name="pregunta176" value="pregunta176">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta176" type="radio" aria-label="" value="A" required> 1.- Terminal
+ 			 <input name="respuesta176" type="radio" aria-label="" value="0" required> 1.- Terminal
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta176" type="radio" aria-label="" value="B"> 2.- Estacional
+ 			 <input name="respuesta176" type="radio" aria-label="" value="1"> 2.- Estacional
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta176" type="radio" aria-label="" value="C"> 3.- Cíclico
+ 			 <input name="respuesta176" type="radio" aria-label="" value="2"> 3.- Cíclico
 			 </div>
 		</div>
  </div><br>
@@ -2664,13 +2664,13 @@
 	 <input type="hidden" name="pregunta177" value="pregunta177">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta177" type="radio" aria-label="" value="A" required> 1.- Gato
+ 			 <input name="respuesta177" type="radio" aria-label="" value="0" required> 1.- Gato
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta177" type="radio" aria-label="" value="B"> 2.- Cerca
+ 			 <input name="respuesta177" type="radio" aria-label="" value="1"> 2.- Cerca
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta177" type="radio" aria-label="" value="C"> 3.- Planeta
+ 			 <input name="respuesta177" type="radio" aria-label="" value="2"> 3.- Planeta
 			 </div>
 		</div>
  </div><br>
@@ -2679,13 +2679,13 @@
 	 <input type="hidden" name="pregunta178" value="pregunta178">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta178" type="radio" aria-label="" value="A" required> 1.- Bueno
+ 			 <input name="respuesta178" type="radio" aria-label="" value="0" required> 1.- Bueno
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta178" type="radio" aria-label="" value="B"> 2.- Erróneo
+ 			 <input name="respuesta178" type="radio" aria-label="" value="1"> 2.- Erróneo
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta178" type="radio" aria-label="" value="C"> 3.- Adecuado
+ 			 <input name="respuesta178" type="radio" aria-label="" value="2"> 3.- Adecuado
 			 </div>
 		</div>
  </div><br>
@@ -2694,13 +2694,13 @@
 	 <input type="hidden" name="pregunta179" value="pregunta179">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta179" type="radio" aria-label="" value="A" required> 1.- Probable
+ 			 <input name="respuesta179" type="radio" aria-label="" value="0" required> 1.- Probable
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta179" type="radio" aria-label="" value="B"> 2.- Eventual
+ 			 <input name="respuesta179" type="radio" aria-label="" value="1"> 2.- Eventual
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta179" type="radio" aria-label="" value="C"> 3.- Inseguro
+ 			 <input name="respuesta179" type="radio" aria-label="" value="2"> 3.- Inseguro
 			 </div>
 		</div>
  </div><br>
@@ -2709,13 +2709,13 @@
 	 <input type="hidden" name="pregunta180" value="pregunta180">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta180" type="radio" aria-label="" value="A" required> 1.- Casual
+ 			 <input name="respuesta180" type="radio" aria-label="" value="0" required> 1.- Casual
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta180" type="radio" aria-label="" value="B"> 2.- Puntual
+ 			 <input name="respuesta180" type="radio" aria-label="" value="1"> 2.- Puntual
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta180" type="radio" aria-label="" value="C"> 3.- Incorrecto
+ 			 <input name="respuesta180" type="radio" aria-label="" value="2"> 3.- Incorrecto
 			 </div>
 		</div>
  </div><br>
@@ -2724,13 +2724,13 @@
 	 <input type="hidden" name="pregunta181" value="pregunta181">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta181" type="radio" aria-label="" value="A" required> 1.-     20
+ 			 <input name="respuesta181" type="radio" aria-label="" value="0" required> 1.-     20
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta181" type="radio" aria-label="" value="B"> 2.-     25
+ 			 <input name="respuesta181" type="radio" aria-label="" value="1"> 2.-     25
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta181" type="radio" aria-label="" value="C"> 3.-		32
+ 			 <input name="respuesta181" type="radio" aria-label="" value="2"> 3.-		32
 			 </div>
 		</div>
  </div><br>
@@ -2739,13 +2739,13 @@
 	 <input type="hidden" name="pregunta182" value="pregunta182">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta182" type="radio" aria-label="" value="A" required> 1.- H
+ 			 <input name="respuesta182" type="radio" aria-label="" value="0" required> 1.- H
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta182" type="radio" aria-label="" value="B"> 2.- K
+ 			 <input name="respuesta182" type="radio" aria-label="" value="1"> 2.- K
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta182" type="radio" aria-label="" value="C"> 3.- L
+ 			 <input name="respuesta182" type="radio" aria-label="" value="2"> 3.- L
 			 </div>
 		</div>
  </div><br>
@@ -2754,13 +2754,13 @@
 	 <input type="hidden" name="pregunta183" value="pregunta183">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta183" type="radio" aria-label="" value="A" required> 1.- M
+ 			 <input name="respuesta183" type="radio" aria-label="" value="0" required> 1.- M
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta183" type="radio" aria-label="" value="B"> 2.- N
+ 			 <input name="respuesta183" type="radio" aria-label="" value="1"> 2.- N
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta183" type="radio" aria-label="" value="C"> 3.- O
+ 			 <input name="respuesta183" type="radio" aria-label="" value="2"> 3.- O
 			 </div>
 		</div>
  </div><br>
@@ -2769,13 +2769,13 @@
 	 <input type="hidden" name="pregunta184" value="pregunta184">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta184" type="radio" aria-label="" value="A" required> 1.- 3/4
+ 			 <input name="respuesta184" type="radio" aria-label="" value="0" required> 1.- 3/4
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta184" type="radio" aria-label="" value="B"> 2.- 4/3
+ 			 <input name="respuesta184" type="radio" aria-label="" value="1"> 2.- 4/3
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta184" type="radio" aria-label="" value="C"> 3.- 3/2
+ 			 <input name="respuesta184" type="radio" aria-label="" value="2"> 3.- 3/2
 			 </div>
 		</div>
  </div><br>
@@ -2784,13 +2784,13 @@
 	 <input type="hidden" name="pregunta185" value="pregunta185">
 		<div class="input-group">
 			 <div class="form-check">
- 			 <input name="respuesta185" type="radio" aria-label="" value="A" required> 1.-  5
+ 			 <input name="respuesta185" type="radio" aria-label="" value="0" required> 1.-  5
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta185" type="radio" aria-label="" value="B"> 2.-  4
+ 			 <input name="respuesta185" type="radio" aria-label="" value="1"> 2.-  4
 			 </div>
 			 <div class="form-check">
- 			 <input name="respuesta185" type="radio" aria-label="" value="C"> 3.-  3			 </div>
+ 			 <input name="respuesta185" type="radio" aria-label="" value="2"> 3.-  3			 </div>
 		</div>
  </div>
 
