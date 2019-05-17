@@ -18,7 +18,7 @@ class CatelUsers extends Migration
             $table->string('name')->nulleable();
             $table->string('email');
             $table->integer('edad')->nulleable();
-            $table->integer('telefono');
+            $table->double('telefono');
             $table->string('gradoe')->nulleable();
             $table->string('puestotrabajo');
             $table->string('sexo')->nulleable();

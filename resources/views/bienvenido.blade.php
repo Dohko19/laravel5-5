@@ -17,7 +17,7 @@
 }
 	</script>
 <div class="row">
-	<div class="col-lg-9-xs col-lg-offset-2">
+	<div class="col-xs-8 col-sm-8">
 		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h1 class="panel-title">Acceso al Test</h1>

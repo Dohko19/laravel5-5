@@ -3,14 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\UsersCatel;
+use App\CatelEncuesta;
 use App\ImagenCatel;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Collection as Collection;
-use Illuminate\Database\Eloquent\Model;
 
 
-class ImagenCatelController extends Controller
+class CatelEncuestaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -19,7 +17,7 @@ class ImagenCatelController extends Controller
      */
     public function index()
     {
-        //
+        return view('introduccion');
     }
 
     /**
@@ -39,24 +37,20 @@ class ImagenCatelController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {   
-        if($request->hasFile('photo')){
-            request()->validate([
-            'photo' => 'image|mimes:jpeg,png,jpg,gif,svg,tiff,tif,raw,bmp,psd',
-        ]);
+    {      
+        $r=1;
+        $tot = 185;
+            while($r <= $tot){
+                    $encuesta = new CatelEncuesta;
+                    $encuesta->pregunta = $request->get('pregunta'.$r);
+                    $encuesta->respuesta = $request->get('respuesta'.$r);
+                    $encuesta->id_foto = $request->get('id');
+                    $encuesta->save();
+                        $r = $r+1;
+                 }
+        
 
-           $file = $request->file('photo');
-           $name = $request->get('email')."-".$file->getClientOriginalName();
-           // $file-> move($url,$name);
-           $file->move(public_path().'/imagecatel/', $name);
-        }
-
-        $imagen = new ImagenCatel;
-        $imagen->nombre_foto = $name;
-        $imagen->id_catel = $request->get('id');
-        $id = $request->get('id');
-        $imagen->save();
-       return view('catel.encuesta',['id'=>$id]);
+        return view('catel.success')->with(['Enhorabuena haz completado el Test de catel']);
     }
 
     /**

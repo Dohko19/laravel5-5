@@ -52,3 +52,4 @@ Route::get('introduccion_PDP', 'CatelController@index2')->name("index2");
 Route::get('Aviso_de_Privacidad', 'CatelController@avisoprivacidad')->name("avisoprivacidad");
 Route::get('Registro', 'CatelController@registro')->name("registro");
 Route::resource('CatelFoto', 'ImagenCatelController');
+Route::resource('CatelEncuesta', 'CatelEncuestaController');

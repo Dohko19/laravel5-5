@@ -41,7 +41,7 @@
 				  </div>
 				</div>
 			</div>
-				<form action="{{ route('CatelFoto.store') }}" method="POST" enctype=”multipart/form-data”>
+				<form action="{{ route('CatelFoto.store') }}" method="POST" enctype="multipart/form-data">
 					{!! csrf_field() !!}
 				<input type="hidden" id="id" name="id" value="{{ $id }}" readonly="readonly">
 				<p><h2><b>Subir Foto</b></h2></p>

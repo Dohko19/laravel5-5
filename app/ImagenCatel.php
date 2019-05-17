@@ -4,6 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use App\UsersCatel;
+use App\CatelEncuesta;
+
 class ImagenCatel extends Model
 {
 	protected $table = 'imagen_catels';
@@ -13,5 +15,10 @@ class ImagenCatel extends Model
  public function userscatel()
     {
     	return $this->hasOne(UsersCatel::class);
+    }
+
+    public function encuestacatel()
+    {
+    	return $this->belongsTo(CatelEncuesta::class);
     }
 }
