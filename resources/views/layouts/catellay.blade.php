@@ -95,16 +95,10 @@ height: 100px;
   @yield('content')
   <hr>
   </div>
-     <footer>Copyright© {{ date('Y') }} Trejo Rojas Daniel Arturo - <a onclick="alert('Autor: Trejo Rojas Daniel Arturo para solexvintel, Esto es una BETA')" href="#">Beta v0.1</a>
+     <footer>Copyright© {{ date('Y') }} Trejo Rojas Daniel Arturo - <a onclick="alert('Autor: Trejo Rojas Daniel Arturo para solexvintel, Esto es una BETA - 0.2')" href="#">Beta v0.2</a>
      </footer>
       <script src="//code.jquery.com/jquery.js"></script>
-      <script>
-    require('./bootstrap');
-
-$('form').on('submit', function(){
-    $(this).find('input[type=submit]').attr('disabled', true);
-
-})
+      
 </script>
 </body>
 

@@ -2795,8 +2795,7 @@
  </div>
 
 			</div>
-
-				<button class="btn btn-success btn-block">Terminar</button>
+				<input type="submit" class="btn btn-info btn-block" value="Terminar">
 			</div>
 			</div></div></div></div>
 		</div>
