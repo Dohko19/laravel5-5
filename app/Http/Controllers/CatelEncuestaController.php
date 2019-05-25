@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\CatelEncuesta;
 use App\ImagenCatel;
+use App\UsersCatel;
 use Illuminate\Support\Facades\DB;
 
 
@@ -37,7 +38,7 @@ class CatelEncuestaController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {      
+    {
         $r=1;
         $tot = 185;
             while($r <= $tot){
@@ -48,7 +49,10 @@ class CatelEncuestaController extends Controller
                     $encuesta->save();
                         $r = $r+1;
                  }
-        
+
+                 $value = DB::table('catel_encuestas')
+                 ->where('id_foto','=', $request->get('id');
+                    return $value;
 
         return view('catel.success')->with(['Enhorabuena haz completado el Test de catel']);
     }
