@@ -10,8 +10,8 @@ class CatelEncuesta extends Model
     protected $table = 'catel_encuestas';
 
 	protected $primaryKey = 'id_cat_enc';
-	
-    protected $fillable = ['pregunta','respuesta','id_foto'];
+
+    protected $fillable = ['pregunta','respuesta','id_foto', 'evaluacion'];
 
     public function imagencatel()
     {

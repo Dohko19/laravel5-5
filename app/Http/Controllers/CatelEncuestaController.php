@@ -41,18 +41,27 @@ class CatelEncuestaController extends Controller
     {
         $r=1;
         $tot = 185;
+         $array = Array();
             while($r <= $tot){
                     $encuesta = new CatelEncuesta;
                     $encuesta->pregunta = $request->get('pregunta'.$r);
                     $encuesta->respuesta = $request->get('respuesta'.$r);
+                    $array[$r] = $request->get('respuesta'.$r);
                     $encuesta->id_foto = $request->get('id');
                     $encuesta->save();
                         $r = $r+1;
                  }
+                 $catelscore = implode("",$array);
+                 //$tmp = exec("cattell .$catelscore");
+                 $tmp = shell_exec("cattell.exe"." ". $catelscore);
 
-                 $value = DB::table('catel_encuestas')
-                 ->where('id_foto','=', $request->get('id');
-                    return $value;
+                    echo $catelscore;
+                    echo "<br>";
+                    echo $tmp ;
+
+                 // $value = DB::table('catel_encuestas')
+                 // ->where('id_foto','=', $request->get('id');
+                 //    return $value;
 
         return view('catel.success')->with(['Enhorabuena haz completado el Test de catel']);
     }
