@@ -18,6 +18,9 @@
         "yajra/laravel-datatables-buttons": "4.4.0",
         "yajra/laravel-datatables-oracle": "8.*"
     },
+    "dependencies": {
+        "axios": ">=0.19.0"
+    },
     "require-dev": {
         "filp/whoops": "~2.0",
         "fzaninotto/faker": "~1.4",
